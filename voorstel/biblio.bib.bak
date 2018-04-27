@@ -1,0 +1,11 @@
+% Encoding: windows-1252
+
+@Book{Mangialardi,
+  author  = {Michael Mangialardi},
+  title   = {Learn React VR},
+  year    = {2017},
+  date    = {2017-06-08},
+  chapter = {Chapter 1 | Hello Virtual World},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
