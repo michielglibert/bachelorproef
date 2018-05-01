@@ -2,30 +2,41 @@
 %% Inleiding
 %%=============================================================================
 
-\chapter*{Inleiding}
+\chapter{Inleiding}
 \label{ch:inleiding}
+Virtual Reality, of in het Nederlands virtuele werkelijkheid, is een technologie die het mogelijk maakt om een bepaalde omgeving zowel auditief als visueel te simuleren en het gevoel te geven aan de gebruiker dat hij/zij zich echt bevindt in die omgeving. Men gaat letterlijk op de menselijke zintuigen gaan inspelen doormiddel van elektronica om dus de gebruiker een gevoel van realiteit te geven dat eigenlijk niet echt is. Het voornaamste apparaat dat hiervoor gebruikt wordt is een virtual reality bril. Dit is een bril waarmee voor elk oog een beeld van de virtuele wereld wordt weergegeven en waarbij dan ook rekening wordt gehouden met de afstand van de ogen. Deze brillen hebben meestal ook extra sensoren zoals bijvoorbeeld een gyroscoop die ook alle bewegingen met het hoofd opvolgt en weergeeft in de virtuele wereld.
 
-De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+De toepassingen waar dat virtual reality kan gebruikt worden zijn zeer uitgebreid. De bekendste hiervoor is entertainment, namelijk gaming. Hiermee kan men dus gaan simuleren alsof de persoon zich in het spel bevindt. Daarnaast kan men dit ook gebruiken voor 3D cinema waarbij men dus videofragmenten kan doen laten afspelen rondom de gebruiker. Ook een belangrijke toepassing is in het medische gebied. Men kan VR gaan gebruiken als behandeling tegen bepaalde aandoeningen zoals bepaalde fobiën en PTSS*. Daarnaast kan aan de hand van virtual reality bepaalde ingrepen gaan simuleren als training. Deze training kan dan een goede voorbereiding zijn op de echte ingreep. Het gebruik van VR als training komt ook voor in andere gebieden dan het medische, zoals in het leger, astronaut, vliegsimulators, …
 
-\begin{itemize}
-  \item context, achtergrond
-  \item afbakenen van het onderwerp
-  \item verantwoording van het onderwerp, methodologie
-  \item probleemstelling
-  \item onderzoeksdoelstelling
-  \item onderzoeksvraag
-  \item \ldots
-\end{itemize}
+Virtual reality heeft dus zeker een ruim aanbod van toepassingsgebieden waarvoor het gebruikt kan worden. Maar toch is het ontwikkelen van virtual reality applicaties een grote uitdaging. Daar gaan wij dan ook dieper op in deze bachelor proef. Waar wij vooral de focus zullen leggen op het gebruik van React VR als virtual reality framework om applicaties mee te bouwen.
 
 \section{Probleemstelling}
 \label{sec:probleemstelling}
 
-Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+Virtual reality is een nog opkomende trend die nog in zijn kinderschoenen staat. Hierdoor is het nog moeilijk om toe te treden tot deze markt aangezien de prijzen van deze virtual reality brillen soms hoog kunnen oplopen. Dit is momenteel nog een struikelblok voor de consument om de aankoop van een VR  headset uit te stellen, maar zeker niet de enigste. In het artikel van (abarrera) wordt goed aangehaald wat precies de redenen zijn waarom VR headsets nog niet volledig aangeslaan zijn bij het publiek. Een andere zeer belangrijk probleem met VR momenteel is het tekort aan ontwikkelaars voor deze technologie. Een virtual reality applicatie is zeker niet hetzelfde als een gewone webapplicatie. Er moet ten eerste al letterlijk in 360\textdegree gedacht worden aangezien een persoon in VR perfect rond zich moet kunnen kijken. Daarnaast mogen we niet vergeten dat bepaalde beelden die ongepast zijn voor VR een negatieve weerslag kunnen geven aan de gebruiker en zelfs kan lijden tot fysieke pijn. Ten slotte is gaat het ontwikkelen van een virtual reality applicatie niet zomaar. Er is al snel nood aan een groot aantal frameworks zoals een manier om een 3D omgeving te ondersteunen. Dit kan voor een ontwikkelaar geen gemakkelijke taak zijn om zomaar aan te leren en dit zorgt er dan weer voor dat ontwikkelaars moeilijker de stap naar het ontwikkelen van een virtual reality applicatie gaan nemen.
+
+ React VR zou hier een oplossing voor moeten bieden. Dit framework biedt niet alleen een groot aantal componenten aan waarmee er al snel een solide VR app kan worden ontwikkelt, maar daarnaast wordt er bij React VR ook gebruik gemaakt van React JS en het daarbij horende javascript. Dit zorgt er dus voor dat de kloof tussen het ontwikkelen een webapplicatie en een virtual reality applicatie pakken kleiner wordt. Ook is het zo dat men voor deze apps uit te voeren niet verplicht een virtual reality headset hoeft te gebruiken aangezen deze applicaties gewoon in de browser kunnen worden uitegevoerd. Daarnaast zijn de mobiele virtual headsets, die voor React VR kunnen gebruikt worden, een pak goedkoper.
+
 
 \section{Onderzoeksvraag}
 \label{sec:onderzoeksvraag}
 
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+Met de uitleg die ik zonet aangaf kunnen we een aantal onderzoeksvragen definiëren waar ik in mijn bachelerproef een antwoord tracht naar te vinden:
+\begin{itemize}
+  \item	Hoe ervaart een gebruiker een VR applicatie ontwikkeld met React VR ten opzichte van een gewone webapplicatie?
+  \begin{itemize}
+  \item	Hoe voelt de user experience aan
+  \item	Wat zijn de fysieke opmerkingen?
+  \end{itemize}
+  \item	Voor welke doeleinden kan React VR gebruikt worden
+  \item	Is ReactVR al een goed framework voor volwaardige VR applicaties
+  \item	Wat is de performantie van React VR in de browser?
+  \begin{itemize}
+  \item Is er nood aan dure hardware?
+  \end{itemize}
+\end{itemize}
+
+
 
 \section{Onderzoeksdoelstelling}
 \label{sec:onderzoeksdoelstelling}
@@ -46,6 +57,10 @@ In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+
+In Hoofdstuk~\ref{ch:virtual-reality} wordt er dieper ingegaan op het concept van virtual reality en wordt er bekeken welke mogelijk frameworks er momenteel beschikbaar zijn.
+
+In Hoofdstuk~\ref{ch:react-vr} wordt React VR bestudeert en bekijken we enkele belangrijke onderwerpen van het framework.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
 

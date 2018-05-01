@@ -7,11 +7,70 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
-Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet er nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
+%%=============================================================================
+%% Virtual reality
+%%=============================================================================
+Voordat React VR kan worden bekeken is het belangrijk een goed beeld te scheppen van virtual reality zelf. We gaan dieper in op wanneer iets virtual reality is, hoe het werkt en wat de gevolgen zijn voor de gebruiker van deze applicaties. We zullen tot slot, nog een overzicht geven van mogelijke alternatieven voor React VR met ook een korte uitleg van deze frameworks.
 
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\TeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}textcite\{\}}.
-Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}autocite\{\}}. In de volgende paragraaf een voorbeeld van elk.
+\section{Wanneer is iets virtual reality}
+We weten al wat virtual reality is, maar wanneer is iets nu virtual reality. Er zijn namelijk nog een aantal andere vormen van valse realiteiten, maar wat zijn deze nu precies en wanneer kunnen we iets als VR aanzien.
 
-\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\autocite{Creeger2009}.
+\subsection{3D of 4D}
+\subsection{Augmented Reality}
+\subsection{Virtual reality}
+De 4 keys
 
-\lipsum[7-20]
+\section{Hoe werkt virtual reality}
+Er werd al duidelijk gemaakt wat virtual reality precies is, maar het is ook belangrijk te weten hoe de technologie werkt. Er zal hier niet te technisch worden op ingegaan aangezien dit niet enorm relevant is voor deze bachelorproef.
+
+\subsection{Stereoscopie}
+Bij virtuele werkelijkheid wordt er gebruik gemaakt van een illusie. Dit doet men ten eerste a.d.h.v. stereoscopie. Hierbij gaat men diepte meegeven aan een afbeelding. Dit doet men door 2 afbeeldingen vanaf een verschillende afstand (meestal de afstand tussen de ogen) te maken. Hierna gaat men dit combineren tot één stereoafbeelding. Deze technologie wordt ook gebruikt bij 3D. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{stereoscopie.jpg}
+	\caption{Stereoscopie voorbeeld.}
+	\label{fig:stereoscopie}
+\end{figure}
+
+Door stereoscopie kan men dus diepte gaan simuleren. Hiermee is al een een grote voorwaarde voldaan om iets realistisch te laten lijken, namelijk Immersion (key elements VR), onderdompeling. Zo kan men beter inschatten hoe ver en hoe groot een object is in de virtuele wereld. Men kan deze 2 afbeeldingen dan gaan tonen door zo een VR headset. Dit kan op meerdere manieren.
+\begin{itemize}
+	\item Ofwel maakt men gebruik van een smartphone waarbij men dan een headset heeft waarbij gebruik wordt gemaakt van lenzen. Op de smartphone worden er 2 beelden geprojecteerd en zorgen de lenzen ervoor dat de omgeving ruimer lijkt dan het werkelijk is. Hiermee kan men dan op een goedkope manier virtuele realiteit gaan tonen. Maar dit is meestal ten koste van de kwaliteit doordat de resolutie op smartphones meestal te laag is voor virtuele werkelijkheid scherp te kunnen weergeven.
+	
+	\item Daarnaast heeft men de meer geavanceerde virtuele headsets. Hierbij is er per oog een scherm met een hoge resolutie. Deze tonen dan elk hun beeld en simuleren dan de virtuele omgeving. Deze headsets worden dan ook het meest gebruikt bij gaming, maar zijn automatisch ook een pak duurder en vereisen een krachtige computer.
+\end{itemize}
+
+\subsection{Virtuele ervaring}
+Het is zo dat het niet enkel door de extra dimensie is dat het persé er al als werkelijkheid uitziet. Er zijn nog meerdere aspecten waarmee men rekening moet houden bij een virtuele headset. Zo zijn de beelden per seconde, ofwel frames per second (FPS), van de schermen in die headsets zeer belangrijk. De 2 bekendste virtuele headsets momenteel op de markt, die dan vooral naar gaming gericht zijn, zijn de HTC vive en de Oculus Rift. Beide headsets maken gebruik van een 90Hz scherm. Dat wil zeggen dat er maximaal 90 beelden per seconde kunnen worden weergegeven. Hoe sneller, hoe realistischer. Een andere bekende headset, de Playstation VR, draait maar op 60Hz, 60 beelden per seconde dus. Bij smartphones kan dit nog lager liggen, tot 30Hz zelfs. Het is dus duidelijk dat de HTC vive en Oculus Rift een realistische ervaring zullen geven dan de Playstation VR of de smartphone.
+
+Wat ook en grote impact kan hebben op de ervaring is latency. Latency is de hoeveelheid tijd er tussen zit als je een bepaalde input geeft en die dan wordt weergegeven in de virtuele wereld. Een goed voorbeeld hiervan is het moment dat je een stap vooruit zet, zal er een bepaalde hoeveelheid tijd zijn tot je vooruit beweegt in de virtuele wereld. Bij een te hoge latency zal de virtuele ervaring als heel slecht ervaren worden en zelfs vanaf er al een latency is van 20ms zal het menselijk brein duidelijk onderscheidt kunnen maken tussen iets dat echt is en iets dat vals is. Dit zal niet alleen meiden tot een mindere ervaring voor de gebruiker maar kan ook tot fysieke pijn leiden zoals motion sickness, iets dat ook voorkomt bij onze moderne manieren van transport bij bijvoorbeeld autorijden (wagenziekte). Het is dus zeer belangrijk dat deze latency zo laag mogelijk is, niet alleen voor de ervaring maar ook om ongemakkelijkheid bij de gebruiker te vermijden.
+
+Ten laatste is de FOV, field of view ofwel het gezichtsveld in de virtuele wereld ook zeer belangrijk. Een mens ziet ongeveer 180° rond zich, maar dit kan oplopen tot 270° als er met de ogen bewogen wordt. De meeste headsets hebben maar een gezichtsveld tussen de 90° en 110°, wat dus eigenlijk niet genoeg is. Dit heeft dan ook een impact op de virtuele ervaring en kan ook hier opnieuw leiden tot motion sickness.
+
+Als er dus niet wordt voldaan aan een hoge FPS, voldoende FOV en een lage latency zal dit dus een impact hebben op de virtuele ervaring. Hierdoor ontstaan dan fysieke ongemakken omdat het menselijk brein weet dat er iets niet klop. Het is dus zeer belangrijk aan ontwikkelaars van virtuele applicaties om hiermee rekening te houden. Als een applicatie je ziek maakt, dan ga je dat automatisch ook minder of zelfs niet meer gebruiken.
+
+\subsection{Interactie met de virtuele wereld}
+Vandaag zijn we in staat om een virtuele wereld zeer realistisch weer te geven, maar toch blijf interactie met de virtuele wereld een moeilijk aspect van virtual reality en het is nochtans één van de belangrijkste. Wat men al sowieso goed doet, is rond je kunnen kijken in de virtuele wereld, dit werd al in de introductie vermeldt en gebeurt aan de hand van een gyroscoop. Maar hoe kan men dan bewegingen van de echte wereld gaan omzetten in die virtuele wereld?
+
+Dit kan ten eerste gebeuren aan de hand van afstandsbediening. Men kan gebruik maken van een simpele afstandsbediening met joystick. Waarbij men dus gewoon in de virtuele wereld gaat bewegen als hoe men dit zou doen in een videospel, maar dit is natuurlijk niet de perfecte ervaring aangezien er weinig rekening wordt gehouden met hoe de handen bewegen. Een betere oplossing hiervoor waren dan de controllers die ook bewegingen registreren (denk maar aan de Nintendo Wii). Dit is al een grote stap vooruit. Verder gaan we hier niet dieper op ingaan.
+
+\section{De gevolgen voor de gebruiker}
+Anders dan een gewone app...
+
+\subsection{User Experience}
+Hier dieper ingaan op hoe het moet gebouwd worden => piramide
+
+\subsection{Fysiek}
+Hier dieper ingaan op de fysieke gevolgen (misselijkheid)
+
+\section{De mogelijke frameworks naast React VR}
+Het ontwikkelen van virtual reality applicaties gaat natuurlijk niet zomaar en vereisen een goede technische kennis. Zeker het feit dat je in een wereld zit waar er volledig om zich kan worden gekeken en ook eventueel bewogen worden is natuurlijk een grote uitdaging. Om dit allemaal makkelijker te maken zijn er momenteel al een aantal frameworks beschikbaar die het ontwikkelen van virtual reality applicaties een pak makkelijker maken. Naast React VR bestaan er nog een aantal mogelijke frameworks.
+
+\subsection{Web VR}
+
+\subsection{Primrose}
+
+\subsection{Agron.js}
+
+\subsection{A-Frame}
+
