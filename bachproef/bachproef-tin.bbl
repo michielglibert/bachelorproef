@@ -19,6 +19,55 @@
 
 \refsection{0}
   \sortlist[entry]{apa/global/}
+    \entry{Azuma1997}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f3f4d8adc1d713781ecaefed324b7496}{%
+           family={Azuma},
+           familyi={A\bibinitperiod},
+           given={Ronald\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Hughes Research Laboratories}%
+      }
+      \strng{namehash}{f3f4d8adc1d713781ecaefed324b7496}
+      \strng{fullhash}{f3f4d8adc1d713781ecaefed324b7496}
+      \strng{authornamehash}{f3f4d8adc1d713781ecaefed324b7496}
+      \strng{authorfullhash}{f3f4d8adc1d713781ecaefed324b7496}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Survey of Augmented Reality}
+      \field{type}{resreport}
+      \field{year}{1997}
+    \endentry
+    \entry{Wikipedia3D2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Driedimensionaal}
+      \field{year}{2018}
+      \verb{url}
+      \verb https://nl.wikipedia.org/wiki/Driedimensionaal
+      \endverb
+    \endentry
     \entry{Doll1954}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=42f5dae45a7412f89d24f542563044fd}{%
@@ -49,6 +98,27 @@
       \field{year}{1954}
       \field{pages}{1529\bibrangedash 1533}
       \range{pages}{5}
+    \endentry
+    \entry{Sherman2000}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=267b4980bc452230d1d809f0b00efe1d}{%
+           family={Sherman},
+           familyi={S\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{267b4980bc452230d1d809f0b00efe1d}
+      \strng{fullhash}{267b4980bc452230d1d809f0b00efe1d}
+      \strng{authornamehash}{267b4980bc452230d1d809f0b00efe1d}
+      \strng{authorfullhash}{267b4980bc452230d1d809f0b00efe1d}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Virtual Reality: Interface, Application, and Design}
+      \field{year}{2000}
     \endentry
   \endsortlist
 \endrefsection
