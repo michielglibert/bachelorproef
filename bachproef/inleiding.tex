@@ -8,14 +8,14 @@ Virtual Reality, of in het Nederlands virtuele werkelijkheid, is een technologie
 
 De toepassingen waar dat virtual reality kan gebruikt worden zijn zeer uitgebreid. De bekendste hiervoor is entertainment, namelijk gaming. Hiermee kan men dus gaan simuleren alsof de persoon zich in het spel bevindt. Daarnaast kan men dit ook gebruiken voor 3D cinema waarbij men dus videofragmenten kan doen laten afspelen rondom de gebruiker. Ook een belangrijke toepassing is in het medische gebied. Men kan VR gaan gebruiken als behandeling tegen bepaalde aandoeningen zoals bepaalde fobieën en PTSS \autocite{WikipediaVR2018}. Daarnaast kan aan de hand van virtual reality bepaalde ingrepen gaan simuleren als training. Deze training kan dan een goede voorbereiding zijn op de echte ingreep. Het gebruik van VR als training komt ook voor in andere gebieden dan het medische, zoals in het leger, astronaut, vliegsimulators, …
 
-Virtual reality heeft dus zeker een ruim aanbod van toepassingsgebieden waarvoor het gebruikt kan worden. Maar toch is het ontwikkelen van virtual reality applicaties een grote uitdaging. Daar gaan wij dan ook dieper op in deze bachelor proef. Waar wij vooral de focus zullen leggen op het gebruik van React VR als virtual reality framework om applicaties mee te bouwen.
+Virtual reality heeft dus zeker een ruim aanbod van toepassingsgebieden waarvoor het gebruikt kan worden. Maar toch is het ontwikkelen van virtual reality applicaties een grote uitdaging. Daar gaan wij dan ook dieper op in deze bachelor proef. Waar wij vooral de focus zullen leggen op het gebruik van React 360 als virtual reality framework om applicaties mee te bouwen.
 
 \section{Probleemstelling}
 \label{sec:probleemstelling}
 
 Virtual reality is een nog opkomende trend die nog in zijn kinderschoenen staat. Hierdoor is het nog moeilijk om toe te treden tot deze markt aangezien de prijzen van deze virtual reality brillen soms hoog kunnen oplopen. Dit is momenteel nog een struikelblok voor de consument om de aankoop van een VR  headset uit te stellen, maar zeker niet de enigste. In het artikel van \autocite{Abarrera2017} wordt goed aangehaald wat precies de redenen zijn waarom VR headsets nog niet volledig aangeslaan zijn bij het publiek. Een andere zeer belangrijk probleem met VR momenteel is het tekort aan ontwikkelaars voor deze technologie. Een virtual reality applicatie is zeker niet hetzelfde als een gewone webapplicatie. Er moet ten eerste al letterlijk in 360\textdegree gedacht worden aangezien een persoon in VR perfect rond zich moet kunnen kijken. Daarnaast mogen we niet vergeten dat bepaalde beelden die ongepast zijn voor VR een negatieve weerslag kunnen geven aan de gebruiker en zelfs kan lijden tot fysieke pijn. Ten slotte is gaat het ontwikkelen van een virtual reality applicatie niet zomaar. Er is al snel nood aan een groot aantal frameworks zoals een manier om een 3D omgeving te ondersteunen. Dit kan voor een ontwikkelaar geen gemakkelijke taak zijn om zomaar aan te leren en dit zorgt er dan weer voor dat ontwikkelaars moeilijker de stap naar het ontwikkelen van een virtual reality applicatie gaan nemen.
 
-React VR zou hier een oplossing voor moeten bieden. Dit framework biedt niet alleen een groot aantal componenten aan waarmee er al snel een solide VR app kan worden ontwikkelt, maar daarnaast wordt er bij React VR ook gebruik gemaakt van React JS en het daarbij horende javascript. Dit zorgt er dus voor dat de kloof tussen het ontwikkelen een webapplicatie en een virtual reality applicatie pakken kleiner wordt. Ook is het zo dat men voor deze apps uit te voeren niet verplicht een virtual reality headset hoeft te gebruiken aangezen deze applicaties gewoon in de browser kunnen worden uitegevoerd. Daarnaast zijn de mobiele virtual headsets, die voor React VR kunnen gebruikt worden, een pak goedkoper.
+React 360 zou hier een oplossing voor moeten bieden. Dit framework biedt niet alleen een groot aantal componenten aan waarmee er al snel een solide VR app kan worden ontwikkelt, maar daarnaast wordt er bij React 360 ook gebruik gemaakt van React JS en het daarbij horende javascript. Dit zorgt er dus voor dat de kloof tussen het ontwikkelen een webapplicatie en een virtual reality applicatie pakken kleiner wordt. Ook is het zo dat men voor deze apps uit te voeren niet verplicht een virtual reality headset hoeft te gebruiken aangezen deze applicaties gewoon in de browser kunnen worden uitegevoerd. Daarnaast zijn de mobiele virtual headsets, die voor React 360 kunnen gebruikt worden, een pak goedkoper.
 
 
 \section{Onderzoeksvraag}
@@ -23,16 +23,16 @@ React VR zou hier een oplossing voor moeten bieden. Dit framework biedt niet all
 
 Met de uitleg die ik zonet aangaf kunnen we een aantal onderzoeksvragen definiëren waar ik in mijn bachelerproef een antwoord tracht naar te vinden:
 \begin{itemize}
-  \item	Hoe ervaart een gebruiker een VR applicatie ontwikkeld met React VR ten opzichte van een gewone webapplicatie?
+  \item	Hoe ervaart een gebruiker een VR applicatie ontwikkeld met React 360 ten opzichte van een gewone webapplicatie?
   \begin{itemize}
   \item	Hoe voelt de user experience aan
   \item	Wat zijn de fysieke opmerkingen?
   \end{itemize}
-  \item	Voor welke doeleinden kan React VR gebruikt worden
+  \item	Voor welke doeleinden kan React 360 gebruikt worden
   \item	Is ReactVR al een goed framework voor volwaardige VR applicaties
-  \item	Wat is de performantie van React VR in de browser?
+  \item	Wat is de performantie van React 360 in de browser?
   \begin{itemize}
-  \item Is er nood aan dure hardware voor React VR?
+  \item Is er nood aan dure hardware voor React 360?
   \end{itemize}
 \end{itemize}
 
@@ -43,6 +43,8 @@ Met de uitleg die ik zonet aangaf kunnen we een aantal onderzoeksvragen definië
 
 Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk.
 
+In dit onderzoek zoeken we een antwoord op al onze onderzoeksvragen en vooral of React 360 een goed framework is voor virtual reality applicaties voor bepaalde doeleinden. Het antwoord hoeft dus niet noodzakelijk positief te zijn. We willen vooral het framework gaan ontleden en alle aspecten dat het aanbiedt gaan bekijken terwijl we ook rekening houden met alle concepten van de wereld van virtual reality. Zowel React 360 als virtual reality zijn nog relatief jong ookal bestaat VR op zich wel al lang. Het is pas sinds de laatste jaren dat computers hier klaar voor waren en hiermee moeten we dus ook zeker rekening houden.
+
 \section{Opzet van deze bachelorproef}
 \label{sec:opzet-bachelorproef}
 
@@ -52,11 +54,11 @@ Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor suc
 
 De rest van deze bachelorproef is als volgt opgebouwd:
 
-In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
+In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie. Onder andere de technologie virtual reality zelf en de taal waarmee React 360 gebouwd is, javascript.
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
-In Hoofdstuk~\ref{ch:react-vr} wordt React VR bestudeert en bekijken we enkele belangrijke onderwerpen van het framework.
+In Hoofdstuk~\ref{ch:react-vr} wordt React 360 bestudeert en bekijken we enkele belangrijke onderwerpen van het framework.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
 

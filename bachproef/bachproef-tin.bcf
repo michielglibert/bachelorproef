@@ -2302,10 +2302,15 @@
     <bcf:datasource type="file" datatype="bibtex">../voorstel/voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Sherman2000</bcf:citekey>
-    <bcf:citekey order="2">Wikipedia3D2018</bcf:citekey>
-    <bcf:citekey order="3">Azuma1997</bcf:citekey>
-    <bcf:citekey order="4">Doll1954</bcf:citekey>
+    <bcf:citekey order="1">WikipediaVR2018</bcf:citekey>
+    <bcf:citekey order="2">Abarrera2017</bcf:citekey>
+    <bcf:citekey order="3">Sherman2000</bcf:citekey>
+    <bcf:citekey order="4">Wikipedia3D2018</bcf:citekey>
+    <bcf:citekey order="5">Azuma1997</bcf:citekey>
+    <bcf:citekey order="6">Cronin2015</bcf:citekey>
+    <bcf:citekey order="7">Pappas2016</bcf:citekey>
+    <bcf:citekey order="8">UIUXLab2017</bcf:citekey>
+    <bcf:citekey order="9">Doll1954</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="apa/global/" type="entry" sortscheme="apa" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

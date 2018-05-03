@@ -19,6 +19,31 @@
 
 \refsection{0}
   \sortlist[entry]{apa/global/}
+    \entry{Abarrera2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=310cfb235107d99805a7985f6e98c7b8}{%
+           family={Abarrera},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{310cfb235107d99805a7985f6e98c7b8}
+      \strng{fullhash}{310cfb235107d99805a7985f6e98c7b8}
+      \strng{authornamehash}{310cfb235107d99805a7985f6e98c7b8}
+      \strng{authorfullhash}{310cfb235107d99805a7985f6e98c7b8}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{11}
+      \field{title}{Virtual Reality isn’t functional yet, here is why}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://thealeph.com/articles/2017/11/virtual-reality-vr-oculus-htc-why/
+      \endverb
+    \endentry
     \entry{Azuma1997}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=f3f4d8adc1d713781ecaefed324b7496}{%
@@ -58,14 +83,65 @@
       \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
       \field{sortinit}{c}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{1}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Driedimensionaal}
       \field{year}{2018}
       \verb{url}
       \verb https://nl.wikipedia.org/wiki/Driedimensionaal
+      \endverb
+    \endentry
+    \entry{WikipediaVR2018}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{extrayear}{2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Virtuele werkelijkheid}
+      \field{year}{2018}
+      \verb{url}
+      \verb https://nl.wikipedia.org/wiki/Virtuele_werkelijkheid
+      \endverb
+    \endentry
+    \entry{Cronin2015}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8d1288f74791a41331a7352c2d74adec}{%
+           family={Cronin},
+           familyi={C\bibinitperiod},
+           given={Beau},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d1288f74791a41331a7352c2d74adec}
+      \strng{fullhash}{8d1288f74791a41331a7352c2d74adec}
+      \strng{authornamehash}{8d1288f74791a41331a7352c2d74adec}
+      \strng{authorfullhash}{8d1288f74791a41331a7352c2d74adec}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{1}
+      \field{title}{The hierarchy of needs in virtual reality development}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://medium.com/@beaucronin/the-hierarchy-of-needs-in-virtual-reality-development-4333a4833acc
       \endverb
     \endentry
     \entry{Doll1954}{article}{}
@@ -98,6 +174,60 @@
       \field{year}{1954}
       \field{pages}{1529\bibrangedash 1533}
       \range{pages}{5}
+    \endentry
+    \entry{UIUXLab2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=030eac8a7a0d9c65774574aa1f7697db}{%
+           family={Lab},
+           familyi={L\bibinitperiod},
+           given={UIUX},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{030eac8a7a0d9c65774574aa1f7697db}
+      \strng{fullhash}{030eac8a7a0d9c65774574aa1f7697db}
+      \strng{authornamehash}{030eac8a7a0d9c65774574aa1f7697db}
+      \strng{authorfullhash}{030eac8a7a0d9c65774574aa1f7697db}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{5}
+      \field{title}{5 Web VR Frameworks to Help Developers Build Interesting Design}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://uiux.cc/blog/5-web-vr-frameworks-to-help-developers-build-interesting-design/
+      \endverb
+    \endentry
+    \entry{Pappas2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7e113f06b2dbfda01ac8b39dbd8ea2fa}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{fullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{authornamehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{authorfullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{4}
+      \field{title}{Why Does Virtual Reality Make Some People Sick?}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.livescience.com/54478-why-vr-makes-you-sick.html
+      \endverb
     \endentry
     \entry{Sherman2000}{book}{}
       \name{author}{1}{}{%
