@@ -404,6 +404,13 @@ INPUT ./img/MaslowCroninPiramide.png
 INPUT ./img/MaslowCroninPiramide.png
 INPUT ./img/MaslowCroninPiramide.png
 INPUT ./img/MaslowCroninPiramide.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/t1cmtt.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/ectt1200.tfm
 INPUT methodologie.tex
 INPUT methodologie.tex
 INPUT virtualreality.tex
@@ -459,6 +466,8 @@ INPUT bachproef-tin.aux
 INPUT bachproef-tin.run.xml
 OUTPUT bachproef-tin.run.xml
 INPUT C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+INPUT C:/Users/Michiel Glibert/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk
+INPUT C:/Users/Michiel Glibert/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb
 INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb

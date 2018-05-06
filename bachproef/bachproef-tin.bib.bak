@@ -119,4 +119,41 @@
   year        = {1997},
 }
 
+@Online{Pappas2016,
+  author = {Stephanie Pappas},
+  title  = {Why Does Virtual Reality Make Some People Sick?},
+  year   = {2016},
+  date   = {2016-04-20},
+  url    = {https://www.livescience.com/54478-why-vr-makes-you-sick.html},
+}
+
+@Online{WikipediaJS2018,
+  author = {Wikipedia contributors},
+  title  = {JavaScript},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/JavaScript},
+}
+
+@Online{Mozilla2018,
+  author = {Mozilla contibutors},
+  title  = {JavaScript},
+  year   = {2018},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/JavaScript},
+}
+
+@Online{WikipediaF2018,
+  author = {Wikipedia contributors},
+  title  = {Framework},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/Framework},
+}
+
+@Online{Korotya2018,
+  author = {Eugeniya Korotya},
+  title  = {5 Best JavaScript Frameworks in 2017},
+  year   = {2017},
+  date   = {2017-01-19},
+  url    = {https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
