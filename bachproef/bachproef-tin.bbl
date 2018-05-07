@@ -229,31 +229,28 @@
       \verb https://uiux.cc/blog/5-web-vr-frameworks-to-help-developers-build-interesting-design/
       \endverb
     \endentry
-    \entry{Pappas2016}{online}{}
+    \entry{Rouse2011}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=7e113f06b2dbfda01ac8b39dbd8ea2fa}{%
-           family={Pappas},
-           familyi={P\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=d6ebb0634de22e70618460d3fc936297}{%
+           family={Rouse},
+           familyi={R\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
-      \strng{fullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
-      \strng{authornamehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
-      \strng{authorfullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeldatesource}{}
+      \strng{namehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{fullhash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authornamehash}{d6ebb0634de22e70618460d3fc936297}
+      \strng{authorfullhash}{d6ebb0634de22e70618460d3fc936297}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{4}
-      \field{title}{Why Does Virtual Reality Make Some People Sick?}
-      \field{year}{2016}
-      \field{dateera}{ce}
+      \field{title}{Stereoscopy}
+      \field{year}{2011}
       \verb{url}
-      \verb https://www.livescience.com/54478-why-vr-makes-you-sick.html
+      \verb https://whatis.techtarget.com/definition/stereoscopy-stereoscopic-imaging
       \endverb
     \endentry
     \entry{Sherman2000}{book}{}

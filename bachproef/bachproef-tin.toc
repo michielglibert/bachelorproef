@@ -2,113 +2,123 @@
 \defcounter {refsection}{0}\relax 
 \select@language {dutch}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Inleiding}{15}{chapter.1}
+\contentsline {chapter}{\numberline {1}Inleiding}{17}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{16}{section.1.1}
+\contentsline {section}{\numberline {1.1}Probleemstelling}{18}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{16}{section.1.2}
+\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{18}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{17}{section.1.3}
+\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{19}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{17}{section.1.4}
+\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{19}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}
+\contentsline {chapter}{\numberline {2}Stand van zaken}{21}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}De virtuele realiteiten}{19}{section.2.1}
+\contentsline {section}{\numberline {2.1}De virtuele realiteiten}{21}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Virtual reality}{19}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Virtual reality}{21}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}3D en 4D}{19}{subsection.2.1.2}
+\contentsline {subsubsection}{Een virtuele wereld}{22}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Augmented Reality}{20}{subsection.2.1.3}
+\contentsline {subsubsection}{Immersion/Onderdompeling}{22}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}De werking van virtual reality}{21}{section.2.2}
+\contentsline {subsubsection}{Feedback van de zintuigen}{22}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Stereoscopie}{21}{subsection.2.2.1}
+\contentsline {subsubsection}{Interactiviteit}{22}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}De virtuele ervaring}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.1.2}3D en 4D}{22}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Interactie met de virtuele wereld}{23}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.1.3}Augmented Reality}{22}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}De gevolgen voor de gebruiker}{23}{section.2.3}
+\contentsline {section}{\numberline {2.2}De werking van virtual reality}{23}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}User Experience}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.2.1}Stereoscopie}{23}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}JavaScript}{25}{section.2.4}
+\contentsline {subsection}{\numberline {2.2.2}De virtuele ervaring}{24}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Belangrijkste onderdelen}{25}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.2.3}Interactie met de virtuele wereld}{25}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Objecten}{25}{section*.6}
+\contentsline {section}{\numberline {2.3}De gevolgen voor de gebruiker}{25}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variabelen}{26}{section*.7}
+\contentsline {subsection}{\numberline {2.3.1}User Experience}{26}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functies}{27}{section*.8}
+\contentsline {section}{\numberline {2.4}JavaScript, HTML en CSS}{26}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Asynchroon programmeren}{27}{section*.9}
+\contentsline {subsection}{\numberline {2.4.1}HTML}{27}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Frameworks}{27}{section*.10}
+\contentsline {subsection}{\numberline {2.4.2}CSS}{28}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}De mogelijke frameworks naast React 360}{28}{section.2.5}
+\contentsline {subsection}{\numberline {2.4.3}Belangrijkste onderdelen}{29}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Web VR}{28}{subsection.2.5.1}
+\contentsline {subsubsection}{Objecten}{29}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Primrose}{28}{subsection.2.5.2}
+\contentsline {subsubsection}{Variabelen}{30}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Agron.js}{28}{subsection.2.5.3}
+\contentsline {subsubsection}{Functies}{31}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}A-Frame}{28}{subsection.2.5.4}
+\contentsline {subsubsection}{Asynchroon programmeren}{31}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{29}{chapter.3}
+\contentsline {subsubsection}{Frameworks}{31}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Het framework, React 360, bestuderen}{29}{section.3.1}
+\contentsline {section}{\numberline {2.5}De mogelijke VR frameworks naast React 360}{32}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Ervaring van virtual reality voor een gebruiker}{29}{section.3.2}
+\contentsline {subsection}{\numberline {2.5.1}A-Frame}{32}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}De doeleinden en stand van zaken van React 360}{30}{section.3.3}
+\contentsline {subsection}{\numberline {2.5.2}Primrose}{32}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}React 360}{31}{chapter.4}
+\contentsline {subsection}{\numberline {2.5.3}Agron.js}{33}{subsection.2.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}React.js}{32}{section.4.1}
+\contentsline {chapter}{\numberline {3}Methodologie}{35}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}JSX}{32}{subsection.4.1.1}
+\contentsline {section}{\numberline {3.1}Het framework, React 360, bestuderen}{35}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Components en props}{32}{subsection.4.1.2}
+\contentsline {section}{\numberline {3.2}Ervaring van virtual reality voor een gebruiker}{35}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}State en levenscyclus}{32}{subsection.4.1.3}
+\contentsline {section}{\numberline {3.3}De doeleinden en stand van zaken van React 360}{36}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Events}{32}{subsection.4.1.4}
+\contentsline {chapter}{\numberline {4}React 360}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Het ruimtelijke systeem}{32}{section.4.2}
+\contentsline {section}{\numberline {4.1}React.js}{38}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Enkele belangrijke componenten}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.1.1}JSX}{38}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}View}{32}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.1.2}Components en props}{38}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Environment}{32}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.1.3}State en levenscyclus}{38}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Video}{32}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.1.4}Events}{38}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}VrButton}{32}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.2}Het ruimtelijke systeem}{38}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Input in VR}{32}{section.4.4}
+\contentsline {section}{\numberline {4.3}Enkele belangrijke componenten}{38}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Developing in VR}{32}{section.4.5}
+\contentsline {subsection}{\numberline {4.3.1}View}{38}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Prestaties}{32}{section.4.6}
+\contentsline {subsection}{\numberline {4.3.2}Environment}{38}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{33}{chapter.5}
+\contentsline {subsection}{\numberline {4.3.3}Video}{38}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{35}{appendix.A}
+\contentsline {subsection}{\numberline {4.3.4}VrButton}{38}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{35}{section.A.1}
+\contentsline {section}{\numberline {4.4}Input in VR}{38}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{35}{section.A.2}
+\contentsline {section}{\numberline {4.5}Developing in VR}{38}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{36}{section.A.3}
+\contentsline {section}{\numberline {4.6}Prestaties}{38}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{36}{section.A.4}
+\contentsline {chapter}{\numberline {5}Conclusie}{39}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{36}{section.A.5}
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{41}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{37}{appendix*.11}
+\contentsline {section}{\numberline {A.1}Introductie}{41}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{41}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{42}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{42}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{42}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{43}{appendix*.16}
 \contentsfinish 
