@@ -10,11 +10,11 @@
 %%=============================================================================
 %% Virtual reality
 %%=============================================================================
-Voordat React 360 kan worden bekeken is het belangrijk een goed beeld te scheppen van virtual reality zelf. We gaan dieper in op wanneer iets virtual reality is, hoe het werkt en wat de gevolgen zijn voor de gebruiker van deze applicaties. We zullen tot slot, nog een overzicht geven van mogelijke alternatieven voor React 360 met ook een korte uitleg van deze frameworks.
+Voordat React 360 kan worden bekeken is het belangrijk een goed beeld te scheppen van virtual reality zelf. We gaan dieper in op de concepten van virtual reality is, hoe het werkt en wat de gevolgen zijn voor de gebruiker van deze applicaties. Daarna gaan we een kijkje nemen naar HTML, CSS en Javascript. Dit is nodig om React 360 te kunnen verstaan. We zullen tot slot nog een overzicht geven van de mogelijke alternatieven voor React 360 met ook een korte uitleg van deze frameworks.
 
 \section{De virtuele realiteiten}
 \label{secvirtuele-realiteiten}
-We weten al wat virtual reality is, maar wanneer is iets nu virtual reality. Er zijn namelijk nog een aantal andere vormen van valse realiteiten die al snel verward kunnen worden met virtual reality, maar wat zijn deze nu precies en wanneer kunnen we iets als VR aanzien.
+We weten al wat virtual reality is, maar wanneer is iets nu 'virtual reality'. Er zijn namelijk nog een aantal andere vormen van valse realiteiten die al snel verward kunnen worden met virtual reality, maar wat zijn deze nu precies en wanneer kunnen we iets als VR aanzien.
 
 \subsection{Virtual reality}
 \label{subsec:virtual-reality}
@@ -22,27 +22,38 @@ Om gemakkelijk te kunnen aantonen wanneer nu iets virtual reality is maken we ge
 
 \subsubsection{Een virtuele wereld}
 \label{ssubsec:virtuele-wereld}
+In ons hoofd kunnen we ons dingen voorstellen die enkel wij ons kunnen voorstellen. Dit kunnen bepaalde omgevingen zijn die niet bestaan, fictie zijn. We noemen het ook wel een virtuele wereld. Een virtuele wereld hoeft niet noodzakelijk afgebeeld te worden op een computer, men kan deze virtuele wereld al gaan beschrijven op andere manieren zoals men bij een film een script heeft die de film verteld (maar het is natuurlijk nog niet de afgewerkte film).
+
+Het eerste sleutel element is ons zeer duidelijk en vloeit natuurlijk rechtstreeks van de naam virtual reality. Met virtuele wereld bedoelt men niet noodzakelijk iets gaan maken dat niet bestaat, maar eerder iets gaan bedenken dat niet binnen handbereik is. Denk maar aan de Chinese muur. Dit bestaat natuurlijk wel echt maar China is niet een land dat dicht bij de deur is. Door virtual reality kunnen we toch de Chinese muur proberen te ervaren zoals hij in het echt is. Het is natuurlijk ook toegestaan om iets te gaan bouwen dat niet bestaat, maar dat heeft ook zo zijn limieten en hier geven we in hoofdstuk \ref{subsec:user-experience} een duidelijke verklaring voor.
 
 \subsubsection{Immersion/Onderdompeling}
 \label{ssubsec:immersion}
+Bij virtual reality is het belangrijk dat de gebruiker wordt ondergedompeld in iets anders dan de realiteit. Men moet zich eigenlijk van de echte wereld kunnen afscheiden en ten volle opgaan in de virtuele wereld. De gebruiker moet zich echt aanwezig kunnen voelen in de virtuele wereld waarbij dus prikkels van buitenaf zo beperkt mogelijk moeten zijn. Wat ook belangrijk is, is dat men met deze wereld interacties kan uitvoeren. Als men een boek leest kan men zich wel de wereld inbeelden, maar zal alles volgens een vaste lijn gaan. In een virtuele wereld heb je zelf de keuze wat je doet. Er is dus een communicatie aanwezig in 2 richtingen. Jij reageert op de virtuele wereld maar de virtuele wereld reageert ook terug op jou, bij een boek is dit natuurlijk niet mogelijk. We kunnen de onderdompeling gaan onderscheiden in 2 soorten:
 
-\subsubsection{Feedback van de zintuigen}
+\begin{itemize}
+	\item \textbf{De mentale onderdompeling} is waarbij je met je hoofd diep geëngageerd zit in de wereld en alles wat er in gebeurt, begint te geloven.
+	\item \textbf{De fysieke onderdompeling} is waarbij je lichaam eigenlijk in de virtuele wereld terechtkomt. Hierbij gaat men vooral op de menselijke zintuigen en bewegingen gaan inspelen.
+\end{itemize}
+
+\subsubsection{Feedback voor de zintuigen}
 \label{ssubsec:feedback-van-zintuigen}
+Om dus de fysieke onderdompeling te ondersteunen, is er nood aan feedback voor de zintuigen. Denk maar aan een droom, waarbij het ook allemaal niet echt is maar je toch bepaalde gevoelens of zelfs pijn kan voelen. Ook bij virtual reality moeten we het lichaam zoveel mogelijk doen denken dat het zich echt in de virtuele wereld bevind. Momenteel, bij de huidige generatie van virtual reality apparaten, is er al een heleboel feedback aanwezig. Ten eerste is er de feedback op je ogen, je ziet de wereld. Dan heb je feedback op het gehoor, je hoort de wereld. En ten slotte heb je de bewegingen die je me de handen uitvoert, deze kunnen ook gereflecteerd worden in de virtuele wereld.
 
 \subsubsection{Interactiviteit}
 \label{ssubsec:interactiviteit}
+Hier komen de 3 voorgaande elementen samen. Zoals eerder vermeld heeft virtual reality nood aan communicatie die in 2 richtingen gaat. We willen kunnen interacties uitvoeren op de virtuele wereld en deze ook te zien krijgen. Net zoals we bijvoorbeeld bij videospelletje op een gewoon beeldscherm bepaalde knoppen kunnen induwen om zo een respons te zien te krijgen. Het is zeer belangrijk dat deze interactie op een correct manier gebeurt zodat dit geen ongemakken veroorzaakt bij de gebruiker. Dit wordt in hoofdstuk \ref{sec:ervaring-vr-app} goed aangehaald.
 
 \subsection{3D en 4D}
 \label{subsec:3d-4d}
-3D wil letterlijk zeggen driedimensionaal. Hiermee bedoelt men dat iets 3 meetkundige dimensies heeft namelijk diepte, breedte en hoogte. Deze technologie kan men dan gaan toepassen op beeldschermen a.d.h.v. stereoscopie, waar we in hoofdstuk \ref{sec:hoe-werkt-vr} wat meer uitleg over geven. Op deze manier krijgt de gebruiker dus een illusie van diepte. Meestal worden hier dan speciale brillen voor gebruikt ook wel 3D-brillen genoemd. De klassiekere brillen hebben dan een kleurfilter, meestal rood en blauw. Rood laat enkel rood door en blauw enkel blauw. Hiermee kan men dan vanaf 2 perspectieven een blauw afbeelding en een rode afbeelding gaan weergeven waardoor de diepte van een object dus zichtbaar is.
+3D wil letterlijk zeggen driedimensionaal. Hiermee bedoelt men dat iets 3 meetkundige dimensies heeft namelijk diepte, breedte en hoogte. Deze technologie kan men dan gaan toepassen op beeldschermen a.d.h.v. stereoscopie, waar we in hoofdstuk \ref{sec:hoe-werkt-vr} wat meer uitleg over geven. Op deze manier krijgt de gebruiker dus een illusie van diepte. Meestal worden hier dan speciale brillen voor gebruikt, ook wel 3D-brillen genoemd. De klassiekere brillen hebben dan een kleurfilter, meestal rood en blauw. Rood laat enkel rood door en blauw enkel blauw. Hiermee kan men dan vanaf 2 perspectieven een blauwe afbeelding en een rode afbeelding gaan weergeven waardoor de diepte van een object dus zichtbaar is.
 
 3D wordt al veel toegepast in de filmwereld, vooral in de cinema dan. Hierdoor ontstond dan ook de uitgebreidere 4D maar is eerder een marketingterm dan een technologie en wordt bijna uitsluitend in de filmwereld gebruikt als entertainment. Bij 4D gaat men de beelden nog altijd driedimensionaal gaan weergeven maar zorgt men ook voor extra fysieke effecten die synchroon lopen met de film. Als bijvoorbeeld een film zich in het water afspeelt kan men af en toe kleine spatjes water op de kijker schieten.
 
-Het grote verschil hier is de immersion die amper aanwezig is. Je hebt wel een extra dimensie maar je kan niet rond je kijken, dat kan je met een virtual reality headset natuurlijk wel. Daarnaast is interactie met de wereld in de meeste gevallen niet aanwezig, spelconsoles zoals de Nintendo 3DS vormen dan weer een uitzondering. 3D of 4D is dus zeker geen volwaardige virtual reality, maar is wel al een stap in de goede richting.
+Het grote verschil hier is de immersion die amper aanwezig is en afhankelijk van de content ook weinig feedback voor de zintuigen. Er is wel een extra dimensie maar er kan niet rondgekeken worden in tegenstelling tot een VR headset. Interactie met de wereld is ook in de meeste gevallen niet aanwezig, spelconsoles zoals de Nintendo 3DS vormen dan weer een uitzondering. 3D of 4D is dus zeker geen volwaardige virtual reality, maar is wel al een stap in de goede richting.
 
 \subsection{Augmented Reality}
 \label{subsec:augmented-reality}
-Augmented Reality wordt heel veel verward met virtual reality maar zijn toch 2 andere technologieën. Je kan augmented reality gaan vertalen naar toegevoegde realiteit. In tegenstelling tot virtual reality gaat men bij augmented reality letterlijk iets gaan toevoegen aan wat al bestaat. Bij virtual reality gaat men dan iets volledig virtueel gaan scheppen. Aangezien augemented reality iets toevoegt, is er ook niet verplicht nood aan een bril. Vandaag de dag wordt augmented reality regelmatig gebruikt bij de smartphone. Denk maar aan een applicatie waarbij je een object kan afbeelden op een plaats. Bijvoorbeeld een bepaald meubilair die virtueel gegeneerd en getoond wordt in een kamer dat echt bestaat.
+Augmented Reality wordt heel veel verward met virtual reality maar zijn toch 2 andere technologieën. Je kan augmented reality gaan vertalen naar 'toegevoegde realiteit'. In tegenstelling tot virtual reality gaat men bij augmented reality letterlijk iets gaan toevoegen aan wat al bestaat. Bij virtual reality gaat men dan iets volledig virtueel gaan scheppen. Aangezien augemented reality iets toevoegt, is er ook niet verplicht nood aan een bril. Vandaag de dag wordt augmented reality regelmatig gebruikt bij de smartphone. Denk maar aan een applicatie waarbij je een object kan afbeelden op een plaats. Bijvoorbeeld een bepaald meubilair die virtueel gegeneerd en getoond wordt in een kamer dat echt bestaat.
 
 \begin{figure}
 	\centering
@@ -64,11 +75,11 @@ Als we deze 3 karakteristieken toepassen op het voorbeeld van het scorebord, zie
 
 \section{De werking van virtual reality}
 \label{sec:hoe-werkt-vr}
-Er werd al duidelijk gemaakt wat virtual reality precies is, maar het is ook belangrijk te weten hoe de technologie werkt. Er zal hier niet te technisch worden op ingegaan aangezien dit niet enorm relevant is voor deze bachelorproef.
+Er werd al duidelijk gemaakt wat virtual reality precies is en welke andere gelijkaardige vormen er zijn, maar het is ook belangrijk te weten hoe de technologie werkt. Hier gaan we in tegenstelling tot het vorige hoofdstuk, eerder da nadruk leggen op technische gedeelte van virtual reality.
 
 \subsection{Stereoscopie}
 \label{subsec:stereoscopie}
-Bij virtuele werkelijkheid wordt er gebruik gemaakt van een illusie. Dit doet men ten eerste a.d.h.v. stereoscopie. Hierbij gaat men diepte meegeven aan een afbeelding. Dit doet men door 2 afbeeldingen vanaf een verschillende afstand (meestal de afstand tussen de ogen) te maken. Hierna gaat men dit combineren tot één stereoafbeelding. Deze technologie wordt ook gebruikt bij 3D \autocite{Rouse2011}.
+Bij virtuele werkelijkheid wordt er gebruik gemaakt van een illusie. Dit doet men ten eerste a.d.h.v. stereoscopie. Hierbij gaat men diepte meegeven aan een afbeelding. Dit doet men door 2 afbeeldingen vanaf een verschillende afstand (meestal de afstand tussen de ogen) te maken. Hierna gaat men dit combineren tot één stereoafbeelding. \autocite{Rouse2011}.
 
 \begin{figure}
 	\centering
@@ -77,34 +88,43 @@ Bij virtuele werkelijkheid wordt er gebruik gemaakt van een illusie. Dit doet me
 	\label{fig:stereoscopie}
 \end{figure}
 
-Door stereoscopie kan men dus diepte gaan simuleren. Hiermee is al een een grote voorwaarde voldaan om iets realistisch te laten lijken, namelijk 'Immersion' (key elements VR), onderdompeling. Zo kan men beter inschatten hoe ver en hoe groot een object is in de virtuele wereld. Men kan deze 2 afbeeldingen dan gaan tonen door zo een VR headset. Dit kan op meerdere manieren.
+Door stereoscopie kan men dus diepte gaan simuleren. Hiermee is al een een grote voorwaarde voldaan om iets realistisch te laten lijken, namelijk de onderdompeling. Zo kan men beter inschatten hoe ver en hoe groot een object is in de virtuele wereld. Men kan deze 2 afbeeldingen dan gaan tonen door zo een VR headset. Dit kan op meerdere manieren.
 \begin{itemize}
-	\item Ofwel maakt men gebruik van een smartphone waarbij men dan een headset heeft waarbij gebruik wordt gemaakt van lenzen. Op de smartphone worden er 2 beelden geprojecteerd en zorgen de lenzen ervoor dat de omgeving ruimer lijkt dan het werkelijk is. Hiermee kan men dan op een goedkope manier virtuele realiteit gaan tonen. Maar dit is meestal ten koste van de kwaliteit doordat de resolutie op smartphones meestal te laag is voor virtuele werkelijkheid scherp te kunnen weergeven.
+	\item Ofwel maakt men gebruik van een smartphone waarbij men dan een headset heeft waarbij gebruik wordt gemaakt van lenzen. Op de smartphone worden er 2 beelden geprojecteerd en kan men dan de smartphone in deze headset gaan steken. De lenzen zorgen er dan voor dat de omgeving ruimer lijkt dan het werkelijk is. In combinatie met een gyroscoop kan men dan gaan rondkijken en deze wereld terwijl de smartphone al het rekenwerk doet. Men kan dan op een goedkope manier virtuele realiteit gaan tonen. Dit is helaas meestal ten koste van de kwaliteit doordat de resolutie op smartphones meestal te laag is voor virtuele werkelijkheid scherp te kunnen weergeven.
 	
-	\item Daarnaast heeft men de meer geavanceerde virtuele headsets. Hierbij is er per oog een scherm met een hoge resolutie. Deze tonen dan elk hun beeld en simuleren dan de virtuele omgeving. Deze headsets worden dan ook het meest gebruikt bij gaming, maar zijn automatisch ook een pak duurder en vereisen een krachtige computer.
+	\item Daarnaast heeft men de meer geavanceerde virtuele headsets. Hierbij is er per oog een scherm aanwezig met een hoge resolutie. Deze tonen dan elk hun beeld en simuleren dan de virtuele omgeving. Deze headsets worden dan ook het meest gebruikt bij VR videospelletjes. Deze zijn automatisch ook een pak duurder en vereisen een krachtige computer.
 \end{itemize}
 
 \subsection{De virtuele ervaring}
 \label{subsec:vr-ervaring}
-In hoofdstuk \ref{subsec:3d-4d} hebben we al vermeld dat het niet enkel door de extra dimensie is dat iets al virtual reality is. Er zijn nog meerdere aspecten waarmee men rekening moet houden bij een virtuele headset. Zo zijn de beelden per seconde, ofwel frames per second (FPS), van de beeldschermen in die headsets zeer belangrijk. De 2 bekendste virtuele headsets momenteel op de markt, die dan vooral naar gaming gericht zijn, zijn de HTC vive en de Oculus Rift. Beide headsets maken gebruik van een 90Hz scherm. Dat wil zeggen dat er maximaal 90 beelden per seconde kunnen worden weergegeven. Hoe sneller, hoe realistischer. Een andere bekende headset, de Playstation VR, draait maar op 60Hz, 60 beelden per seconde dus. Bij smartphones kan dit nog lager liggen, tot 30Hz zelfs. Het is dus duidelijk dat de HTC vive en Oculus Rift een realistische ervaring zullen geven dan de Playstation VR of de smartphone.
+In hoofdstuk \ref{subsec:3d-4d} hebben we al vermeld dat het niet enkel door de extra dimensie is dat iets al virtual reality is. Er zijn nog meerdere aspecten waarmee men rekening moet houden bij een virtuele headset.
 
-Wat ook en grote impact kan hebben op de ervaring is latency. Latency is de hoeveelheid tijd er tussen zit als je een bepaalde input geeft en die dan wordt weergegeven in de virtuele wereld. Een goed voorbeeld hiervan is het moment dat je een stap vooruit zet, zal er een bepaalde hoeveelheid tijd zijn tot je vooruit beweegt in de virtuele wereld. Bij een te hoge latency zal de virtuele ervaring als heel slecht ervaren worden en zelfs vanaf er al een latency is van 20ms zal het menselijk brein duidelijk onderscheidt kunnen maken tussen iets dat echt is en iets dat vals is. Dit zal niet alleen meiden tot een mindere ervaring voor de gebruiker maar kan ook tot fysieke pijn leiden zoals motion sickness, iets dat ook voorkomt bij onze moderne manieren van transport bij bijvoorbeeld autorijden (wagenziekte). Het is dus zeer belangrijk dat deze latency zo laag mogelijk is, niet alleen voor de ervaring maar ook om ongemakkelijkheid bij de gebruiker te vermijden.
+\subsubsection{Frames per second}
+\label{ssubsec:fps}
+De beelden per seconde, ofwel frames per second (FPS), van de beeldschermen in VR headsets zijn zeer belangrijk. De 2 bekendste virtuele headsets momenteel op de markt, die dan vooral naar gaming gericht zijn, zijn de HTC vive en de Oculus Rift. Beide headsets maken gebruik van een 90Hz scherm. Dat wil zeggen dat er maximaal 90 beelden per seconde kunnen worden weergegeven. Hoe sneller, hoe realistischer. Een andere bekende headset, de Playstation VR, draait maar op 60Hz, 60 beelden per seconde dus. Bij smartphones kan dit nog lager liggen, tot 30Hz zelfs. Het is dus duidelijk dat de HTC vive en Oculus Rift een realistische ervaring zullen geven dan de Playstation VR of de smartphone.
 
-Ten laatste is de FOV, field of view ofwel het gezichtsveld in de virtuele wereld ook zeer belangrijk. Een mens ziet ongeveer 180° rond zich, maar dit kan oplopen tot 270° als er met de ogen bewogen wordt. De meeste headsets hebben maar een gezichtsveld tussen de 90° en 110°, wat dus eigenlijk niet genoeg is. Dit heeft dan ook een impact op de virtuele ervaring en kan ook hier opnieuw leiden tot motion sickness.
+\subsubsection{Latency}
+\label{ssubsec:fps}
+Latency heeft ook een zeer grote impact op de ervaring. Latency is de hoeveelheid tijd er tussen zit als je een bepaalde input geeft en die dan wordt weergegeven in de virtuele wereld. Een goed voorbeeld hiervan is het moment dat je een stap vooruit zet, zal er een bepaalde hoeveelheid tijd zijn tot je vooruit beweegt in de virtuele wereld. Bij een te hoge latency zal de virtuele ervaring als heel slecht ervaren worden en zelfs vanaf er al een latency is van 20ms zal het menselijk brein duidelijk onderscheidt kunnen maken tussen iets dat echt is en iets dat vals is. Dit zal niet alleen meiden tot een mindere ervaring voor de gebruiker maar kan ook tot fysieke pijn leiden zoals motion sickness, iets dat ook voorkomt bij onze moderne manieren van transport bij bijvoorbeeld autorijden (wagenziekte). Het is dus zeer belangrijk dat deze latency zo laag mogelijk is, niet alleen voor de ervaring maar ook om ongemakkelijkheid bij de gebruiker te vermijden.
 
-Als er dus niet wordt voldaan aan een hoge FPS, voldoende FOV en een lage latency zal dit dus een impact hebben op de virtuele ervaring. Hierdoor ontstaan dan fysieke ongemakken omdat het menselijk brein weet dat er iets niet klop. Het is dus zeer belangrijk aan ontwikkelaars van virtuele applicaties om hiermee rekening te houden. Als een applicatie je ziek maakt, dan ga je dat automatisch ook minder of zelfs niet meer gebruiken.
+\subsubsection{Field of view}
+\label{ssubsec:fps}
+Field of view (FOV) ofwel het gezichtsveld is in de virtuele wereld ook zeer belangrijk. Een mens ziet ongeveer 180° rond zich, maar dit kan oplopen tot 270° als er met de ogen bewogen wordt. De meeste headsets hebben maar een gezichtsveld tussen de 90° en 110°, wat dus eigenlijk niet genoeg is. Dit heeft dan ook een impact op de virtuele ervaring en kan ook hier opnieuw leiden tot motion sickness.
+
+Als er dus niet wordt voldaan aan een hoge FPS, voldoende FOV en een lage latency zal dit  een impact hebben op de virtuele ervaring. Hierdoor ontstaan dan fysieke ongemakken omdat het menselijk brein weet dat er iets niet klop. Het is dus zeer belangrijk aan ontwikkelaars van virtuele applicaties om hiermee rekening te houden. Als een applicatie je ziek maakt, dan ga je dat automatisch ook minder of zelfs niet meer gebruiken.
 
 \subsection{Interactie met de virtuele wereld}
 \label{subsec:interactie-vr}
-Vandaag zijn we in staat om een virtuele wereld zeer realistisch weer te geven, maar toch blijf interactie met de virtuele wereld een moeilijk aspect van virtual reality en het is nochtans één van de belangrijkste. Wat men al sowieso goed doet, is rond je kunnen kijken in de virtuele wereld, dit werd al in de introductie vermeldt en gebeurt aan de hand van een gyroscoop. Maar hoe kan men dan bewegingen van de echte wereld gaan omzetten in die virtuele wereld?
+We  zijn al in staat om een virtuele wereld zeer realistisch weer te geven, maar interactie is momenteel nog een moeilijk aspect van virtual reality. Wat men al sowieso goed doet, is rond je kunnen kijken in de virtuele wereld aan de hand van een gyroscoop. Maar hoe kan men dan bewegingen van de echte wereld gaan omzetten in die virtuele wereld?
 
-Dit kan ten eerste gebeuren aan de hand van afstandsbediening. Men kan gebruik maken van een simpele afstandbediening met joystick. Waarbij men dus gewoon in de virtuele wereld gaat bewegen als hoe men dit zou doen in een videospel, maar dit is natuurlijk niet de perfecte ervaring aangezien er weinig rekening wordt gehouden met hoe de handen bewegen. Een betere oplossing hiervoor waren dan de controllers die ook bewegingen registreren (denk maar aan de Nintendo Wii). Dit is al een grote stap vooruit. Verder gaan we hier niet dieper op ingaan.
+Dit kan gebeuren a.d.h.v. een afstandsbediening. Men kan gebruik maken van een simpele gamecontrollers met een joystick waarbij men dus gewoon in de virtuele wereld gaat bewegen als hoe men dit zou doen in een videospel. Dit is natuurlijk niet de perfecte ervaring aangezien er weinig rekening wordt gehouden met hoe de handen of voeten bewegen. Om dit dan te gaan oplossen wordt er gebruik gemaakt van motion controllers, bewegingsbesturing. Met deze controllers kan men zeer accuraat de bewegingen van de handen gaan volgen. Voor de voeten bestaan er ook al oplossingen, maar deze zijn natuurlijk minder praktisch. Er zijn al zogenaamde loopbanden die ervoor zorgen dat men kan stappen in de virtuele wereld zonder dat men in een bepaalde richting stapt in de echte wereld. Dit zijn natuurlijk vrij lompe werktuigen en zijn daarnaast niet goedkoop. Daarom wordt er voor verplaatsing nog steeds vooral gekozen voor een simpele joystick.
 
-... afwerken
+Voor mobile is het natuurlijk wat moeilijker om een joystick te gebruiken, niet iedereen beschikt hierover. Daarom wordt er bij mobile VR een zogenaamde 'gaze' techniek gebruikt. Dit komt ook zeker terug in hoofdstuk \ref{ch:react-360} over react 360. Gaze is zoals de vertaling zegt, staren. In plaats van dat je dus op een knop gaat drukken is het de bedoeling dat je bepaalde knoppen gaat aanstaren voor een korte tijd. Dit is een zeer handige oplossing die gemakkelijk kan toegepast worden om het doelpubliek voor een VR applicatie groter te maken. Maar helaas zorgt deze gaze er wel voor dat de gebruiker minder snel kan reageren op bepaalde acties die in de virtuele wereld gebeuren.
+
 
 \section{De gevolgen voor de gebruiker}
 \label{sec:gevolgen-vr}
-Een virtual reality app is erg verschillend van een gewone webapplicatie. Hierbij is het doel om de gebruiker zich in de wereld te laten voelen. Zoals we al uitgebreid in hoofdstuk \ref{sec:ervaring-vr-app} hebben aangehaald kan een slechte opbouw van een virtuele applicatie lijden tot 'fysieke pijn' bij de gebruiker. Hier hebben we het dan eerder over onschuldigde kwaaltjes zoals hoofdpijn, desoriëntatie, misselijkheid, ... Daarom is het belangrijk voor de ontwikkelaar dat hij/zij hiermee rekening houdt bij het ontwikkelen van een VR applicatie. Het is immers niet de bedoeling dat een gebruiker de applicatie niet kan gebruiken omwille van deze fysieke gevolgen.
+Een virtual reality app is erg verschillend van een gewone webapplicatie. Hierbij is het doel om de gebruiker zich in de wereld te laten voelen. Zoals we al in hoofdstuk \ref{sec:ervaring-vr-app} hebben aangehaald kan een slechte opbouw van een virtuele applicatie lijden tot 'fysieke pijn' bij de gebruiker. Hier hebben we het dan eerder over onschuldige kwaaltjes zoals hoofdpijn, desoriëntatie, misselijkheid, ... Daarom is het belangrijk voor de ontwikkelaar dat hij/zij hiermee rekening houdt bij het ontwikkelen van een VR applicatie. Het is immers niet de bedoeling dat een gebruiker de applicatie niet kan gebruiken omwille van deze fysieke gevolgen.
 
 \subsection{User Experience}
 \label{subsec:user-experience}
@@ -112,13 +132,13 @@ Het is van belang dat de user experience bij een virtual reality applicatie opti
 
 Ten eerste is er \textbf{Comfort}. Deze zijn eigenlijk ook al zeer duidelijk aangehaald in hoofdstuk \ref{sec:ervaring-vr-app}. Met comfort heeft men het over de ervaring voor de gebruiker die bepaald wordt door onze zintuigen. Het belangrijkste is dus om de manier waarop onze zintuigen inwerken op de virtuele technologie. De hardware is hiervoor dus het meeste verantwoordelijk.
 
-Dan komt \textbf{Interpreteerbaarheid}. Hoe realistisch is de virtuele wereld nog? Men bedoelt hier eerder het verschil tussen wat nog non-fictie is en wat fictie is. Een ervaring waarbij je door het heelal wordt gezogen op een ultieme snelheid met beelden die je nog nooit eerder gezien hebt zal dus voor de gebruiker zeer overweldigend zijn. Men kan wel enkele regels van de fysica gaan aanpassen, maar het blijft belangrijk dat deze ervaringen uitbreidingen moeten vormen op het echte leven dan een volledig nieuwe wereld te zijn.
+Dan komt \textbf{Interpreteerbaarheid}. Hoe realistisch is de virtuele wereld nog? Men bedoelt hier eerder het verschil tussen wat nog non-fictie is en wat fictie is. Een ervaring waarbij je door het heelal wordt gezogen op een ultieme snelheid met beelden die je nog nooit eerder gezien hebt zal dus voor de gebruiker zeer overweldigend zijn. Men kan wel enkele regels van de fysica gaan aanpassen, maar het blijft belangrijk dat deze ervaringen uitbreidingen vormen op het echte leven. Er moet natuurlijk ook nog iets 'virtueel' aan zijn, anders zou een virtuele applicatie ontwikkelen weinig nut hebben.
 
 Vervolgens heb je \textbf{Bruikbaarheid}. Dit hangt af van applicatie tot applicatie, maar hier gaat het dus over hoe nuttig iets was, wat was de waarde achter de VR ervaring. Enkele voorbeelden hiervan zijn: Was het verhaal achter de film realistisch? Was de virtuele wandeling door het huis een aanzet tot denken om het huis te kopen? Het gaat hier dus vooral over de design van de applicatie.
 
-Ten slotte heb je nog \textbf{Genot}. Dit is dan eigenlijk een uitbreiding op de bruikbaarheid. Hier heeft het men dus over het feit of je meer wilt van je virtuele ervaring. Denk hier maar aan de wandeling door het virtuele huis, heeft dat ook werkelijk je aangezet om het huis wel degelijk aan te kopen? Hier is de aandacht voor detail zeer belangrijk.
+Ten slotte heb je nog \textbf{Genot}. Dit is dan eigenlijk een uitbreiding op de bruikbaarheid. Hier heeft het men dus over het feit of je meer wilt van je virtuele ervaring. Denk hier maar aan de wandeling door het virtuele huis, heeft dat ook werkelijk je aangezet om het huis te kopen? Hier is de aandacht voor detail zeer belangrijk.
 
-Het is duidelijk dat de 2 belangrijkste componenten van een goede user experience bij een VR applicatie het comfort en de interpreteerbaarheid zijn aangezien deze vooral de nadruk leggen op de aanwezigheid in de virtuele wereld. 
+Het is duidelijk dat de 2 belangrijkste componenten van een goede user experience bij een VR applicatie het comfort en de interpreteerbaarheid zijn aangezien deze vooral de nadruk leggen op de aanwezigheid in de virtuele wereld, de onderdompeling. Bij bruikbaarheid en genot ligt de nadruk meer op de details van de applicatie, het design.
 
 \begin{figure}
 	\centering
@@ -129,9 +149,7 @@ Het is duidelijk dat de 2 belangrijkste componenten van een goede user experienc
 
 \section{JavaScript, HTML en CSS}
 \label{sec:frameworks}
-Javascript is de taal waarop het framework ReactJS gebaseerd is. De taal is een objectgeoriënteerde taal maar kan ook zeker gebruikt worden als een functionele programmeertaal. Samen met 
-HTML, CSS en Javascript vormen de basis van de hedendaagse websites op het wereldwijde web de dag van vandaag. Bij HTML gaat het over de inhoud van de pagina ,bij CSS over hoe het eruitziet en javascript zorgt dan voor de interactiviteit met de webpagina. Denk maar aan de animatie bij een uitschuifbaar menu of tekst die verandert als je op een knop klikt.
-
+Javascript is de taal waarop het framework ReactJS gebaseerd is. De taal is een objectgeoriënteerde taal maar kan ook zeker gebruikt worden als een functionele programmeertaal. Samen met HTML, CSS en Javascript vormt het de basis van een groot aantal websites op het huidige wereldwijde web. Bij HTML gaat het over de inhoud van de pagina ,bij CSS over hoe het eruitziet en javascript zorgt dan voor de interactiviteit met de webpagina. Denk maar aan de animatie bij een uitschuifbaar menu of tekst die verandert als je op een knop klikt.
 
 \subsection{HTML}
 HTML staat voor \textbf{HyperText Markup Language} en is een opmaaktaal voor documenten die werd uitgebracht in 1993. De taal HTML bestaat uit verschillende HTML elementen. Met behulp van deze elementen, ook wel tags genoemd, kan men structuur gaan creëren in stukken tekst. Een tag ziet er als volgt uit: '\lstinline[basicstyle=\ttfamily\color{red}]|<img />|'. Met dit element wil men een image aanhalen in het document. Daarnaast hebben deze elementen attributen. Deze attributen kunnen dan een bepaalde waarde hebben die het HTML element zal beinvloeden. Bij deze \lstinline[basicstyle=\ttfamily\color{red}]|<img />| tag kunnen we een attribuut '\lstinline[basicstyle=\ttfamily\color{red}]|src|' toevoegen. Dit attribuut verwijst dan naar een source, een bron. Deze bron is dan de locatie van een afbeelding. Door het element en de attribuut weet HTML precies wat hij moet weergeven. Een html element zal altijd als volgt opgebouwd zijn: 
@@ -290,7 +308,7 @@ Aan het gebruiken van frameworks zijn een groot aantal voordelen verbonden \auto
 
 \section{De mogelijke VR frameworks naast React 360}
 \label{sec:frameworks-alternatieven}
-Het ontwikkelen van virtual reality applicaties gaat natuurlijk niet zomaar en vereisen een goede technische kennis. Zeker het feit dat je in een wereld zit waar er volledig om zich kan worden gekeken en ook eventueel bewogen worden is natuurlijk een grote uitdaging. Om dit allemaal makkelijker te maken zijn er momenteel al een aantal frameworks beschikbaar zoals React 360 maar naast dit framework bestaan er nog een aantal andere mogelijke frameworks \autocite{UIUXLab2017}. Wat opvalt is dat enkel A-Frame en React360 momenteel nog actieve projecten zijn. 
+Het ontwikkelen van virtual reality applicaties gaat natuurlijk niet zomaar en vereisen een goede technische kennis. Zeker het feit dat je in een wereld zit waar er volledig om zich kan worden gekeken en ook eventueel bewogen worden is natuurlijk een grote uitdaging. Om dit allemaal makkelijker te maken zijn er momenteel al een aantal frameworks beschikbaar zoals React 360. Naast dit framework bestaan er nog een aantal andere mogelijke frameworks \autocite{UIUXLab2017}. Wat opvalt is dat enkel A-Frame en React360 momenteel nog actieve projecten zijn. 
 
 \subsection{A-Frame}
 \label{subsec:a-frame}

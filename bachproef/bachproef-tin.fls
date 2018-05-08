@@ -432,13 +432,13 @@ INPUT standvanzaken.tex
 INPUT standvanzaken.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT img/Milgram.jpg
 INPUT ./img/Milgram.jpg
 INPUT ./img/Milgram.jpg
 INPUT ./img/Milgram.jpg
 INPUT ./img/Milgram.jpg
-INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg

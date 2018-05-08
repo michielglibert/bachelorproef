@@ -18,55 +18,61 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Virtual reality}{21}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Een virtuele wereld}{22}{section*.7}
+\contentsline {subsubsection}{Een virtuele wereld}{21}{section*.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Immersion/Onderdompeling}{22}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Feedback van de zintuigen}{22}{section*.9}
+\contentsline {subsubsection}{Feedback voor de zintuigen}{22}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Interactiviteit}{22}{section*.10}
+\contentsline {subsubsection}{Interactiviteit}{23}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}3D en 4D}{22}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}3D en 4D}{23}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Augmented Reality}{22}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Augmented Reality}{23}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}De werking van virtual reality}{23}{section.2.2}
+\contentsline {section}{\numberline {2.2}De werking van virtual reality}{24}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Stereoscopie}{23}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Stereoscopie}{24}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}De virtuele ervaring}{24}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}De virtuele ervaring}{25}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Interactie met de virtuele wereld}{25}{subsection.2.2.3}
+\contentsline {subsubsection}{Frames per second}{26}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}De gevolgen voor de gebruiker}{25}{section.2.3}
+\contentsline {subsubsection}{Latency}{26}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}User Experience}{26}{subsection.2.3.1}
+\contentsline {subsubsection}{Field of view}{26}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}JavaScript, HTML en CSS}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.2.3}Interactie met de virtuele wereld}{26}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}HTML}{27}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.3}De gevolgen voor de gebruiker}{27}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}CSS}{28}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.3.1}User Experience}{27}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Belangrijkste onderdelen}{29}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.4}JavaScript, HTML en CSS}{29}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Objecten}{29}{section*.11}
+\contentsline {subsection}{\numberline {2.4.1}HTML}{29}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Variabelen}{30}{section*.12}
+\contentsline {subsection}{\numberline {2.4.2}CSS}{30}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functies}{31}{section*.13}
+\contentsline {subsection}{\numberline {2.4.3}Belangrijkste onderdelen}{30}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Asynchroon programmeren}{31}{section*.14}
+\contentsline {subsubsection}{Objecten}{30}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Frameworks}{31}{section*.15}
+\contentsline {subsubsection}{Variabelen}{31}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}De mogelijke VR frameworks naast React 360}{32}{section.2.5}
+\contentsline {subsubsection}{Functies}{32}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}A-Frame}{32}{subsection.2.5.1}
+\contentsline {subsubsection}{Asynchroon programmeren}{33}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Primrose}{32}{subsection.2.5.2}
+\contentsline {subsubsection}{Frameworks}{33}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Agron.js}{33}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.5}De mogelijke VR frameworks naast React 360}{33}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}A-Frame}{34}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Primrose}{34}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Agron.js}{34}{subsection.2.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{35}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -120,5 +126,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.5}Verwachte conclusies}{42}{section.A.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{43}{appendix*.16}
+\contentsline {chapter}{Bibliografie}{43}{appendix*.19}
 \contentsfinish 
