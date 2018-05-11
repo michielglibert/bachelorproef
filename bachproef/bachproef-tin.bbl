@@ -69,54 +69,6 @@
       \field{type}{resreport}
       \field{year}{1997}
     \endentry
-    \entry{Mozilla2018}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=dcb9f7e1ce5632ed0bc5e179e07bdf83}{%
-           family={contibutors},
-           familyi={c\bibinitperiod},
-           given={Mozilla},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{dcb9f7e1ce5632ed0bc5e179e07bdf83}
-      \strng{fullhash}{dcb9f7e1ce5632ed0bc5e179e07bdf83}
-      \strng{authornamehash}{dcb9f7e1ce5632ed0bc5e179e07bdf83}
-      \strng{authorfullhash}{dcb9f7e1ce5632ed0bc5e179e07bdf83}
-      \field{sortinit}{c}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{JavaScript}
-      \field{year}{2018}
-      \verb{url}
-      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
-      \endverb
-    \endentry
-    \entry{WikipediaVR2018}{online}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={Wikipedia},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \field{sortinit}{c}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Virtuele werkelijkheid}
-      \field{year}{2018}
-      \verb{url}
-      \verb https://nl.wikipedia.org/wiki/Virtuele_werkelijkheid
-      \endverb
-    \endentry
     \entry{Cronin2015}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8d1288f74791a41331a7352c2d74adec}{%
@@ -143,37 +95,6 @@
       \verb{url}
       \verb https://medium.com/@beaucronin/the-hierarchy-of-needs-in-virtual-reality-development-4333a4833acc
       \endverb
-    \endentry
-    \entry{Doll1954}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=42f5dae45a7412f89d24f542563044fd}{%
-           family={Doll},
-           familyi={D\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-        {{uniquename=0,hash=4b1bfa9b863832922006d34e1289f84d}{%
-           family={Hill},
-           familyi={H\bibinitperiod},
-           given={A\bibnamedelima Bradford},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{866c0a239f78c0ee733514213bd5efa4}
-      \strng{fullhash}{866c0a239f78c0ee733514213bd5efa4}
-      \strng{authornamehash}{866c0a239f78c0ee733514213bd5efa4}
-      \strng{authorfullhash}{866c0a239f78c0ee733514213bd5efa4}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{British Medical Journal}
-      \field{number}{7455}
-      \field{title}{The mortality of doctors in relation to their smoking habits: a preliminary report}
-      \field{volume}{328}
-      \field{year}{1954}
-      \field{pages}{1529\bibrangedash 1533}
-      \range{pages}{5}
     \endentry
     \entry{Korotya2018}{online}{}
       \name{author}{1}{}{%
@@ -228,6 +149,27 @@
       \verb{url}
       \verb https://uiux.cc/blog/5-web-vr-frameworks-to-help-developers-build-interesting-design/
       \endverb
+    \endentry
+    \entry{Mangialardi2017}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2640fce7f42dca64e56c00ec1b77b1cb}{%
+           family={Mangialardi},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{fullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{authornamehash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{authorfullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn React VR}
+      \field{year}{2017}
     \endentry
     \entry{Rouse2011}{online}{}
       \name{author}{1}{}{%

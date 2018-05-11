@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}De virtuele ervaring}{25}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Frames per second}{26}{section*.11}
+\contentsline {subsubsection}{Frames per second}{25}{section*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Latency}{26}{section*.12}
 \defcounter {refsection}{0}\relax 
@@ -48,13 +48,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}User Experience}{27}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}JavaScript, HTML en CSS}{29}{section.2.4}
+\contentsline {section}{\numberline {2.4}JavaScript, HTML en CSS}{28}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}HTML}{29}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}CSS}{30}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Belangrijkste onderdelen}{30}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Javascript}{30}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Objecten}{30}{section*.14}
 \defcounter {refsection}{0}\relax 
@@ -66,7 +66,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Frameworks}{33}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}De mogelijke VR frameworks naast React 360}{33}{section.2.5}
+\contentsline {section}{\numberline {2.5}De mogelijke VR frameworks naast React 360}{34}{section.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}A-Frame}{34}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
@@ -78,9 +78,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Het framework, React 360, bestuderen}{35}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Ervaring van virtual reality voor een gebruiker}{35}{section.3.2}
+\contentsline {section}{\numberline {3.2}Performantie van React 360}{35}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}De doeleinden en stand van zaken van React 360}{36}{section.3.3}
+\contentsline {section}{\numberline {3.3}Ervaring van virtual reality voor een gebruiker}{35}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{App 1}{36}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{App 2}{36}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{App 3}{36}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}De doeleinden en stand van zaken van React 360}{36}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}React 360}{37}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -126,5 +134,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.5}Verwachte conclusies}{42}{section.A.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{43}{appendix*.19}
+\contentsline {chapter}{Bibliografie}{43}{appendix*.22}
 \contentsfinish 

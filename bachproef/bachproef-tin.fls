@@ -424,12 +424,12 @@ INPUT inleiding.tex
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/times/ptmr8c.vf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT standvanzaken.tex
+INPUT standvanzaken.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/times/ptmb8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT standvanzaken.tex
-INPUT standvanzaken.tex
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
