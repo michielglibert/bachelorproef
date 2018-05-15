@@ -2309,7 +2309,8 @@
     <bcf:citekey order="5">Cronin2015</bcf:citekey>
     <bcf:citekey order="6">Korotya2018</bcf:citekey>
     <bcf:citekey order="7">UIUXLab2017</bcf:citekey>
-    <bcf:citekey order="8">Mangialardi2017</bcf:citekey>
+    <bcf:citekey order="8">Chima2017</bcf:citekey>
+    <bcf:citekey order="9">Mangialardi2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="apa/global/" type="entry" sortscheme="apa" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

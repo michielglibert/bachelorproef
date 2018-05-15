@@ -69,6 +69,33 @@
       \field{type}{resreport}
       \field{year}{1997}
     \endentry
+    \entry{Chima2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6ab333196e7d4aa70a4a39d18e220642}{%
+           family={Chima},
+           familyi={C\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ab333196e7d4aa70a4a39d18e220642}
+      \strng{fullhash}{6ab333196e7d4aa70a4a39d18e220642}
+      \strng{authornamehash}{6ab333196e7d4aa70a4a39d18e220642}
+      \strng{authorfullhash}{6ab333196e7d4aa70a4a39d18e220642}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{10}
+      \field{title}{Understanding State in React Components}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://dev.to/sarah_chima/understanding-state-in-react-components-1f1
+      \endverb
+    \endentry
     \entry{Cronin2015}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=8d1288f74791a41331a7352c2d74adec}{%

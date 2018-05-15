@@ -212,6 +212,8 @@ INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/titling/titl
 INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/titling/titling.sty
 INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
 INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
+INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/underscore/underscore.sty
+INPUT C:/Users/Michiel Glibert/AppData/Roaming/MiKTeX/2.9/tex/latex/underscore/underscore.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/avant.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/avant.sty
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/mathptmx.sty
@@ -369,6 +371,13 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagk8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagk8r.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1pag.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1pag.fd
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagk8c.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagk8c.vf
 OUTPUT bachproef-tin.toc
 INPUT bachproef-tin.lof
 INPUT bachproef-tin.lof
@@ -421,9 +430,6 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmri7t.tfm
 OUTPUT bachproef-tin.lol
 INPUT inleiding.tex
 INPUT inleiding.tex
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
-INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ts1ptm.fd
-INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/times/ptmr8c.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT standvanzaken.tex
@@ -434,11 +440,6 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
-INPUT img/Milgram.jpg
-INPUT ./img/Milgram.jpg
-INPUT ./img/Milgram.jpg
-INPUT ./img/Milgram.jpg
-INPUT ./img/Milgram.jpg
 INPUT img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg
@@ -462,6 +463,30 @@ INPUT virtualreality.tex
 INPUT virtualreality.tex
 INPUT reactvr.tex
 INPUT reactvr.tex
+INPUT img/ThinkingInReact.png
+INPUT ./img/ThinkingInReact.png
+INPUT ./img/ThinkingInReact.png
+INPUT ./img/ThinkingInReact.png
+INPUT ./img/ThinkingInReact.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8c.tfm
+INPUT img/equirectangular.png
+INPUT ./img/equirectangular.png
+INPUT ./img/equirectangular.png
+INPUT ./img/equirectangular.png
+INPUT ./img/equirectangular.png
+INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8c.vf
+INPUT img/flexbox.png
+INPUT ./img/flexbox.png
+INPUT ./img/flexbox.png
+INPUT ./img/flexbox.png
+INPUT ./img/flexbox.png
+INPUT img/3daxis.png
+INPUT ./img/3daxis.png
+INPUT ./img/3daxis.png
+INPUT ./img/3daxis.png
+INPUT ./img/3daxis.png
+INPUT applicaties.tex
+INPUT applicaties.tex
 INPUT conclusie.tex
 INPUT conclusie.tex
 INPUT ../voorstel/voorstel-inhoud.tex
