@@ -135,6 +135,7 @@ Bij dit voorbeeld hebben we de een button gedefenieerd met de toegevoegde prop \
 
 \section{Werking van React 360}
 \label{sec:werking-react360}
+\autocite{Bieronski2016}
 
 \section{Enkele belangrijke componenten}
 \label{sec:reactvr-componenten}
@@ -255,7 +256,7 @@ const eenSurface = new Surface(
 
 Er wordt dus een breedte (500) en een hoogte (400) voor de surface gedifinieerd. Daarnaast wordt er ook nog een vorm toegevoegd als argument. Je hebt 2 vormen van een surface, namelijk een 'Cylinder' of 'Flat' surface. Bij een cylinder surface gaat men dus de 2D inhoud gaan projecten in de vorm van een cylinder, rondom de gebruiker. Het grote voordeel hieraan is is dat je vanaf elk perspectief je recht op de 2D interface gaat kijken. Bij een flat of vlakke surface gaat men de 2D interface dan zoals de naam zegt, vlak gaan plaatsen. Het grote verschil is dus dat de inhoud niet altijd van hetzelfde perspectief wordt bekeken.
 
-Surface zijn zeer flexibel. Je kan ze gemakkelijk gaan bewerken door functies zoals \lstinline[basicstyle=\ttfamily\color{red}]|setShape| te gaan gebruiken waarbij je de surface van een cylinder naar een vlakke surface kan aanpassen of omgekerd. Ook de hoogte en breedte van surfaces kan je perfect in React aanpassen. Het is dus ook perfect mogelijk om meerdere surfaces naast mekaar te gaan gebruiken of om eventueel ook meerdere componenten in 1 surface te gaan stoppen. 
+Surfaces zijn zeer flexibel. Je kan ze gemakkelijk gaan bewerken door functies zoals \lstinline[basicstyle=\ttfamily\color{red}]|setShape| te gaan gebruiken waarbij je de surface van een cylinder naar een vlakke surface kan aanpassen of omgekerd. Ook de hoogte en breedte van surfaces kan je perfect in React aanpassen. Het is dus ook perfect mogelijk om meerdere surfaces naast mekaar te gaan gebruiken of om eventueel ook meerdere componenten in 1 surface te gaan stoppen. 
 
 Aangezien er meerdere componenten kunnen worden gestopt in 1 surface is er ook nood aan een duidelijke manier om deze componenten te ordenen. Dit is net hetzelfde als dat bij React Native wordt gebruikt namelijk flexbox. Flexbox wordt ook al veel gebruikt in gewone webpagina's en zorgt vooral voor een consistente layout op alle schermgroottes.
 
@@ -272,18 +273,18 @@ Het is ook mogelijk om 3D objecten te gaan gebruiken in React 360. Dit zijn obje
 
 Het verschil met 3D objecten en 2D user interfaces is dat deze niet aan een surface moeten worden toegevoegd maar aan een 'Location'. Deze locations zijn eigenlijk gewoonweg punten in de omgeving waar je de 3D objecten kan gaan plaatsen. Deze gaan declareren in de code lijkt ook  veel op het declareren van een surface, enkel hier is er ook nood aan de X, Y en Z coördinaten. Waarbij X+ dus hetgeen rechts van de gebruiker voorstelt, Y+ de hoogte en Z+ hetgeen achter de gebruiker. De eenheid die hier gebruikt wordt is meter.
 
-\begin{figure}[h]
+\begin{lstlisting}[frame=single, caption=Voorbeeld van een surface]
+import {Location} from 'react-360-web';
+
+const location = new Location([0, -1, -2]);
+\end{lstlisting}
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{3daxis.png}
 	\caption{De X, Y en Z assen.}
 	\label{fig:xyz-axis}
 \end{figure}
-
-\begin{lstlisting}[frame=single, caption=Voorbeeld van een surface]
-mport {Location} from 'react-360-web';
-
-const location = new Location([0, -1, -2]);
-\end{lstlisting}
 
 Om 3D objecten van de opgenoemde formaten in onze applicatie te krijgen moeten we gebruik maken an het Entity component. Met dit component kunnen we dan ook de grootte en richting van dit 3D object gaan aanpassen. Dit gebeurt door \lstinline[basicstyle=\ttfamily\color{red}]|translate| of \lstinline[basicstyle=\ttfamily\color{red}]|rotateX|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateY|\lstinline[basicstyle=\ttfamily\color{red}]|rotateZ| toe te voegen aan het entity component. Bij rotate worden dan de graden opgegeven en bij translate de coordinaten ten opzichte van de gebruiker. Dit is heel gemakkelijk om in code te gaan gebruiken:
 
@@ -301,14 +302,45 @@ Hierbij draaien we dus het 3D object met 90 graden volgens de Y as en verplaatse
 
 \subsection{Geluid}
 \label{subsec:Geluid}
-Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien. 
+Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien en ook net zoals bij videos, kan je functies gaan uitvoeren die het volume kunnen aanpassen, audio dempen, ... De implementatie hiervan is ook zeer gelijkaardig:
+
+\begin{lstlisting}[frame=single, caption=Voorbeeld van een Entity component]
+import { asset, NativeModules } from 'react-360';
+const { AudioModule } = NativeModules;
+
+AudioModule.playEnvironmental({
+	source: asset('audio.mp3'),
+});
+\end{lstlisting}
+
+Omdat een virtual reality wereld steeds moet communiceren in 2 richtingen is het ook belangrijk dat bepaalde interacties met de wereld voldoende feedback tonen. Het is daarom in React 360 ook mogelijk om een 'One-shot audio' gebruiken. Dit kan je doen door \lstinline[basicstyle=\ttfamily\color{red}]|AudioModule.playOneShot| te gebruiken met de verwijzing naar de audio file als parameter. Je kan het dus perfect gaan gebruiken bij een functie die wordt opgeroepen door de \lstinline[basicstyle=\ttfamily\color{red}]|onClick| van een button.
+
+Aangezien VR zich in een 3D omgeving bevindt. Is het ook mogelijk om aan een geluid een parameter \lstinline[basicstyle=\ttfamily\color{red}]|is3d| toe te voegen met de bijhorende locatie (x,y,z) van het geluid. Hierdoor zal het geluid zich specifiek vanaf die locatie afspelen.
 
 
-\subsection{Input in VR}
+\subsection{Input}
 \label{subsec:input-vr}
+De interactie met de wereld in virtual reality is natuurlijk zeer belangrijk. Maar er zijn ook vele mogelijkheden om input door te sturen naar de virtuele wereld waar we al over gesproken hebben in hoofdstuk \ref{subsec:interactie-vr} Hiervoor biedt React 360 meerdere oplossingen aan zodat de ontwikkelaar zich vooral kan focussen op de logica van de applicatie.
 
+\subsubsection{Button input}
+Met de titel bedoelt men niet noodzakelijk een \lstinline[basicstyle=\ttfamily\color{red}]|<button>| element als input, maar eerder een fysieke knop als input. Een toetsenbord, muis, controller, ... hebben allemaal fysieke knoppen ter beschikking. Als deze knoppen worden ingedrukt verwacht de gebruiker dus een bepaalde feedback van de VR applicatie. Om dit gemakkelijk te kunnen afhandelen voor alle input mogelijkheden biedt React 360 een \lstinline[basicstyle=\ttfamily\color{red}]|onInput| prop aan. Dit is zoals onClick een event handler, maar hierbij wordt dan de zogenaamde \lstinline[basicstyle=\ttfamily\color{red}]|inputEvent| meegestuurd. Dit is een eigenschap van het event dat werd verstuurd waarmee de verschillende acties kunnen worden geïdentificeerd. Zowel de knop (boven, onder, links, rechts, ok, ...) en de actie (knop indrukken, knop terug omhoog) die wordt uitgevoerd worden teruggeven. Het maakt dus niet uit welk input toestel je gebruikt, als er een naar onder wordt gedetecteerd zal React 360 de juiste knop en actie terugsturen waardoor het dus mogelijk is voor de ontwikkelaar om de correcte code hiervoor te schrijven. Dit toont zeer duidelijk de cross-platform mogelijkheden aan van React 360 en spaart voor de ontwikkelaar een hoop tijd uit dan moest hij dit voor elk apparaat individueel moeten programmeren.
 
-\subsection{Native Modules}
+\subsubsection{VrButton}
+Het VrButton component is eigenlijk niet meer dan een button waarbij er wordt gereageerd op de 'confirm' actie. Deze actie komt regelmatig terug. Dit component is dus louter om het gemakkelijker voor de ontwikkelaar te maken. Het enigste verschil is dat hier een \lstinline[basicstyle=\ttfamily\color{red}]|onClick| event handler kan toegevoegd worden.
+
+\subsubsection{Cursors en raycasters}
+Je kan niet correct op de virtuele wereld interacties uit voeren, als je niet weet waar je de interacties precies uitvoert. React 360 gebruikt hiervoor cursors, net zoals je op een gewoon computerscherm een cursor hebt. Sommige controllers worden standaard in React 360 ondersteund. Deze tonen dan een soort van laserstraal in de wereld. De cursor wordt dan getoond op het element waar de laserstraal mee snijdt. Om hiervoor dan ook events op te kunnen uitvoeren, zijn de \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| en \lstinline[basicstyle=\ttfamily\color{red}]|onExit| event handlers aanwezig. De \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| wordt uitgevoerd vanaf dat de cursor het component binnentreedt. De \lstinline[basicstyle=\ttfamily\color{red}]|onExit| doet dan het omgekeerde en wordt opgeroepen als de cursor het component verlaat.
+
+Omdat React 360 dus niet alle controllers ondersteund, is het ook mogelijk voor een ontwikkelaar om zelfs deze te gaan definiëren. Men noemt dit ook wel een raycaster. Een Raycaster moet een bepaalde interface gaan volgen om als raycaster te worden gezien.
+
+\begin{itemize}
+	\item De richting van de raycaster
+	\item Of de raycaster een cursor moet tonen op het snijpunt
+	\item Of de raycaster absoluut moet getoond worden tegenover de camera (positie van de persoon dus)
+	\item De maximale lengte van de 'laserstraal' van de raycaster
+	\item Het punt waar de raycaster begint
+	\item Het type raycaster (touch, mouse, ..)
+\end{itemize}
 
 \section{Prestaties}
 \label{sec:prestaties}

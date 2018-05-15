@@ -86,8 +86,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{App 2}{36}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{App 3}{36}{section*.21}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}De doeleinden en stand van zaken van React 360}{36}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}React 360}{37}{chapter.4}
@@ -116,53 +114,53 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}360\textdegree foto's en video's}{43}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Foto's}{43}{section*.22}
+\contentsline {subsubsection}{Foto's}{43}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Video's}{43}{section*.23}
+\contentsline {subsubsection}{Video's}{43}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Panorama foto's video's tonen}{44}{section*.24}
+\contentsline {subsubsection}{Panorama foto's video's tonen}{44}{section*.23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Het ruimtelijke systeem}{44}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Surfaces}{45}{section*.25}
+\contentsline {subsubsection}{Surfaces}{45}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3D-objecten}{45}{section*.26}
+\contentsline {subsubsection}{3D-objecten}{46}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Geluid}{46}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Geluid}{47}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Input in VR}{46}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.4}Input}{47}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Native Modules}{46}{subsection.4.4.5}
+\contentsline {subsubsection}{Button input}{48}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Prestaties}{46}{section.4.5}
+\contentsline {subsubsection}{VrButton}{48}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}React 360 applicaties testen}{49}{chapter.5}
+\contentsline {subsubsection}{Cursors en raycasters}{48}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Applicatie 1: Omgeving simuleren}{49}{section.5.1}
+\contentsline {section}{\numberline {4.5}Prestaties}{49}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Resultaten}{49}{subsection.5.1.1}
+\contentsline {chapter}{\numberline {5}React 360 applicaties testen}{51}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Applicatie 2: Een interactieve applicatie}{49}{section.5.2}
+\contentsline {section}{\numberline {5.1}Applicatie 1: Omgeving simuleren}{51}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Resultaten}{49}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.1.1}Resultaten}{51}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Applicatie 3: De fysieke ongemakken van VR}{49}{section.5.3}
+\contentsline {section}{\numberline {5.2}Applicatie 2: Een interactieve applicatie}{51}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Resultaten}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.2.1}Resultaten}{51}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusie}{51}{chapter.6}
+\contentsline {chapter}{\numberline {6}Conclusie}{53}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{53}{appendix.A}
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{55}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{53}{section.A.1}
+\contentsline {section}{\numberline {A.1}Introductie}{55}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{53}{section.A.2}
+\contentsline {section}{\numberline {A.2}State-of-the-art}{55}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{54}{section.A.3}
+\contentsline {section}{\numberline {A.3}Methodologie}{56}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{54}{section.A.4}
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{56}{section.A.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{54}{section.A.5}
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{56}{section.A.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{55}{appendix*.27}
+\contentsline {chapter}{Bibliografie}{57}{appendix*.29}
 \contentsfinish 

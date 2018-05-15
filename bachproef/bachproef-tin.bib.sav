@@ -1,0 +1,187 @@
+% Encoding: UTF-8
+
+@Online{Facebook2017,
+  author = {Facebook},
+  title  = {React VR: Getting started},
+  year   = {2017},
+  url    = {https://facebook.github.io/react-vr/docs/getting-started.html#content},
+}
+
+@Book{Mangialardi2017,
+  author = {Michael Mangialardi},
+  title  = {Learn React VR},
+  year   = {2017},
+}
+
+@Online{WikipediaVR2018,
+  author = {Wikipedia contributors},
+  title  = {Virtuele werkelijkheid},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/Virtuele_werkelijkheid},
+}
+
+@Online{Lehr2017,
+  author = {Michaela Lehr},
+  title  = {Goodbye Flatland! An Introduction to ReactVR},
+  year   = {2017},
+  date   = {2017-03-16},
+  url    = {https://www.youtube.com/watch?v=CtVo3z_o9Rw},
+}
+
+@Online{Cronin2015,
+  author = {Beau Cronin},
+  title  = {The hierarchy of needs in virtual reality development},
+  year   = {2015},
+  date   = {2015-01-19},
+  url    = {https://medium.com/@beaucronin/the-hierarchy-of-needs-in-virtual-reality-development-4333a4833acc},
+}
+
+@Online{Abarrera2017,
+  author = {Abarrera},
+  title  = {Virtual Reality isn’t functional yet, here is why},
+  year   = {2017},
+  date   = {2017-11-20},
+  url    = {https://thealeph.com/articles/2017/11/virtual-reality-vr-oculus-htc-why/},
+}
+
+@Online{UIUXLab2017,
+  author = {UIUX Lab},
+  title  = {5 Web VR Frameworks to Help Developers Build Interesting Design},
+  year   = {2017},
+  date   = {2017-05-29},
+  url    = {https://uiux.cc/blog/5-web-vr-frameworks-to-help-developers-build-interesting-design/},
+}
+
+@Online{Woodford2018,
+  author = {Chris Woodford},
+  title  = {Virtual reality},
+  year   = {2018},
+  date   = {2018-03-14},
+  url    = {http://www.explainthatstuff.com/virtualreality.html},
+}
+
+@Online{Mullis2016,
+  author = {Alex Mullis},
+  title  = {How does virtual reality work?},
+  year   = {2016},
+  date   = {2016-07-15},
+  url    = {https://www.androidauthority.com/virtual-reality-work-702049/},
+}
+
+@Online{WikipediaSS2018,
+  author = {Wikipedia contributors},
+  title  = {Stereoscopie},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/Stereoscopie},
+}
+
+@Online{Peniche2016,
+  author = {Michelle Peniche},
+  title  = {Depth in VR: How Three Dimensions Make Virtual Reality Feel Real},
+  year   = {2016},
+  date   = {2016-10-24},
+  url    = {https://www.loading-human.com/depth-vr-three-dimensions-make-virtual-reality-feel-real/},
+}
+
+@Book{Sherman2000,
+  author = {William Sherman},
+  title  = {Understanding Virtual Reality: Interface, Application, and Design},
+  year   = {2000},
+}
+
+@Online{Wikipedia3D2018,
+  author = {Wikipedia contributors},
+  title  = {Driedimensionaal},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/Driedimensionaal},
+}
+
+@Online{Wikipedia4D2018,
+  author = {Wikipedia contributors},
+  title  = {4D},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/4D-film},
+}
+
+@Online{Augment2015,
+  author = {Augment},
+  title  = {Virtual Reality vs. Augmented Reality},
+  year   = {2015},
+  date   = {2015-10-06},
+  url    = {http://www.augment.com/blog/virtual-reality-vs-augmented-reality/},
+}
+
+@Report{Azuma1997,
+  author      = {Ronald T. Azuma},
+  title       = {A Survey of Augmented Reality},
+  type        = {resreport},
+  institution = {Hughes Research Laboratories},
+  year        = {1997},
+}
+
+@Online{Pappas2016,
+  author = {Stephanie Pappas},
+  title  = {Why Does Virtual Reality Make Some People Sick?},
+  year   = {2016},
+  date   = {2016-04-20},
+  url    = {https://www.livescience.com/54478-why-vr-makes-you-sick.html},
+}
+
+@Online{WikipediaJS2018,
+  author = {Wikipedia contributors},
+  title  = {JavaScript},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/JavaScript},
+}
+
+@Online{Mozilla2018,
+  author = {Mozilla contibutors},
+  title  = {JavaScript},
+  year   = {2018},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/JavaScript},
+}
+
+@Online{WikipediaF2018,
+  author = {Wikipedia contributors},
+  title  = {Framework},
+  year   = {2018},
+  url    = {https://nl.wikipedia.org/wiki/Framework},
+}
+
+@Online{Korotya2018,
+  author = {Eugeniya Korotya},
+  title  = {5 Best JavaScript Frameworks in 2017},
+  year   = {2017},
+  date   = {2017-01-19},
+  url    = {https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282},
+}
+
+@Online{Rouse2011,
+  author = {Margaret Rouse},
+  title  = {Stereoscopy},
+  year   = {2011},
+  url    = {https://whatis.techtarget.com/definition/stereoscopy-stereoscopic-imaging},
+}
+
+@Online{Stackoverflow2018,
+  author = {Stackoverflow},
+  title  = {Most Popular Technologies},
+  year   = {2018},
+  url    = {https://insights.stackoverflow.com/survey/2018/#technology},
+}
+
+@Online{Chima2017,
+  author = {Sarah Chima},
+  title  = {Understanding State in React Components},
+  date   = {2017-10-21},
+  url    = {https://dev.to/sarah_chima/understanding-state-in-react-components-1f1},
+}
+
+@Online{Bieronski,
+  author = {Mike Bieronski},
+  year   = {2016},
+  date   = {2016-12-22},
+  url    = {https://medium.com/@mike.bieronski/how-does-react-vr-work-cf86cd5568a1},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
