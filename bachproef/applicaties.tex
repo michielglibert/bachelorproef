@@ -33,15 +33,11 @@ De applicatie toont aan de linkerkant een overzicht van de mogelijke objecten di
 
 \section{Prestaties}
 \label{sec:prestaties}
--> GSM warm
--> Batterij verbruik
--> Vergelijking tegenover PC
-
 De performantie van het framework is ook een belangrijk aspect. We willen immers dat zoveel mogelijk toestellen onze applicatie kan gebruiken. Een VR applicatie die met het React 360 framework gebouwd is zou normaal aan 60 beelden per seconde en een lage latency moeten uitgevoerd kunnen worden.
 
 Tijdens het onderzoek maakten we voor applicatie 1 gebruik van volgende smartphone:
 
-OnePlus One 
+\textbf{OnePlus One }
 \begin{itemize}
 	\item Schermresolutie: 1920x1080 (Full HD)
 	\item Processor: Qualcomm Snapdragon 801
@@ -51,7 +47,8 @@ OnePlus One
 \end{itemize}
 
 Voor applicatie 2 maakten we gebruik van volgende smartphone:
-OnePlus 3T
+
+\textbf{OnePlus 3T}
 \begin{itemize}
 	\item Schermresolutie: 1920x1080 (Full HD)
 	\item Processor: Qualcomm Snapdragon 821
@@ -62,14 +59,33 @@ OnePlus 3T
 
 Voor beide applicaties op beide toestellen lag het geheugenverbruik vrij hoog. Voor de 1ste applicatie lag het gemiddeld verbruik rond de ~580mb. Bij de 2de applicatie ging het nog wat hoger en was het verbruik gemiddeld ~900mb.  Als we weten dat een gewone webpagina ongeveer gemiddeld ~150-200mb verbruikt, is dat een aanzienlijk verschil.
 
-\begin{figure}[H]
+Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en ook de processor tot aan het werken zet is het batterijverbruik van deze applicaties vrij hoog.
+
+We kunnen dus concluderen dat we voor een VR applicatie uit te voeren een krachtige smartphone nodig hebben met toch zeker 2GB minimum aan ram geheugen voor een goede virtual reality experience te hebben.
+
+\section{Resultaten bevraging}
+\label{sec:resulaten-apps}
+Bij het onderzoek lag de focus vooral op de ervaring van de gebruiker bij de React 360 applicatie. Deze vragen waren dus zeker niet technisch en ook niet over virtual reality in het algemeen. De focus lag dus vooral op het feit of een VR applicatie die gemaakt is met React 360 positief wordt ervaren door de gebruiker. Voor het onderzoek werden volgende 6 vragen gesteld:
+
+\begin{itemize}
+	\item Voelde u zich aanwezig op de plaats zelf?
+	\item Vond u de applicatie aangenaam om te gebruiken?
+	\item Heeft u al eerder gebruik gemaakt van virtual reality?
+	\item Vond u het beeld goed van kwaliteit?
+	\item Had u last van fysieke ongemakken? (hoofdpijn, duizeligheid, droge ogen, misselijkheid, ...)
+	\item Moest u zelf beschikken over zo een headset, zou u dan regelmatig deze soort applicaties gebruiken? 
+\end{itemize}
+
+De grafieken en resultaten. kan u terugvinden onder bijlage \ref{sec:bijlage1}
+
+Volgens de resultaten kunnen we dus enkele dingen gaan concluderen rekening houdend met het feit dat 73,3\% van de ondervraagden al eerder virtual reality had gebruikt. Zo is het ten eerste zeer duidelijk dat React 360 een goede manier is om gebruiksvriendelijke applicaties te maken. 93,3\% van de ondervraagden vond immers dat de 2de applicatie aangenaam was om te gebruiken. Ookal vond dus de meerderheid (73,3\%) dat de kwaliteit van het beeld niet goed was, toch was men nog steeds positief over de gebruikerservaring. Ten tweede zie je zeer duidelijk dat fysieke ongemakken regelmatig voorkwamen. Dit ging van duizeligheid tot ook misselijkheid bij de uitvoering van het onderzoek. Dit was dan vooral te merken bij de 1ste applicatie, waar  60\% zich deels aanwezig voelde. Een mobiele React 360 applicatie is dus zeker nog niet een goede manier om ervoor te zorgen dat de gebruiker volledig wordt ondergedompeld in de wereld. Maar dit heeft ook hoogst waarschijnlijk te maken met het feit dat de beeldkwaliteit een pak lager is bij mobile VR. Ten slotte zien we wel dat 60\% regelmatig deze soort applicatie zou gebruiken als hij/zij over VR headset beschikt. Dit is dus zeker postief, maar we kunnen hier ook uit afleiden dat 40\% geen nood heeft aan een VR ervaring.
+
+\begin{figure}
 	\centering
-	\includegraphics[width=0.9\linewidth]{appsmemory.png}
+	\includegraphics[width=0.8\linewidth]{appsmemory.png}
 	\caption{Een momentopname van het geheugen verbruik van applicatie 1 (links) en applicatie 2 (rechts)}
 	\label{fig:appsmemory}
 \end{figure}
-
-Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en ook de processor tot aan het werken zet is het batterijverbruik van deze applicaties vrij hoog.
 
 \begin{figure}
 	\centering
@@ -77,9 +93,3 @@ Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en 
 	\caption{Het batterijverbruik van de 1ste applicatie na 1u en 20 minuten.}
 	\label{fig:batteryusage}
 \end{figure}
-
-We kunnen dus concluderen dat we voor een VR applicatie uit te voeren een krachtige smartphone nodig hebben met toch zeker 2GB minimum aan ram geheugen voor een goede virtual reality experience te hebben.
-
-\subsection{Resultaten bevraging}
-\label{sec:resulaten-apps}
-

@@ -441,9 +441,6 @@ INPUT bachproef-tin.lof
 OUTPUT bachproef-tin.lof
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagk8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagk8r.tfm
-INPUT bachproef-tin.lot
-INPUT bachproef-tin.lot
-OUTPUT bachproef-tin.lot
 INPUT bachproef-tin.lol
 INPUT bachproef-tin.lol
 INPUT C:/Program Files/MiKTeX 2.9/tex/latex/psnfss/ot1ztmcm.fd
@@ -497,6 +494,11 @@ INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8t.tfm
 INPUT C:/Program Files/MiKTeX 2.9/fonts/vf/adobe/avantgar/pagd8t.vf
 INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/avantgar/pagd8r.tfm
+INPUT img/augmented.jpg
+INPUT ./img/augmented.jpg
+INPUT ./img/augmented.jpg
+INPUT ./img/augmented.jpg
+INPUT ./img/augmented.jpg
 INPUT img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg
 INPUT ./img/stereoscopie.jpg
