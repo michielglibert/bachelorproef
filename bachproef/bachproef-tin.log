@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  16 MAY 2018 01:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.28)  21 MAY 2018 23:50
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -1007,7 +1007,134 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box44
 \@float@everytoks=\toks40
 \@floatcapt=\box45
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\avant.sty"
+)
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\pgfplots\pgfplo
+ts.sty"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.revision.tex")
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotscore.code.tex"
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen193
+\c@pgfplots@coordindex=\count152
+\c@pgfplots@scanlineindex=\count153
+
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\
+pgfplotssysgeneric.code.tex"))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs
+\pgfplotslibrary.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries
+\pgflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count154
+))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotsutil.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\list
+structure\pgfplotsliststructure.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\list
+structure\pgfplotsliststructureext.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\list
+structure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count155
+)
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\list
+structure\pgfplotsmatrix.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\numt
+able\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count156
+\t@pgfplotstable@a=\toks44
+)
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\list
+structure\pgfplotsdeque.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotsbinary.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotsbinary.data.code.tex"))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotsutil.verb.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs
+\pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count157
+
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\
+pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotscolormap.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util
+\pgfplotscolor.code.tex"))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotsstackedplots.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotsplothandlers.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotsmeshplothandler.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotsmeshplotimage.code.tex")))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.scaling.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotscoordprocessing.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.errorbars.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.markers.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lotsticks.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfp
+lots.paths.code.tex")
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\p
+gfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen194
+\pgfdecoratedremainingdistance=\dimen195
+\pgfdecoratedinputsegmentcompleteddistance=\dimen196
+\pgfdecoratedinputsegmentremainingdistance=\dimen197
+\pgf@decorate@distancetomove=\dimen198
+\pgf@decorate@repeatstate=\count158
+\pgfdecorationsegmentamplitude=\dimen199
+\pgfdecorationsegmentlength=\dimen256
+)
+\tikz@lib@dec@box=\box46
+)
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries
+\decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries
+\decorations\pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count159
+\pgfplots@xmin@reg=\dimen257
+\pgfplots@xmax@reg=\dimen258
+\pgfplots@ymin@reg=\dimen259
+\pgfplots@ymax@reg=\dimen260
+\pgfplots@zmin@reg=\dimen261
+\pgfplots@zmax@reg=\dimen262
+)
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries
+\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\avant.sty"
 Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
@@ -1048,12 +1175,12 @@ LaTeX Info: Redefining \hbar on input line 50.
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\micro
 type.sty"
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks41
-\MT@count=\count152
+\MT@toks=\toks45
+\MT@count=\count160
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen193
+\MT@outer@kern=\dimen263
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count153
+\MT@listname@count=\count161
 
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\micro
 type-pdftex.def"
@@ -1234,7 +1361,7 @@ Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.s
 ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count154
+\lrq@indent=\count162
 
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.d
 ef"
@@ -1245,49 +1372,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstri
 ng.tex"
 \@xs@message=\write4
-\integerpart=\count155
-\decimalpart=\count156
+\integerpart=\count163
+\decimalpart=\count164
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count157
-\c@listtotal=\count158
-\c@listcount=\count159
-\c@liststart=\count160
-\c@liststop=\count161
-\c@citecount=\count162
-\c@citetotal=\count163
-\c@multicitecount=\count164
-\c@multicitetotal=\count165
-\c@instcount=\count166
-\c@maxnames=\count167
-\c@minnames=\count168
-\c@maxitems=\count169
-\c@minitems=\count170
-\c@citecounter=\count171
-\c@savedcitecounter=\count172
-\c@uniquelist=\count173
-\c@uniquename=\count174
-\c@refsection=\count175
-\c@refsegment=\count176
-\c@maxextratitle=\count177
-\c@maxextratitleyear=\count178
-\c@maxextrayear=\count179
-\c@maxextraalpha=\count180
-\c@abbrvpenalty=\count181
-\c@highnamepenalty=\count182
-\c@lownamepenalty=\count183
-\c@maxparens=\count184
-\c@parenlevel=\count185
-\blx@tempcnta=\count186
-\blx@tempcntb=\count187
-\blx@tempcntc=\count188
-\blx@maxsection=\count189
-\blx@maxsegment@0=\count190
-\blx@notetype=\count191
-\blx@parenlevel@text=\count192
-\blx@parenlevel@foot=\count193
-\blx@sectionciteorder@0=\count194
+\c@tabx@nest=\count165
+\c@listtotal=\count166
+\c@listcount=\count167
+\c@liststart=\count168
+\c@liststop=\count169
+\c@citecount=\count170
+\c@citetotal=\count171
+\c@multicitecount=\count172
+\c@multicitetotal=\count173
+\c@instcount=\count174
+\c@maxnames=\count175
+\c@minnames=\count176
+\c@maxitems=\count177
+\c@minitems=\count178
+\c@citecounter=\count179
+\c@savedcitecounter=\count180
+\c@uniquelist=\count181
+\c@uniquename=\count182
+\c@refsection=\count183
+\c@refsegment=\count184
+\c@maxextratitle=\count185
+\c@maxextratitleyear=\count186
+\c@maxextrayear=\count187
+\c@maxextraalpha=\count188
+\c@abbrvpenalty=\count189
+\c@highnamepenalty=\count190
+\c@lownamepenalty=\count191
+\c@maxparens=\count192
+\c@parenlevel=\count193
+\blx@tempcnta=\count194
+\blx@tempcntb=\count195
+\blx@tempcntc=\count196
+\blx@maxsection=\count197
+\blx@maxsegment@0=\count198
+\blx@notetype=\count199
+\blx@parenlevel@text=\count266
+\blx@parenlevel@foot=\count267
+\blx@sectionciteorder@0=\count268
 \labelnumberwidth=\skip56
 \labelalphawidth=\skip57
 \biblabelsep=\skip58
@@ -1298,9 +1425,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip63
 \blx@bcfin=\read2
 \blx@bcfout=\write5
-\c@mincomprange=\count195
-\c@maxcomprange=\count196
-\c@mincompwidth=\count197
+\c@mincomprange=\count269
+\c@maxcomprange=\count270
+\c@mincompwidth=\count271
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1315,82 +1442,82 @@ File: apa.dbx 2017/01/06 v7.4 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count198
-\c@savedafterword=\count199
-\c@annotator=\count266
-\c@savedannotator=\count267
-\c@author=\count268
-\c@savedauthor=\count269
-\c@bookauthor=\count270
-\c@savedbookauthor=\count271
-\c@commentator=\count272
-\c@savedcommentator=\count273
-\c@editor=\count274
-\c@savededitor=\count275
-\c@editora=\count276
-\c@savededitora=\count277
-\c@editorb=\count278
-\c@savededitorb=\count279
-\c@editorc=\count280
-\c@savededitorc=\count281
-\c@foreword=\count282
-\c@savedforeword=\count283
-\c@holder=\count284
-\c@savedholder=\count285
-\c@introduction=\count286
-\c@savedintroduction=\count287
-\c@namea=\count288
-\c@savednamea=\count289
-\c@nameb=\count290
-\c@savednameb=\count291
-\c@namec=\count292
-\c@savednamec=\count293
-\c@translator=\count294
-\c@savedtranslator=\count295
-\c@shortauthor=\count296
-\c@savedshortauthor=\count297
-\c@shorteditor=\count298
-\c@savedshorteditor=\count299
-\c@with=\count300
-\c@savedwith=\count301
-\c@writer=\count302
-\c@savedwriter=\count303
-\c@producer=\count304
-\c@savedproducer=\count305
-\c@execproducer=\count306
-\c@savedexecproducer=\count307
-\c@director=\count308
-\c@saveddirector=\count309
-\c@labelname=\count310
-\c@savedlabelname=\count311
-\c@institution=\count312
-\c@savedinstitution=\count313
-\c@lista=\count314
-\c@savedlista=\count315
-\c@listb=\count316
-\c@savedlistb=\count317
-\c@listc=\count318
-\c@savedlistc=\count319
-\c@listd=\count320
-\c@savedlistd=\count321
-\c@liste=\count322
-\c@savedliste=\count323
-\c@listf=\count324
-\c@savedlistf=\count325
-\c@location=\count326
-\c@savedlocation=\count327
-\c@organization=\count328
-\c@savedorganization=\count329
-\c@origlocation=\count330
-\c@savedoriglocation=\count331
-\c@origpublisher=\count332
-\c@savedorigpublisher=\count333
-\c@publisher=\count334
-\c@savedpublisher=\count335
-\c@language=\count336
-\c@savedlanguage=\count337
-\c@pageref=\count338
-\c@savedpageref=\count339
+\c@afterword=\count272
+\c@savedafterword=\count273
+\c@annotator=\count274
+\c@savedannotator=\count275
+\c@author=\count276
+\c@savedauthor=\count277
+\c@bookauthor=\count278
+\c@savedbookauthor=\count279
+\c@commentator=\count280
+\c@savedcommentator=\count281
+\c@editor=\count282
+\c@savededitor=\count283
+\c@editora=\count284
+\c@savededitora=\count285
+\c@editorb=\count286
+\c@savededitorb=\count287
+\c@editorc=\count288
+\c@savededitorc=\count289
+\c@foreword=\count290
+\c@savedforeword=\count291
+\c@holder=\count292
+\c@savedholder=\count293
+\c@introduction=\count294
+\c@savedintroduction=\count295
+\c@namea=\count296
+\c@savednamea=\count297
+\c@nameb=\count298
+\c@savednameb=\count299
+\c@namec=\count300
+\c@savednamec=\count301
+\c@translator=\count302
+\c@savedtranslator=\count303
+\c@shortauthor=\count304
+\c@savedshortauthor=\count305
+\c@shorteditor=\count306
+\c@savedshorteditor=\count307
+\c@with=\count308
+\c@savedwith=\count309
+\c@writer=\count310
+\c@savedwriter=\count311
+\c@producer=\count312
+\c@savedproducer=\count313
+\c@execproducer=\count314
+\c@savedexecproducer=\count315
+\c@director=\count316
+\c@saveddirector=\count317
+\c@labelname=\count318
+\c@savedlabelname=\count319
+\c@institution=\count320
+\c@savedinstitution=\count321
+\c@lista=\count322
+\c@savedlista=\count323
+\c@listb=\count324
+\c@savedlistb=\count325
+\c@listc=\count326
+\c@savedlistc=\count327
+\c@listd=\count328
+\c@savedlistd=\count329
+\c@liste=\count330
+\c@savedliste=\count331
+\c@listf=\count332
+\c@savedlistf=\count333
+\c@location=\count334
+\c@savedlocation=\count335
+\c@organization=\count336
+\c@savedorganization=\count337
+\c@origlocation=\count338
+\c@savedoriglocation=\count339
+\c@origpublisher=\count340
+\c@savedorigpublisher=\count341
+\c@publisher=\count342
+\c@savedpublisher=\count343
+\c@language=\count344
+\c@savedlanguage=\count345
+\c@pageref=\count346
+\c@savedpageref=\count347
 \shorthandwidth=\skip64
 \shortjournalwidth=\skip65
 \shortserieswidth=\skip66
@@ -1410,13 +1537,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblat
 ex.def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count340
-\c@textcitetotal=\count341
-\c@textcitemaxnames=\count342
-\c@biburlnumpenalty=\count343
-\c@biburlucpenalty=\count344
-\c@biburllcpenalty=\count345
-\c@smartand=\count346
+\c@textcitecount=\count348
+\c@textcitetotal=\count349
+\c@textcitemaxnames=\count350
+\c@biburlnumpenalty=\count351
+\c@biburlucpenalty=\count352
+\c@biburllcpenalty=\count353
+\c@smartand=\count354
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -1430,8 +1557,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\st
 andard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count347
-\c@bbx:relatedtotal=\count348
+\c@bbx:relatedcount=\count355
+\c@bbx:relatedtotal=\count356
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -1458,13 +1585,13 @@ File: biblatex.cfg
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquot
 es.sty"
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
-\csq@reset=\count349
-\csq@gtype=\count350
-\csq@glevel=\count351
-\csq@qlevel=\count352
-\csq@maxlvl=\count353
-\csq@tshold=\count354
-\csq@ltx@everypar=\toks42
+\csq@reset=\count357
+\csq@gtype=\count358
+\csq@glevel=\count359
+\csq@qlevel=\count360
+\csq@maxlvl=\count361
+\csq@tshold=\count362
+\csq@ltx@everypar=\toks46
 
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquot
 es.def"
@@ -1478,15 +1605,15 @@ es.cfg"
 File: csquotes.cfg 
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count355
-\calc@Bcount=\count356
-\calc@Adimen=\dimen194
-\calc@Bdimen=\dimen195
+\calc@Acount=\count363
+\calc@Bcount=\count364
+\calc@Adimen=\dimen264
+\calc@Bdimen=\dimen265
 \calc@Askip=\skip70
 \calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count357
+\calc@Ccount=\count365
 \calc@Cskip=\skip72
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -1499,7 +1626,7 @@ Writing index file bachproef-tin.idx
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlet
 oc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen196
+\ttl@leftsep=\dimen266
 )
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyh
 dr.sty"
@@ -1515,23 +1642,23 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@orf=\skip81
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks43
-\thm@bodyfont=\toks44
-\thm@headfont=\toks45
-\thm@notefont=\toks46
-\thm@headpunct=\toks47
+\thm@style=\toks47
+\thm@bodyfont=\toks48
+\thm@headfont=\toks49
+\thm@notefont=\toks50
+\thm@headpunct=\toks51
 \thm@preskip=\skip82
 \thm@postskip=\skip83
 \thm@headsep=\skip84
-\dth@everypar=\toks48
+\dth@everypar=\toks52
 )
-\c@notation=\count358
-\c@dummy=\count359
-\c@problem=\count360
-\c@exerciseT=\count361
-\c@exampleT=\count362
-\c@vocabulary=\count363
-\c@definitionT=\count364
+\c@notation=\count366
+\c@dummy=\count367
+\c@problem=\count368
+\c@exerciseT=\count369
+\c@exampleT=\count370
+\c@vocabulary=\count371
+\c@definitionT=\count372
 
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\mdframed\mdfram
 ed.sty"
@@ -1546,23 +1673,23 @@ Package: expl3 2017/04/01 L3 programming layer (loader)
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-
 code.tex"
 Package: expl3 2017/04/01 L3 programming layer (code)
-\c_max_int=\count365
-\l_tmpa_int=\count366
-\l_tmpb_int=\count367
-\g_tmpa_int=\count368
-\g_tmpb_int=\count369
-\g__prg_map_int=\count370
-\c_log_iow=\count371
-\l_iow_line_count_int=\count372
-\l__iow_line_target_int=\count373
-\l__iow_one_indent_int=\count374
-\l__iow_indent_int=\count375
-\c_zero_dim=\dimen197
-\c_max_dim=\dimen198
-\l_tmpa_dim=\dimen199
-\l_tmpb_dim=\dimen256
-\g_tmpa_dim=\dimen257
-\g_tmpb_dim=\dimen258
+\c_max_int=\count373
+\l_tmpa_int=\count374
+\l_tmpb_int=\count375
+\g_tmpa_int=\count376
+\g_tmpb_int=\count377
+\g__prg_map_int=\count378
+\c_log_iow=\count379
+\l_iow_line_count_int=\count380
+\l__iow_line_target_int=\count381
+\l__iow_one_indent_int=\count382
+\l__iow_indent_int=\count383
+\c_zero_dim=\dimen267
+\c_max_dim=\dimen268
+\l_tmpa_dim=\dimen269
+\l_tmpb_dim=\dimen270
+\g_tmpa_dim=\dimen271
+\g_tmpb_dim=\dimen272
 \c_zero_skip=\skip85
 \c_max_skip=\skip86
 \l_tmpa_skip=\skip87
@@ -1575,83 +1702,83 @@ Package: expl3 2017/04/01 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count376
-\c__fp_leading_shift_int=\count377
-\c__fp_middle_shift_int=\count378
-\c__fp_trailing_shift_int=\count379
-\c__fp_big_leading_shift_int=\count380
-\c__fp_big_middle_shift_int=\count381
-\c__fp_big_trailing_shift_int=\count382
-\c__fp_Bigg_leading_shift_int=\count383
-\c__fp_Bigg_middle_shift_int=\count384
-\c__fp_Bigg_trailing_shift_int=\count385
-\c__fp_rand_size_int=\count386
-\c__fp_rand_four_int=\count387
-\c__fp_rand_eight_int=\count388
-\l__sort_length_int=\count389
-\l__sort_min_int=\count390
-\l__sort_top_int=\count391
-\l__sort_max_int=\count392
-\l__sort_true_max_int=\count393
-\l__sort_block_int=\count394
-\l__sort_begin_int=\count395
-\l__sort_end_int=\count396
-\l__sort_A_int=\count397
-\l__sort_B_int=\count398
-\l__sort_C_int=\count399
-\c_empty_box=\box46
-\l_tmpa_box=\box47
-\l_tmpb_box=\box48
-\g_tmpa_box=\box49
-\g_tmpb_box=\box50
-\l__coffin_internal_box=\box51
-\l__coffin_internal_dim=\dimen259
-\l__coffin_offset_x_dim=\dimen260
-\l__coffin_offset_y_dim=\dimen261
-\l__coffin_x_dim=\dimen262
-\l__coffin_y_dim=\dimen263
-\l__coffin_x_prime_dim=\dimen264
-\l__coffin_y_prime_dim=\dimen265
-\c_empty_coffin=\box52
-\l__coffin_aligned_coffin=\box53
-\l__coffin_aligned_internal_coffin=\box54
-\l_tmpa_coffin=\box55
-\l_tmpb_coffin=\box56
-\l__coffin_display_coffin=\box57
-\l__coffin_display_coord_coffin=\box58
-\l__coffin_display_pole_coffin=\box59
-\l__coffin_display_offset_dim=\dimen266
-\l__coffin_display_x_dim=\dimen267
-\l__coffin_display_y_dim=\dimen268
-\l__box_top_dim=\dimen269
-\l__box_bottom_dim=\dimen270
-\l__box_left_dim=\dimen271
-\l__box_right_dim=\dimen272
-\l__box_top_new_dim=\dimen273
-\l__box_bottom_new_dim=\dimen274
-\l__box_left_new_dim=\dimen275
-\l__box_right_new_dim=\dimen276
-\l__box_internal_box=\box60
-\l__coffin_bounding_shift_dim=\dimen277
-\l__coffin_left_corner_dim=\dimen278
-\l__coffin_right_corner_dim=\dimen279
-\l__coffin_bottom_corner_dim=\dimen280
-\l__coffin_top_corner_dim=\dimen281
-\l__coffin_scaled_total_height_dim=\dimen282
-\l__coffin_scaled_width_dim=\dimen283
+\l_keys_choice_int=\count384
+\c__fp_leading_shift_int=\count385
+\c__fp_middle_shift_int=\count386
+\c__fp_trailing_shift_int=\count387
+\c__fp_big_leading_shift_int=\count388
+\c__fp_big_middle_shift_int=\count389
+\c__fp_big_trailing_shift_int=\count390
+\c__fp_Bigg_leading_shift_int=\count391
+\c__fp_Bigg_middle_shift_int=\count392
+\c__fp_Bigg_trailing_shift_int=\count393
+\c__fp_rand_size_int=\count394
+\c__fp_rand_four_int=\count395
+\c__fp_rand_eight_int=\count396
+\l__sort_length_int=\count397
+\l__sort_min_int=\count398
+\l__sort_top_int=\count399
+\l__sort_max_int=\count400
+\l__sort_true_max_int=\count401
+\l__sort_block_int=\count402
+\l__sort_begin_int=\count403
+\l__sort_end_int=\count404
+\l__sort_A_int=\count405
+\l__sort_B_int=\count406
+\l__sort_C_int=\count407
+\c_empty_box=\box47
+\l_tmpa_box=\box48
+\l_tmpb_box=\box49
+\g_tmpa_box=\box50
+\g_tmpb_box=\box51
+\l__coffin_internal_box=\box52
+\l__coffin_internal_dim=\dimen273
+\l__coffin_offset_x_dim=\dimen274
+\l__coffin_offset_y_dim=\dimen275
+\l__coffin_x_dim=\dimen276
+\l__coffin_y_dim=\dimen277
+\l__coffin_x_prime_dim=\dimen278
+\l__coffin_y_prime_dim=\dimen279
+\c_empty_coffin=\box53
+\l__coffin_aligned_coffin=\box54
+\l__coffin_aligned_internal_coffin=\box55
+\l_tmpa_coffin=\box56
+\l_tmpb_coffin=\box57
+\l__coffin_display_coffin=\box58
+\l__coffin_display_coord_coffin=\box59
+\l__coffin_display_pole_coffin=\box60
+\l__coffin_display_offset_dim=\dimen280
+\l__coffin_display_x_dim=\dimen281
+\l__coffin_display_y_dim=\dimen282
+\l__box_top_dim=\dimen283
+\l__box_bottom_dim=\dimen284
+\l__box_left_dim=\dimen285
+\l__box_right_dim=\dimen286
+\l__box_top_new_dim=\dimen287
+\l__box_bottom_new_dim=\dimen288
+\l__box_left_new_dim=\dimen289
+\l__box_right_new_dim=\dimen290
+\l__box_internal_box=\box61
+\l__coffin_bounding_shift_dim=\dimen291
+\l__coffin_left_corner_dim=\dimen292
+\l__coffin_right_corner_dim=\dimen293
+\l__coffin_bottom_corner_dim=\dimen294
+\l__coffin_top_corner_dim=\dimen295
+\l__coffin_scaled_total_height_dim=\dimen296
+\l__coffin_scaled_width_dim=\dimen297
 )
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfm
 ode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count400
-\l__driver_tmp_box=\box61
+\l__driver_color_stack_int=\count408
+\l__driver_tmp_box=\box62
 ))
 Package: xparse 2017/04/01 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count401
-\g__xparse_grabber_int=\count402
-\l__xparse_m_args_int=\count403
-\l__xparse_mandatory_args_int=\count404
-\l__xparse_v_nesting_int=\count405
+\l__xparse_current_arg_int=\count409
+\g__xparse_grabber_int=\count410
+\l__xparse_m_args_int=\count411
+\l__xparse_mandatory_args_int=\count412
+\l__xparse_v_nesting_int=\count413
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
 Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
@@ -1660,7 +1787,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count406
+\c@abspage=\count414
 Package zref Info: New property: abspage on input line 62.
 )
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\latex\needspace\needs
@@ -1668,7 +1795,7 @@ pace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip91
-\c@mdf@globalstyle@cnt=\count407
+\c@mdf@globalstyle@cnt=\count415
 \mdf@skipabove@length=\skip92
 \mdf@skipbelow@length=\skip93
 \mdf@leftmargin@length=\skip94
@@ -1713,11 +1840,11 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 me-0.mdf"
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box62
-\mdf@footnotebox=\box63
-\mdf@splitbox@one=\box64
-\mdf@splitbox@two=\box65
-\mdf@splitbox@save=\box66
+\mdf@frametitlebox=\box63
+\mdf@footnotebox=\box64
+\mdf@splitbox@one=\box65
+\mdf@splitbox@two=\box66
+\mdf@splitbox@save=\box67
 \mdfsplitboxwidth=\skip131
 \mdfsplitboxtotalwidth=\skip132
 \mdfsplitboxheight=\skip133
@@ -1745,7 +1872,7 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip155
 \mdfsubtitleheight=\skip156
 \mdfsubsubtitleheight=\skip157
-\c@mdfcountframes=\count408
+\c@mdfcountframes=\count416
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1761,38 +1888,38 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count409
-\c@mdf@env@i=\count410
-\c@mdf@env@ii=\count411
-\c@mdf@zref@counter=\count412
+\mdf@envdepth=\count417
+\c@mdf@env@i=\count418
+\c@mdf@env@ii=\count419
+\c@mdf@zref@counter=\count420
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 \esp=\skip158
 \ecart=\skip159
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 555.
+(hyperref)                setting the option has no effect on input line 556.
 
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 555.
+(hyperref)                setting the option has no effect on input line 556.
 
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 555.
+(hyperref)                setting the option has no effect on input line 556.
 
-Package hyperref Info: Option `colorlinks' set `false' on input line 555.
-Package hyperref Info: Option `breaklinks' set `true' on input line 555.
+Package hyperref Info: Option `colorlinks' set `false' on input line 556.
+Package hyperref Info: Option `breaklinks' set `true' on input line 556.
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 555.
+(hyperref)                setting the option has no effect on input line 556.
 
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 555.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 556.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count413
+\BKM@id=\count421
 )))
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
@@ -1883,17 +2010,17 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ("C:\Users\Michiel Glibert\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count414
-\scratchdimen=\dimen284
-\scratchbox=\box67
-\nofMPsegments=\count415
-\nofMParguments=\count416
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count417
-\MPscratchDim=\dimen285
-\MPnumerator=\count418
-\makeMPintoPDFobject=\count419
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count422
+\scratchdimen=\dimen298
+\scratchbox=\box68
+\nofMPsegments=\count423
+\nofMParguments=\count424
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count425
+\MPscratchDim=\dimen299
+\MPnumerator=\count426
+\makeMPintoPDFobject=\count427
+\everyMPtoPDFconversion=\toks54
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -1906,19 +2033,25 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box68
+\AtBeginShipoutBox=\box69
 Package hyperref Info: Link coloring OFF on input line 47.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count420
+\c@section@level=\count428
 )
 LaTeX Info: Redefining \ref on input line 47.
 LaTeX Info: Redefining \pageref on input line 47.
 LaTeX Info: Redefining \nameref on input line 47.
-\c@lstlisting=\count421
+\c@lstlisting=\count429
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
+your preamble.
+ on input line 47.
+
 LaTeX Info: Redefining \microtypecontext on input line 47.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1941,15 +2074,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bachproef-tin.bbl' found.
-(bachproef-tin.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Bieronski2016
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(bachproef-tin.bbl)
 Package biblatex Info: Reference section=0 on input line 47.
 Package biblatex Info: Reference segment=0 on input line 47.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2188,13 +2313,13 @@ Package microtype Info: Loading generic settings for font family
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 179.
 [9])
 \tf@toc=\write7
 \openout7 = `bachproef-tin.toc'.
@@ -2407,42 +2532,42 @@ Overfull \hbox (12.0pt too wide) detected at line 38
 
 
 Overfull \hbox (12.0pt too wide) detected at line 40
- []\T1/ptm/m/n/12 42
+ []\T1/ptm/m/n/12 43
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 42
- []\T1/ptm/m/n/12 42
+ []\T1/ptm/m/n/12 43
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 44
- []\T1/ptm/m/n/12 42
- []
-
-
-Overfull \hbox (12.0pt too wide) detected at line 46
  []\T1/ptm/m/n/12 44
  []
 
 
-Overfull \hbox (12.0pt too wide) detected at line 48
+Overfull \hbox (12.0pt too wide) detected at line 46
  []\T1/ptm/m/n/12 45
  []
 
 
-Overfull \hbox (12.0pt too wide) detected at line 50
+Overfull \hbox (12.0pt too wide) detected at line 48
  []\T1/ptm/m/n/12 46
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 50
+ []\T1/ptm/m/n/12 47
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 52
- []\T1/ptm/m/n/12 46
+ []\T1/ptm/m/n/12 48
  []
 
 
 Overfull \hbox (12.0pt too wide) detected at line 54
- []\T1/ptm/m/n/12 47
+ []\T1/ptm/m/n/12 49
  []
 
 )
@@ -2588,7 +2713,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 75.
-<img/stereoscopie.jpg, id=388, 370.38374pt x 234.1247pt>
+<img/stereoscopie.jpg, id=407, 370.38374pt x 234.1247pt>
 File: img/stereoscopie.jpg Graphic file (type jpg)
 <use img/stereoscopie.jpg>
 Package pdftex.def Info: img/stereoscopie.jpg used on input line 81.
@@ -2657,7 +2782,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 132.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 132.
-[27] <img/MaslowCroninPiramide.png, id=415, 834.11626pt x 628.3475pt>
+[27] <img/MaslowCroninPiramide.png, id=434, 834.11626pt x 628.3475pt>
 File: img/MaslowCroninPiramide.png Graphic file (type png)
 <use img/MaslowCroninPiramide.png>
 Package pdftex.def Info: img/MaslowCroninPiramide.png used on input line 139.
@@ -2855,7 +2980,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 27.
-<img/ThinkingInReact.png, id=536, 276.03125pt x 320.19624pt>
+<img/ThinkingInReact.png, id=555, 276.03125pt x 320.19624pt>
 File: img/ThinkingInReact.png Graphic file (type png)
 <use img/ThinkingInReact.png>
 Package pdftex.def Info: img/ThinkingInReact.png used on input line 35.
@@ -2911,151 +3036,181 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 136.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 136.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 140.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 143.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 143.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 146.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 146.
-[41]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 161.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 161.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 172.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 172.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 182.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 182.
-LaTeX Font Info:    Font shape `TS1/pag/bx/n' in size <12> not available
-(Font)              Font shape `TS1/pag/b/n' tried instead on input line 184.
-LaTeX Font Info:    Font shape `TS1/pag/b/n' in size <12> not available
-(Font)              Font shape `TS1/pag/db/n' tried instead on input line 184.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 184.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 187.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 187.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 187.
-[42] <img/equirectangular.png, id=630, 1022.82124pt x 506.89375pt>
-File: img/equirectangular.png Graphic file (type png)
-<use img/equirectangular.png>
-Package pdftex.def Info: img/equirectangular.png used on input line 211.
-(pdftex.def)             Requested size: 298.75264pt x 148.05505pt.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 217.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 217.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 217.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 217.
-[43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.217 
-       <./img/equirectangular.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 239.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 239.
+<img/react360stack.png, id=605, 345.29pt x 628.3475pt>
+File: img/react360stack.png Graphic file (type png)
+<use img/react360stack.png>
+Package pdftex.def Info: img/react360stack.png used on input line 144.
+(pdftex.def)             Requested size: 170.71393pt x 310.66383pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 246.
-[44] <img/flexbox.png, id=647, 672.5125pt x 301.125pt>
-File: img/flexbox.png Graphic file (type png)
-<use img/flexbox.png>
-Package pdftex.def Info: img/flexbox.png used on input line 265.
-(pdftex.def)             Requested size: 298.75264pt x 133.76816pt.
+(babel)             in language  on input line 148.
+[41]
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 274.
+(babel)             in language  on input line 156.
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.156 
+       <./img/react360stack.png (PNG copy)>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 161.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 179.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 190.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 190.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 193.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 193.
+[43]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 200.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 200.
+LaTeX Font Info:    Font shape `TS1/pag/bx/n' in size <12> not available
+(Font)              Font shape `TS1/pag/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `TS1/pag/b/n' in size <12> not available
+(Font)              Font shape `TS1/pag/db/n' tried instead on input line 202.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 202.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 202.
+<img/equirectangular.png, id=653, 1022.82124pt x 506.89375pt>
+File: img/equirectangular.png Graphic file (type png)
+<use img/equirectangular.png>
+Package pdftex.def Info: img/equirectangular.png used on input line 229.
+(pdftex.def)             Requested size: 298.75264pt x 148.05505pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 235.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 235.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 235.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 235.
+[44]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 255.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 255.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 255.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 255.
 [45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.274 H
-       et verschil met 3D objecten en 2D user interfaces is dat deze niet aa...
- <./img/flexbox.png (PNG copy)>] <img/3daxis.png, id=660, 240.9pt x 208.78pt>
+l.255 
+       <./img/equirectangular.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 257.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 257.
+<img/flexbox.png, id=673, 672.5125pt x 301.125pt>
+File: img/flexbox.png Graphic file (type png)
+<use img/flexbox.png>
+Package pdftex.def Info: img/flexbox.png used on input line 283.
+(pdftex.def)             Requested size: 298.75264pt x 133.76816pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 287.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 287.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 287.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 287.
+[46] <img/3daxis.png, id=686, 240.9pt x 208.78pt>
 File: img/3daxis.png Graphic file (type png)
 <use img/3daxis.png>
-Package pdftex.def Info: img/3daxis.png used on input line 284.
+Package pdftex.def Info: img/3daxis.png used on input line 302.
 (pdftex.def)             Requested size: 298.75264pt x 258.94502pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 306.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 296.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+(babel)             in language  on input line 306.
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.296 		]}}>
-             <./img/3daxis.png>]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 303.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 303.
+l.306 
+       <./img/flexbox.png (PNG copy)>]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 321.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 321.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 327.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 327.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 327.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 327.
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+}) has been already used, duplicate ignored
 
-Underfull \vbox (badness 5637) has occurred while \output is active []
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.327 const 
+            { AudioModule } = NativeModules; <./img/3daxis.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 339.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 339.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 348.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 327.
-[47]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 345.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 345.
-) (applicaties.tex
+(babel)             in language  on input line 348.
+[49]) (applicaties.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining dutch shorthand "~
@@ -3064,48 +3219,99 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 4.
-[48]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 4.
-[49]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 4.
-[50
-
-]
+[50]
 Hoofdstuk 5.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 4.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 7.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 7.
-Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 10.
+<img/app1.png, id=727, 1677.89122pt x 872.01254pt>
+File: img/app1.png Graphic file (type png)
+<use img/app1.png>
+Package pdftex.def Info: img/app1.png used on input line 16.
+(pdftex.def)             Requested size: 298.75264pt x 155.25233pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 20.
+[51
+
+]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 21.
+<img/app2.png, id=733, 1745.38867pt x 878.83047pt>
+File: img/app2.png Graphic file (type png)
+<use img/app2.png>
+Package pdftex.def Info: img/app2.png used on input line 29.
+(pdftex.def)             Requested size: 298.75264pt x 150.41835pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 34.
+
+Underfull \vbox (badness 6708) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 40.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 40.
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.40 D
+      e performantie van het framework is ook een belangrijk aspect. We will...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.40 D
+      e performantie van het framework is ook een belangrijk aspect. We will...
+ <./img/app1.png> <./img/app2.png>] <img/appsmemory.png, id=738, 2168.1pt x 192
+7.2pt>
+File: img/appsmemory.png Graphic file (type png)
+<use img/appsmemory.png>
+Package pdftex.def Info: img/appsmemory.png used on input line 67.
+(pdftex.def)             Requested size: 384.1096pt x 341.41139pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 71.
+[53] <img/batteryusage.png, id=744, 1084.05pt x 1927.2pt>
+File: img/batteryusage.png Graphic file (type png)
+<use img/batteryusage.png>
+Package pdftex.def Info: img/batteryusage.png used on input line 76.
+(pdftex.def)             Requested size: 170.71393pt x 303.47679pt.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 83.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 83.
 ) (conclusie.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -3115,7 +3321,13 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
-[51]
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.5 \chapter
+            {Conclusie} <./img/appsmemory.png>]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
@@ -3124,7 +3336,22 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
-[52
+[55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.5 \chapter
+            {Conclusie} <./img/batteryusage.png>]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 5.
+[56
 
 ]
 Hoofdstuk 6.
@@ -3141,7 +3368,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 112.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 112.
-[53]
+[57]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 112.
 Package babel Info: Redefining dutch shorthand "~
@@ -3150,7 +3377,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 112.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 112.
-[54
+[58
 
 ]
 B"ylage A.
@@ -3175,7 +3402,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 14.
-[55]
+[59]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining dutch shorthand "~
@@ -3188,7 +3415,52 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 27.
-)
+) (bijlagen.tex
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 4.
+[60]
+B"ylage B.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 75.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 75.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 75.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 75.
+[61
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 137.
+[62])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining dutch shorthand "~
@@ -3197,7 +3469,16 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 125.
-[56]
+[63]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 125.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 125.
+[64]
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining dutch shorthand "~
@@ -3210,7 +3491,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 128.
-[57
+[65
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
@@ -3227,13 +3508,13 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 38931 strings out of 493333
- 712307 string characters out of 3139162
- 1350415 words of memory out of 3000000
- 41315 multiletter control sequences out of 15000+200000
- 64232 words of font info for 178 fonts, out of 3000000 for 9000
+ 49095 strings out of 493333
+ 1053888 string characters out of 3139162
+ 1766856 words of memory out of 3000000
+ 51310 multiletter control sequences out of 15000+200000
+ 65015 words of font info for 181 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,59p,10422b,3406s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,12n,100p,10422b,3412s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Michiel G
 libert\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk>
  <C:\Users\Michiel Glibert\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
@@ -3242,9 +3523,9 @@ a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (59 pages, 1696999 bytes).
+Output written on bachproef-tin.pdf (67 pages, 9690468 bytes).
 PDF statistics:
- 1144 PDF objects out of 1200 (max. 8388607)
- 346 named destinations out of 1000 (max. 500000)
- 39944 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1222 PDF objects out of 1440 (max. 8388607)
+ 367 named destinations out of 1000 (max. 500000)
+ 39977 words of extra memory for PDF output out of 42996 (max. 10000000)
 

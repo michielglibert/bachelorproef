@@ -69,6 +69,33 @@
       \field{type}{resreport}
       \field{year}{1997}
     \endentry
+    \entry{Bieronski2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=89a4d03471dc30490f1204dd6c34a63c}{%
+           family={Bieronski},
+           familyi={B\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{89a4d03471dc30490f1204dd6c34a63c}
+      \strng{fullhash}{89a4d03471dc30490f1204dd6c34a63c}
+      \strng{authornamehash}{89a4d03471dc30490f1204dd6c34a63c}
+      \strng{authorfullhash}{89a4d03471dc30490f1204dd6c34a63c}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{12}
+      \field{title}{How does React VR work?}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://medium.com/@mike.bieronski/how-does-react-vr-work-cf86cd5568a1
+      \endverb
+    \endentry
     \entry{Chima2017}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6ab333196e7d4aa70a4a39d18e220642}{%
@@ -244,7 +271,6 @@
       \field{year}{2000}
     \endentry
   \endsortlist
-  \missing{Bieronski2016}
 \endrefsection
 \endinput
 

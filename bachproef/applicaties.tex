@@ -3,15 +3,83 @@
 %%=============================================================================
 \chapter{React 360 applicaties testen}
 \label{ch:react-360-apps}
+Het is belangrijk dat we een goed beeld krijgen van hoe de gebruikers een React 360 applicatie ervaren. Het is immers voor deze groep dat we de applicatie ontwikkelen. Om dit beeld te verkrijgen hebben we een klein onderzoek uitgevoerd a.d.h.v. 2 eenvoudige applicaties die ontwikkeld werden in React 360. Deze applicaties leggen vooral de nadruk op de belangrijkste componenten op wat React 360 te bieden heeft. 
+
+Dit onderzoek werd afgenomen bij 15 personen tussen de 20 en 25 jaar. Eerst werden de personen onderworpen aan de volgende 2 applicaties en daarna werd er een bevraging afgenomen die bestond uit een 6-tal korte vragen die vooral een antwoord geven op de user experience van React 360 en dus niet van virtual reality in het algemeen.
 
 \section{Applicatie 1: Omgeving simuleren}
 \label{sec:omgeving-simulatie}
+De 1ste applicatie was de eenvoudigste waarbij er gebruik werd gemaakt van een mono 360\textdegree video (zie hoofdstuk \ref{subsec:360-photo-video}). Een stereo versie zou realistischer zijn omdat er dan dieptezicht aanwezig is, maar deze soort video's zijn niet gemakkelijk te vinden in goeie kwaliteit. Daarom werd er toch de keuze gemaakt voor een gewone mono 360\textdegree video. Naast de aanwezigheid van een video, is er ook natuurlijk audio aanwezig. De applicatie is vooral bedoelt om de gebruiker zich aanwezig te laten voelen in een realistische omgeving.
 
-\subsection{Resultaten}
-\label{sec:resulaten-app1}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{app1.png}
+	\caption{Applicatie 1}
+	\label{fig:app1}
+\end{figure}
 
 \section{Applicatie 2: Een interactieve applicatie}
 \label{sec:interactieve-applicatie}
+De 2de applicatie is een iets ingewikkeldere. Deze legt vooral de focus op de interactiviteit met de gebruiker. Hier is een user interface aanwezig die volledig gemaakt werd in React 360 met de hulp van React JS. Daarnaast is er ook gebruik gemaakt van een raycaster (zie hoofdstuk \ref{subsec:input-vr}) Deze applicatie is gebaseerd op een voorbeeld die terug te vinden is op de documentatie van React 360 maar heeft wel lichte aanpassingen gehad zodat het offline werkt en volledig compatibel is met de huidige versie van chrome op de smartphone.
 
-\subsection{Resultaten}
-\label{sec:resulaten-app2}
+De applicatie toont aan de linkerkant een overzicht van de mogelijke objecten die kunnen gekozen worden met hun titel en maker. Deze objecten zijn afkomstig van een gratis online database van google genaamd 'Googly Poly'. Men kan 1 van deze objecten links gaan selecteren en dit object zal dan tevoorschijn komen in het midden en traag ronddraaien. Ten slotte kan men dan aan de rechterkant de naam en de auteur nogmaals zijn met een bijhorende beschrijving van het object.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{app2.png}
+	\caption{Applicatie 2}
+	\label{fig:app2}
+\end{figure}
+
+\section{Prestaties}
+\label{sec:prestaties}
+-> GSM warm
+-> Batterij verbruik
+-> Vergelijking tegenover PC
+
+De performantie van het framework is ook een belangrijk aspect. We willen immers dat zoveel mogelijk toestellen onze applicatie kan gebruiken. Een VR applicatie die met het React 360 framework gebouwd is zou normaal aan 60 beelden per seconde en een lage latency moeten uitgevoerd kunnen worden.
+
+Tijdens het onderzoek maakten we voor applicatie 1 gebruik van volgende smartphone:
+
+OnePlus One 
+\begin{itemize}
+	\item Schermresolutie: 1920x1080 (Full HD)
+	\item Processor: Qualcomm Snapdragon 801
+	\item RAM geheugen: 3GB
+	\item Besturingssysteem: Android 7.1.1
+	\item Browser: Chrome Canary - versie 68.0.3434.0
+\end{itemize}
+
+Voor applicatie 2 maakten we gebruik van volgende smartphone:
+OnePlus 3T
+\begin{itemize}
+	\item Schermresolutie: 1920x1080 (Full HD)
+	\item Processor: Qualcomm Snapdragon 821
+	\item RAM geheugen: 6GB
+	\item Besturingssysteem: Android 8.0.0
+	\item Browser: Chrome Canary - versie 68.0.3434.0
+\end{itemize}
+
+Voor beide applicaties op beide toestellen lag het geheugenverbruik vrij hoog. Voor de 1ste applicatie lag het gemiddeld verbruik rond de ~580mb. Bij de 2de applicatie ging het nog wat hoger en was het verbruik gemiddeld ~900mb.  Als we weten dat een gewone webpagina ongeveer gemiddeld ~150-200mb verbruikt, is dat een aanzienlijk verschil.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{appsmemory.png}
+	\caption{Een momentopname van het geheugen verbruik van applicatie 1 (links) en applicatie 2 (rechts)}
+	\label{fig:appsmemory}
+\end{figure}
+
+Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en ook de processor tot aan het werken zet is het batterijverbruik van deze applicaties vrij hoog.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{batteryusage.png}
+	\caption{Het batterijverbruik van de 1ste applicatie na 1u en 20 minuten.}
+	\label{fig:batteryusage}
+\end{figure}
+
+We kunnen dus concluderen dat we voor een VR applicatie uit te voeren een krachtige smartphone nodig hebben met toch zeker 2GB minimum aan ram geheugen voor een goede virtual reality experience te hebben.
+
+\subsection{Resultaten bevraging}
+\label{sec:resulaten-apps}
+

@@ -135,10 +135,28 @@ Bij dit voorbeeld hebben we de een button gedefenieerd met de toegevoegde prop \
 
 \section{Werking van React 360}
 \label{sec:werking-react360}
-\autocite{Bieronski2016}
+
+
+React 360 is een framework waarmee we op een eenvoudige manier VR applicaties kunnen gaan maken. Deze VR applicaties spelen zich af in een 3D omgeving. Het is natuurlijk niet zomaar dat React 360 het mogelijk maakt om met gewone React JS code componenten toe te voegen aan deze 3D omgeving. Hiervoor heeft het framework een uitgebreide 'stack' van software libraries om dit mogelijk te maken \autocite{Bieronski2016}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{react360stack.png}
+	\caption{De software stack van React 360 (React VR).}
+	\label{fig:react360-stack}
+\end{figure}
+
+Een React 360 applicatie bestaat uit 2 delen, waaronder de applicatie zelf (de code die je dus schrijft) en de 1ste laag op de afbeelding namelijk de React Runtime. Dit zorgt ervoor dat onze code geconverteerd wordt naar code die de andere lagen snappen. Daarnaast zorgt het ervoor dat de browser niet vastloopt omdat de code apart wordt uitgevoerd en dan pas aan de 3D omgeving wordt toegevoegd waardoor de beelden per seconde dus consistent blijven en zo het gevoel van onderdompeling in de virtuele wereld niet verdwijnt. Ten slotte bevat deze runtime nog zogenaamde 'Executors'. Deze executors zorgen ervoor dat er nog code in de achtergrond kan worden uitgevoerd, dus niet noodzakelijk in de browser zelf.
+
+Op de 2de laag hebben we OVRUI (Oculus VR User Interface) en Three.js. De OVRUI is een library die ervoor zorgt dat bepaalde elementen gemakkelijk kunnen weergegeven worden via Three.js. Dit zijn onder andere text, knoppen, ... Three.js is dan weer een library die het mogelijk maakt om 3D objecten te kunnen weergeven in de browser.
+
+De laatste laag bestaat dan uit WebVR en de browser. WebVR is hetgeen wat ervoor zorgt dat een virtual reality experience mogelijk is in de browser en hangt nauw samen met WebGL (waar Three.js ook gebruik van maakt). Dat is een standaard voor 3D objecten in de browser te verkrijgen. Zo kan het herkennen welk type toestel je gebruikt, zorgt het voor de communicatie met VR toestellen en toont het de 'VR Frame', het stuk op de webpagina dat dus in VR moet worden weergegeven. 
+
+We zien dus dat React 360 een verzameling is van meerdere technologieën waar men dan a.d.h.v. React JS gemakkelijk mee kan communiceren. Dit toont dus duidelijk aan dat React 360 het voor een ontwikkelaar veel eenvoudiger maakt om virtual reality applicaties te gaan maken.
 
 \section{Enkele belangrijke componenten}
 \label{sec:reactvr-componenten}
+React 360 heeft nog enkele belangrijke componenten die niet beschikbaar zijn in de gewone React JS.
 
 \subsection{View}
 \label{subsec:view}
@@ -341,6 +359,3 @@ Omdat React 360 dus niet alle controllers ondersteund, is het ook mogelijk voor 
 	\item Het punt waar de raycaster begint
 	\item Het type raycaster (touch, mouse, ..)
 \end{itemize}
-
-\section{Prestaties}
-\label{sec:prestaties}

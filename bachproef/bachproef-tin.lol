@@ -37,18 +37,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.7}Voorbeeld van een vent afhandelen.}{41}{lstlisting.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.8}Een component die een View teruggeeft.}{42}{lstlisting.4.8}
+\contentsline {lstlisting}{\numberline {4.8}Een component die een View teruggeeft.}{43}{lstlisting.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.9}Het Text component met kinderen.}{42}{lstlisting.4.9}
+\contentsline {lstlisting}{\numberline {4.9}Het Text component met kinderen.}{43}{lstlisting.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.10}Het Image component met als bron een-afbeelding.jpg.}{42}{lstlisting.4.10}
+\contentsline {lstlisting}{\numberline {4.10}Het Image component met als bron een-afbeelding.jpg.}{44}{lstlisting.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.11}Een afbeelding als achtergrond instellen in de runtime.}{44}{lstlisting.4.11}
+\contentsline {lstlisting}{\numberline {4.11}Een afbeelding als achtergrond instellen in de runtime.}{45}{lstlisting.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.12}Voorbeeld van een surface}{45}{lstlisting.4.12}
+\contentsline {lstlisting}{\numberline {4.12}Voorbeeld van een surface}{46}{lstlisting.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.13}Voorbeeld van een surface}{46}{lstlisting.4.13}
+\contentsline {lstlisting}{\numberline {4.13}Voorbeeld van een surface}{47}{lstlisting.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.14}Voorbeeld van een Entity component}{46}{lstlisting.4.14}
+\contentsline {lstlisting}{\numberline {4.14}Voorbeeld van een Entity component}{48}{lstlisting.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.15}Voorbeeld van een Entity component}{47}{lstlisting.4.15}
+\contentsline {lstlisting}{\numberline {4.15}Voorbeeld van een Entity component}{49}{lstlisting.4.15}
