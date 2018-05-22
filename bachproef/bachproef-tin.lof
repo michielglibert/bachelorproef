@@ -16,7 +16,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces De opbouw van componenten en sub-componenten.}}{37}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces De opbouw van componenten en sub-componenten in React.}}{36}{figure.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces De software stack van React 360 (React VR).}}{40}{figure.4.2}
 \defcounter {refsection}{0}\relax 
@@ -24,7 +24,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Een flexbox container met flex items.}}{45}{figure.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces De X, Y en Z assen.}}{46}{figure.4.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces De X, Y en Z assen.}}{45}{figure.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Een cursor, raycaster en controller}}{48}{figure.4.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

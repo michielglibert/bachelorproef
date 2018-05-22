@@ -3,13 +3,13 @@
 %%=============================================================================
 \chapter{React 360 applicaties testen}
 \label{ch:react-360-apps}
-Het is belangrijk dat we een goed beeld krijgen van hoe de gebruikers een React 360 applicatie ervaren. Het is immers voor deze groep dat we de applicatie ontwikkelen. Om dit beeld te verkrijgen hebben we een klein onderzoek uitgevoerd a.d.h.v. 2 eenvoudige applicaties die ontwikkeld werden in React 360. Deze applicaties leggen vooral de nadruk op de belangrijkste componenten op wat React 360 te bieden heeft. 
+Het is belangrijk dat we een goed beeld krijgen van hoe de gebruikers een React 360 applicatie ervaren. Het is immers voor deze groep dat we VR applicaties ontwikkelen. Om dit beeld te verkrijgen hebben we een klein onderzoek uitgevoerd a.d.h.v. 2 eenvoudige applicaties die ontwikkeld werden in React 360. Deze applicaties leggen vooral de nadruk op de belangrijkste componenten op wat React 360 te bieden heeft. 
 
-Dit onderzoek werd afgenomen bij 15 personen tussen de 20 en 25 jaar. Eerst werden de personen onderworpen aan de volgende 2 applicaties en daarna werd er een bevraging afgenomen die bestond uit een 6-tal korte vragen die vooral een antwoord geven op de user experience van React 360 en dus niet van virtual reality in het algemeen.
+Dit onderzoek werd afgenomen bij 15 personen tussen de 20 en 25 jaar. Eerst werden de personen onderworpen aan de volgende 2 applicaties. Zij kregen een mobiele VR headset met een smartphone in en mochten dan beide applicaties gedurende 5-10 minuten uittesten. Daarna werd er een bevraging afgenomen die bestond uit een 6-tal korte vragen die vooral een antwoord geven op de user experience van React 360 en dus niet van virtual reality in het algemeen.
 
 \section{Applicatie 1: Omgeving simuleren}
 \label{sec:omgeving-simulatie}
-De 1ste applicatie was de eenvoudigste waarbij er gebruik werd gemaakt van een mono 360\textdegree video (zie hoofdstuk \ref{subsec:360-photo-video}). Een stereo versie zou realistischer zijn omdat er dan dieptezicht aanwezig is, maar deze soort video's zijn niet gemakkelijk te vinden in goeie kwaliteit. Daarom werd er toch de keuze gemaakt voor een gewone mono 360\textdegree video. Naast de aanwezigheid van een video, is er ook natuurlijk audio aanwezig. De applicatie is vooral bedoelt om de gebruiker zich aanwezig te laten voelen in een realistische omgeving.
+De 1ste applicatie was de eenvoudigste waarbij er gebruik werd gemaakt van een mono 360\textdegree video (zie hoofdstuk \ref{subsec:360-photo-video}). Een stereo versie zou realistischer geweest zijn omdat er dan dieptezicht aanwezig is, maar deze soort video's zijn niet gemakkelijk te vinden in goeie kwaliteit. Daarom werd er toch de keuze gemaakt voor een gewone mono 360\textdegree video. Naast de aanwezigheid van een video, was er ook natuurlijk omgevingsgeluid aanwezig. De applicatie was vooral bedoelt om de gebruiker zich aanwezig te laten voelen in een realistische omgeving.
 
 \begin{figure}[H]
 	\centering
@@ -20,9 +20,9 @@ De 1ste applicatie was de eenvoudigste waarbij er gebruik werd gemaakt van een m
 
 \section{Applicatie 2: Een interactieve applicatie}
 \label{sec:interactieve-applicatie}
-De 2de applicatie is een iets ingewikkeldere. Deze legt vooral de focus op de interactiviteit met de gebruiker. Hier is een user interface aanwezig die volledig gemaakt werd in React 360 met de hulp van React JS. Daarnaast is er ook gebruik gemaakt van een raycaster (zie hoofdstuk \ref{subsec:input-vr}) Deze applicatie is gebaseerd op een voorbeeld die terug te vinden is op de documentatie van React 360 maar heeft wel lichte aanpassingen gehad zodat het offline werkt en volledig compatibel is met de huidige versie van chrome op de smartphone.
+De 2de applicatie was een iets ingewikkeldere. Deze legt vooral de focus op de interactiviteit met de gebruiker. Hier is een user interface aanwezig die volledig gemaakt werd in React 360 met de hulp van React JS. Daarnaast werd er ook gebruik gemaakt van een raycaster (zie hoofdstuk \ref{subsec:input-vr}). Deze applicatie is gebaseerd op een voorbeeld die terug te vinden is op de documentatie van React 360 maar had wel lichte aanpassingen gekregen zodat het offline werkt en volledig compatibel was met de toen huidige versie van chrome op de smartphone.
 
-De applicatie toont aan de linkerkant een overzicht van de mogelijke objecten die kunnen gekozen worden met hun titel en maker. Deze objecten zijn afkomstig van een gratis online database van google genaamd 'Googly Poly'. Men kan 1 van deze objecten links gaan selecteren en dit object zal dan tevoorschijn komen in het midden en traag ronddraaien. Ten slotte kan men dan aan de rechterkant de naam en de auteur nogmaals zijn met een bijhorende beschrijving van het object.
+De applicatie toont aan de linkerkant een overzicht van de mogelijke objecten die kunnen gekozen worden met hun titel en maker. Deze objecten zijn afkomstig van een gratis online database van google genaamd Googly Poly. Men kan 1 van deze objecten links gaan selecteren en dit object zal dan tevoorschijn komen in het midden en traag ronddraaien. Ten slotte kan men dan aan de rechterkant de naam en de auteur nogmaals zien met een bijhorende beschrijving van het object.
 
 \begin{figure}[H]
 	\centering
@@ -59,9 +59,9 @@ Voor applicatie 2 maakten we gebruik van volgende smartphone:
 
 Voor beide applicaties op beide toestellen lag het geheugenverbruik vrij hoog. Voor de 1ste applicatie lag het gemiddeld verbruik rond de ~580mb. Bij de 2de applicatie ging het nog wat hoger en was het verbruik gemiddeld ~900mb.  Als we weten dat een gewone webpagina ongeveer gemiddeld ~150-200mb verbruikt, is dat een aanzienlijk verschil.
 
-Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en ook de processor tot aan het werken zet is het batterijverbruik van deze applicaties vrij hoog.
+Doordat de applicatie dus een grote hoeveelheid van het RAM geheugen inneemt en ook de processor tot aan het werken zette, was het batterijverbruik van deze applicaties vrij hoog.
 
-We kunnen dus concluderen dat we voor een VR applicatie uit te voeren een krachtige smartphone nodig hebben met toch zeker 2GB minimum aan ram geheugen voor een goede virtual reality experience te hebben.
+We kunnen dus concluderen dat we voor een VR applicatie uit te voeren een vrij krachtige smartphone nodig hebben met toch zeker 2GB minimum aan ram geheugen voor een goede virtual reality ervaring te hebben.
 
 \section{Resultaten bevraging}
 \label{sec:resulaten-apps}
@@ -78,7 +78,7 @@ Bij het onderzoek lag de focus vooral op de ervaring van de gebruiker bij de Rea
 
 De grafieken en resultaten. kan u terugvinden onder bijlage \ref{sec:bijlage1}
 
-Volgens de resultaten kunnen we dus enkele dingen gaan concluderen rekening houdend met het feit dat 73,3\% van de ondervraagden al eerder virtual reality had gebruikt. Zo is het ten eerste zeer duidelijk dat React 360 een goede manier is om gebruiksvriendelijke applicaties te maken. 93,3\% van de ondervraagden vond immers dat de 2de applicatie aangenaam was om te gebruiken. Ookal vond dus de meerderheid (73,3\%) dat de kwaliteit van het beeld niet goed was, toch was men nog steeds positief over de gebruikerservaring. Ten tweede zie je zeer duidelijk dat fysieke ongemakken regelmatig voorkwamen. Dit ging van duizeligheid tot ook misselijkheid bij de uitvoering van het onderzoek. Dit was dan vooral te merken bij de 1ste applicatie, waar  60\% zich deels aanwezig voelde. Een mobiele React 360 applicatie is dus zeker nog niet een goede manier om ervoor te zorgen dat de gebruiker volledig wordt ondergedompeld in de wereld. Maar dit heeft ook hoogst waarschijnlijk te maken met het feit dat de beeldkwaliteit een pak lager is bij mobile VR. Ten slotte zien we wel dat 60\% regelmatig deze soort applicatie zou gebruiken als hij/zij over VR headset beschikt. Dit is dus zeker postief, maar we kunnen hier ook uit afleiden dat 40\% geen nood heeft aan een VR ervaring.
+Volgens de resultaten kunnen we dus enkele dingen gaan concluderen rekening houdend met het feit dat 73,3\% van de ondervraagden al eerder virtual reality had gebruikt. Zo is het ten eerste zeer duidelijk dat React 360 een goede manier is om gebruiksvriendelijke applicaties te maken. 93,3\% van de ondervraagden vond immers dat de 2de applicatie aangenaam was om te gebruiken. Ookal vond dus de meerderheid (73,3\%) dat de kwaliteit van het beeld niet goed was, toch was men nog steeds positief over de gebruikerservaring. Ten tweede zie je zeer duidelijk dat fysieke ongemakken regelmatig voorkwamen. Dit ging van duizeligheid tot ook misselijkheid bij de uitvoering van het onderzoek. Dit was dan vooral te merken bij de 1ste applicatie, waar  60\% zich deels aanwezig voelde. Een mobiele React 360 applicatie is dus zeker nog niet een goede manier om ervoor te zorgen dat de gebruiker volledig wordt ondergedompeld in de wereld. Dit heeft dan ook hoogst waarschijnlijk te maken met het feit dat de beeldkwaliteit een pak lager is bij mobile VR. Ten slotte zien we wel dat 60\% regelmatig deze soort applicatie zou gebruiken als hij/zij over VR headset beschikt. Dit is dus zeker postief, maar we kunnen hier ook uit afleiden dat 40\% geen nood heeft aan een VR ervaring.
 
 \begin{figure}
 	\centering

@@ -25,7 +25,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.1}Voorbeeld van een JSX tag}{36}{lstlisting.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.2}Het component HelloWorld wordt gedefinieerd}{36}{lstlisting.4.2}
+\contentsline {lstlisting}{\numberline {4.2}Het component HelloWorld wordt gedefinieerd}{37}{lstlisting.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.3}Het component Hello wordt gedefinieerd die de property 'name' gebruikt}{37}{lstlisting.4.3}
 \defcounter {refsection}{0}\relax 
@@ -35,7 +35,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.6}Het temperature component met de bijhorende state.}{38}{lstlisting.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.7}Voorbeeld van een vent afhandelen.}{39}{lstlisting.4.7}
+\contentsline {lstlisting}{\numberline {4.7}Een event afhandelen}{39}{lstlisting.4.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.8}Een component die een View teruggeeft.}{41}{lstlisting.4.8}
 \defcounter {refsection}{0}\relax 
@@ -51,4 +51,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.14}Voorbeeld van een Entity component}{46}{lstlisting.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.15}Voorbeeld van een Entity component}{47}{lstlisting.4.15}
+\contentsline {lstlisting}{\numberline {4.15}Voorbeeld van een Entity component}{46}{lstlisting.4.15}

@@ -10,52 +10,52 @@
 %%=============================================================================
 %% Virtual reality
 %%=============================================================================
-Voordat React 360 kan worden bekeken is het belangrijk een goed beeld te scheppen van virtual reality zelf. We gaan dieper in op de concepten van virtual reality, hoe het werkt en wat de gevolgen zijn voor de gebruiker van deze applicaties. Daarna gaan we een kijkje nemen naar programmeertalen: HTML, CSS en Javascript. Dit is nodig om React 360 te kunnen verstaan. We zullen tot slot nog een overzicht geven van de mogelijke alternatieven voor React 360 met ook een korte uitleg van deze frameworks.
+Voordat React 360 kan worden bekeken is het belangrijk een goed beeld te scheppen van de technologie virtual reality zelf. In dit hoofdstuk gaan we dieper in op de concepten van virtual reality, hoe het werkt en wat de gevolgen zijn voor de gebruiker van deze applicaties. Daarna bekijken we de programmeertalen waarmee het framework werkt: HTML, CSS en Javascript. We zullen tot slot nog een overzicht geven van de mogelijke alternatieven voor React 360 met ook een korte uitleg van deze frameworks.
 
 \section{De virtuele realiteiten}
 \label{secvirtuele-realiteiten}
-We weten al wat virtual reality is, maar wanneer is nu iets 'virtual reality'. Er zijn namelijk nog een aantal andere vormen van valse realiteiten die al snel verward kunnen worden met virtual reality, maar wat zijn deze nu precies en wanneer kunnen we iets als VR aanzien.
+We weten al wat virtual reality is, maar wanneer is nu iets 'virtual reality'. Er zijn namelijk nog een aantal andere vormen van valse realiteiten die al snel verward kunnen worden met de term virtual reality, maar wat zijn deze nu precies en wanneer kunnen we iets als VR aanzien.
 
 \subsection{Virtual reality}
 \label{subsec:virtual-reality}
-Om gemakkelijk te kunnen aantonen wanneer nu iets virtual reality is maken we gebruik van de 4 sleutel elementen van virtual reality die \autocite{Sherman2000} in zijn boek aanhaalt.
+Om gemakkelijk te kunnen aantonen wanneer nu iets virtual reality is, maken we gebruik van de 4 sleutel elementen van virtual reality die \autocite{Sherman2000} in zijn boek aanhaalt.
 
 \subsubsection{Een virtuele wereld}
 \label{ssubsec:virtuele-wereld}
-In ons hoofd kunnen we ons dingen voorstellen die enkel wij ons kunnen voorstellen. Dit kunnen bepaalde omgevingen zijn die niet bestaan, fictie zijn. We noemen het ook wel een virtuele wereld. Een virtuele wereld hoeft niet noodzakelijk afgebeeld te worden op een computer, men kan deze virtuele wereld al gaan beschrijven op andere manieren zoals men bij een film een script heeft die de film verteld (maar het is natuurlijk nog niet de afgewerkte film).
+In ons hoofd kunnen we ons dingen voorstellen die enkel wij ons kunnen voorstellen. Dit kunnen bepaalde omgevingen zijn die niet bestaan, fictie zijn. Dit noemt ook wel een virtuele wereld. Een virtuele wereld hoeft niet noodzakelijk afgebeeld te worden op een computer, men kan deze virtuele wereld al gaan beschrijven op andere manieren zoals men bij een film een script heeft die de film verteld (maar het is natuurlijk nog niet de afgewerkte film).
 
-Het eerste sleutel element is ons zeer duidelijk en vloeit natuurlijk rechtstreeks van de naam virtual reality zelf. Met virtuele wereld bedoelt men niet noodzakelijk iets gaan maken dat niet bestaat, maar eerder iets gaan bedenken dat niet binnen handbereik is. Denk maar aan de Chinese muur. Dit bestaat natuurlijk wel echt maar China is niet een land dat dicht bij de deur is. Door virtual reality kunnen we toch de Chinese muur proberen te ervaren zoals hij in het echt is. Het is natuurlijk ook toegestaan om iets te gaan bouwen dat niet bestaat, maar dat heeft ook zo zijn limieten en hier geven we in hoofdstuk \ref{subsec:user-experience} een duidelijke verklaring voor.
+Het eerste sleutel element is zeer duidelijk en vloeit natuurlijk rechtstreeks van de naam virtual reality zelf. Met een virtuele wereld wordt niet noodzakelijk bedoelt dat men iets gaat gaan maken dat niet bestaat, maar eerder iets gaan bedenken dat niet binnen handbereik is. Denk maar aan de Chinese muur. Dit bestaat natuurlijk wel echt, maar China is niet een land dat dicht bij de deur is. Door virtual reality kunnen we toch de Chinese muur proberen te ervaren zoals hij in het echt is. Het is natuurlijk ook toegestaan om iets te gaan bouwen dat niet bestaat, maar dat heeft ook zo zijn limieten en hier geven we in hoofdstuk \ref{subsec:user-experience} een duidelijke verklaring voor.
 
 \subsubsection{Immersion/Onderdompeling}
 \label{ssubsec:immersion}
-Bij virtual reality is het belangrijk dat de gebruiker wordt ondergedompeld in iets anders dan de realiteit. Men moet zich eigenlijk van de echte wereld kunnen afscheiden en ten volle kunnen opgaan in de virtuele wereld. De gebruiker moet zich echt aanwezig kunnen voelen in de virtuele wereld waarbij dus prikkels van buitenaf zo beperkt mogelijk moeten zijn. Wat ook belangrijk is, is dat men met deze wereld interacties kan uitvoeren. Als men een boek leest kan men zich wel de wereld inbeelden, maar zal alles volgens een vaste lijn gaan. In een virtuele wereld heb je zelf de keuze wat je doet. Er is dus een communicatie aanwezig in 2 richtingen. Jij reageert op de virtuele wereld maar de virtuele wereld reageert ook terug op jou, bij een boek is dit natuurlijk niet mogelijk. We kunnen de onderdompeling gaan onderscheiden in 2 soorten:
+Bij virtual reality is het belangrijk dat de gebruiker wordt ondergedompeld in iets anders dan de realiteit. Men moet zich eigenlijk van de echte wereld kunnen afscheiden en ten volle kunnen opgaan in de virtuele wereld. De gebruiker moet zich echt aanwezig kunnen voelen in de virtuele wereld waarbij prikkels van buitenaf zo beperkt mogelijk moeten zijn. Wat ook belangrijk is, is dat men met deze wereld interacties kan uitvoeren. Als men een boek leest kan men zich de wereld wel inbeelden, maar zal alles volgens een vaste lijn gaan. In een virtuele wereld heb je zelf de keuze wat je doet. Er is dus een communicatie aanwezig in 2 richtingen. De gebruiker reageert op de virtuele wereld maar de virtuele wereld reageert ook terug op de gebruiker. Bij een boek is dit natuurlijk niet mogelijk. De onderdompeling kan onderscheiden worden in 2 soorten:
 
 \begin{itemize}
-	\item \textbf{De mentale onderdompeling} is waarbij je met je hoofd diep geëngageerd zit in de wereld en alles wat er in gebeurt, begint te geloven.
-	\item \textbf{De fysieke onderdompeling} is waarbij je lichaam eigenlijk in de virtuele wereld terechtkomt. Hierbij gaat men vooral op de menselijke zintuigen en bewegingen gaan inspelen.
+	\item \textbf{De mentale onderdompeling} is waarbij de gebruiker met het hoofd diep geëngageerd zit in de wereld en alles wat er in gebeurt, begint te geloven.
+	\item \textbf{De fysieke onderdompeling} is waarbij het lichaam van de gebruiker eigenlijk in de virtuele wereld terechtkomt. Hierbij gaat men vooral op de menselijke zintuigen en bewegingen gaan inspelen.
 \end{itemize}
 
 \subsubsection{Feedback voor de zintuigen}
 \label{ssubsec:feedback-van-zintuigen}
-Om dus de fysieke onderdompeling te ondersteunen, is er nood aan feedback voor de zintuigen. Denk maar aan een droom, waarbij het ook allemaal niet echt is maar je toch bepaalde gevoelens of zelfs pijn kan voelen. Ook bij virtual reality moeten we het lichaam zoveel mogelijk doen denken dat het zich echt in de virtuele wereld bevind. Momenteel, bij de huidige generatie van virtual reality apparaten, is er al een heleboel feedback aanwezig. Ten eerste is er de feedback op je ogen, je ziet de wereld. Dan heb je feedback op het gehoor, je hoort de wereld. En ten slotte heb je de bewegingen die je me de handen uitvoert, deze kunnen ook gereflecteerd worden in de virtuele wereld.
+Om dus de fysieke onderdompeling te ondersteunen, is er nood aan feedback voor de zintuigen. Denk maar aan een droom, waarbij het ook allemaal niet echt is. Toch is het mogelijk om in een droom bepaalde gevoelens of zelfs pijn te voelen. Ook bij virtual reality moeten we het lichaam zoveel mogelijk doen denken dat het zich echt in de virtuele wereld bevind. Momenteel, bij de huidige generatie van virtual reality apparaten, is er al een heleboel feedback aanwezig. Ten eerste is er de feedback op de ogen, de gebruiker ziet de wereld. Dan is er de feedback op het gehoor, de gebruiker hoort de wereld. Ten slotte zijn er de bewegingen die de gebruiker met de handen uitvoert. Deze kunnen dan gereflecteerd worden in de virtuele wereld.
 
 \subsubsection{Interactiviteit}
 \label{ssubsec:interactiviteit}
-Hier komen de 3 voorgaande elementen samen. Zoals eerder vermeld heeft virtual reality nood aan communicatie die in 2 richtingen gaat. We willen kunnen interacties uitvoeren op de virtuele wereld en deze ook te zien krijgen. Net zoals we bijvoorbeeld bij videospelletje op een gewoon beeldscherm bepaalde knoppen kunnen induwen om zo een respons te zien te krijgen. Het is zeer belangrijk dat deze interactie op een correcte manier gebeurt zodat dit geen ongemakken veroorzaakt bij de gebruiker. Dit wordt in hoofdstuk \ref{sec:ervaring-vr-app} goed aangehaald.
+Hier komen de 3 voorgaande elementen samen. Zoals eerder vermeld, heeft virtual reality nood aan communicatie die in 2 richtingen gaat. We willen  interacties kunnen uitvoeren op de virtuele wereld en deze ook te zien krijgen. Net zoals we bijvoorbeeld bij videospelletje op een gewoon beeldscherm bepaalde knoppen kunnen induwen om zo een respons te zien te krijgen. Het is zeer belangrijk dat deze interactie op een correcte manier gebeurt zodat dit geen ongemakken veroorzaakt bij de gebruiker. Dit wordt in hoofdstuk \ref{sec:ervaring-vr-app} goed aangehaald.
 
 \subsection{3D en 4D}
 \label{subsec:3d-4d}
-3D wil letterlijk zeggen driedimensionaal. Hiermee bedoelt men dat iets 3 meetkundige dimensies heeft, namelijk diepte, breedte en hoogte. Deze technologie kan men dan gaan toepassen op beeldschermen a.d.h.v. stereoscopie, waar we in hoofdstuk \ref{sec:hoe-werkt-vr} wat meer uitleg over geven. Op deze manier krijgt de gebruiker dus een illusie van diepte. Meestal worden hier dan speciale brillen voor gebruikt, ook wel 3D-brillen genoemd. De klassiekere brillen hebben dan een kleurfilter, meestal rood en blauw. Rood laat enkel rood door en blauw enkel blauw. Hiermee kan men dan vanaf 2 perspectieven een blauwe afbeelding en een rode afbeelding gaan weergeven waardoor de diepte van een object dus zichtbaar is.
+3D wil letterlijk zeggen driedimensionaal. Hiermee bedoelt men dat iets 3 meetkundige dimensies heeft, namelijk diepte, breedte en hoogte. Deze technologie kan men dan gaan toepassen op beeldschermen a.d.h.v. stereoscopie, waar we in hoofdstuk \ref{sec:hoe-werkt-vr} wat meer uitleg over geven. Op deze manier krijgt de gebruiker dus een illusie van diepte. Meestal worden hier dan speciale brillen voor gebruikt, ook wel 3D-brillen genoemd. De klassiekere brillen hebben dan een kleurfilter, meestal rood en blauw. Rood laat enkel rode kleuren door en blauw enkel blauwe kleuren. Hiermee kan men dan vanaf 2 perspectieven een blauwe afbeelding en een rode afbeelding gaan weergeven waardoor de diepte van een object dus zichtbaar is.
 
-3D wordt al veel toegepast in de filmwereld, vooral in de cinema dan. Hierdoor ontstond dan ook de uitgebreidere 4D maar is eerder een marketingterm dan een technologie en wordt bijna uitsluitend in de filmwereld gebruikt als entertainment. Bij 4D gaat men de beelden nog altijd driedimensionaal gaan weergeven maar zorgt men ook voor extra fysieke effecten die synchroon lopen met de film. Als bijvoorbeeld een film zich in het water afspeelt kan men af en toe kleine spatjes water op de kijker schieten.
+3D wordt al veel toegepast in de filmwereld, vooral in de cinema dan. Hierdoor ontstond dan ook de uitgebreidere 4D, maar dit is eerder een marketingterm dan een technologie en wordt bijna uitsluitend in de filmwereld gebruikt als entertainment. Bij 4D gaat men de beelden nog altijd driedimensionaal gaan weergeven maar zorgt men ook voor extra fysieke effecten die synchroon lopen met de film. Als bijvoorbeeld een film zich in het water afspeelt, kan men de kijker af en toe kleine spatjes water laten aanvoelen.
 
-Het grote verschil hier is de immersion die amper aanwezig is en afhankelijk van de content ook weinig feedback voor de zintuigen. Er is wel een extra dimensie maar er kan niet rondgekeken worden in tegenstelling tot een VR headset. Interactie met de wereld is ook in de meeste gevallen niet aanwezig, spelconsoles zoals de Nintendo 3DS vormen dan weer een uitzondering. 3D of 4D is dus zeker geen volwaardige virtual reality, maar is wel al een stap in de goede richting.
+Het grote verschil hier met virtual reality is de immersion. Deze is amper aanwezig is en afhankelijk van de content is er ook weinig feedback voor de zintuigen. Er is wel een extra dimensie maar er kan niet rondgekeken worden in tegenstelling tot een VR headset. Interactie met de wereld is ook in de meeste gevallen niet aanwezig. Spelconsoles zoals de Nintendo 3DS vormen dan weer een uitzondering. 3D of 4D is dus zeker geen volwaardige virtual reality, maar is wel al een stap in de goede richting \autocite{Peniche2016}.
 
 \subsection{Augmented Reality}
 \label{subsec:augmented-reality}
 Augmented Reality wordt heel veel verward met virtual reality maar zijn toch 2 andere technologieën. Je kan augmented reality gaan vertalen naar 'toegevoegde realiteit'. In tegenstelling tot virtual reality gaat men bij augmented reality letterlijk iets gaan toevoegen aan wat al bestaat. Bij virtual reality gaat men dan iets volledig virtueel gaan scheppen. Aangezien augemented reality iets toevoegt, is er ook niet verplicht nood aan een bril. Vandaag de dag wordt augmented reality regelmatig gebruikt bij de smartphone. Denk maar aan een applicatie waarbij je een object kan afbeelden op een plaats. Bijvoorbeeld een bepaald meubilair die virtueel gegeneerd en getoond wordt in een kamer dat echt bestaat.
 
-Er is niet echt een definitie van wat augmented reality precies inhoud. Je kan eigenlijk al een scorebord bij live uitzending van een sport op de televisie zien als een vorm van augmented reality. Maar volgens \autocite{Azuma1997} zou iets aan volgende 3 karakteristieken moeten voldoen om augmented reality te kunnen zijn:
+Er is niet echt een definitie van wat augmented reality precies inhoud. Je kan eigenlijk al een scorebord bij een live uitzending van sport op de televisie zien als een vorm van augmented reality. Maar volgens \autocite{Azuma1997} zou iets aan volgende 3 karakteristieken moeten voldoen om augmented reality te kunnen zijn:
 
 \begin{itemize}
 	\item Combineert de echte wereld met de virtuele wereld
@@ -65,7 +65,7 @@ Er is niet echt een definitie van wat augmented reality precies inhoud. Je kan e
 
 Als we deze 3 karakteristieken toepassen op het voorbeeld van het scorebord, zien we dus dat een scorebord bij een live uitzending van sport geen augmented reality is. De 1ste voorwaarde wordt wel voldaan, maar de 2de en de 3de niet. Men kan geen interacties gaan uitvoeren op dit scorebord, de programmamaker zou dit wel kunnen dus voor hem is dan enkel de 3de regel niet voldaan. Zou het beeld voor de programmamaker dan ook nog in 3D (een 3D scorebord dus, niet noodzakelijk een 3D beeldscherm) worden weergegeven, dan kunnen we stellen dat dit een vorm van augmented reality is.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{augmented.jpg}
 	\caption{Het verschil tussen virtual reality en augmented reality.}
@@ -74,7 +74,7 @@ Als we deze 3 karakteristieken toepassen op het voorbeeld van het scorebord, zie
 
 \section{De werking van virtual reality}
 \label{sec:hoe-werkt-vr}
-Er werd al duidelijk gemaakt wat virtual reality precies is en welke andere gelijkaardige vormen er zijn, maar het is ook belangrijk te weten hoe de technologie werkt. Hier gaan we in tegenstelling tot het vorige hoofdstuk eerder de nadruk leggen op technische gedeelte van virtual reality.
+Er werd al duidelijk gemaakt wat virtual reality precies is en welke andere gelijkaardige vormen er zijn, maar het is ook belangrijk te weten hoe de technologie werkt. Hier gaan we, in tegenstelling tot het vorige hoofdstu,k eerder de nadruk leggen op technische gedeelte van virtual reality.
 
 \subsection{Stereoscopie}
 \label{subsec:stereoscopie}
@@ -87,58 +87,53 @@ Bij virtuele werkelijkheid wordt er gebruik gemaakt van een illusie. Dit doet me
 	\label{fig:stereoscopie}
 \end{figure}
 
-Door stereoscopie kan men dus diepte gaan simuleren. Zo kan men beter inschatten hoe ver en hoe groot een object is in de virtuele wereld. Men kan deze 2 afbeeldingen dan gaan tonen door zo een VR headset. Dit kan op meerdere manieren.
-\begin{itemize}
-	\item Ofwel maakt men gebruik van een smartphone waarbij men dan een headset heeft waarbij gebruik wordt gemaakt van lenzen. Op de smartphone worden er 2 beelden geprojecteerd en kan men dan de smartphone in deze headset gaan steken. De lenzen zorgen er dan voor dat de omgeving ruimer lijkt dan het werkelijk is. In combinatie met een gyroscoop kan men dan gaan rondkijken en deze wereld terwijl de smartphone al het rekenwerk doet. Men kan dan op een goedkope manier virtuele realiteit gaan tonen. Dit is helaas meestal ten koste van de kwaliteit doordat de resolutie op smartphones meestal te laag is voor virtuele werkelijkheid scherp te kunnen weergeven.
-	
-	\item Daarnaast heeft men de meer geavanceerde virtuele headsets. Hierbij is er per oog een scherm aanwezig met een hoge resolutie. Deze tonen dan elk hun beeld en simuleren dan de virtuele omgeving. Deze headsets worden dan ook het meest gebruikt bij VR videospelletjes. Deze zijn automatisch ook een pak duurder en vereisen een krachtige computer.
-\end{itemize}
+Door stereoscopie kan men dus diepte gaan simuleren. Zo kan er beter worden ingeschat hoe ver en hoe groot een object is in de virtuele wereld. Men kan dan deze 2 afbeeldingen gaan tonen door middel van een VR headset. In deze bachelorproef ligt de focus vooral op React 360 voor mobile VR apps. We gaan dus gebruiken moeten maken van een mobile VR headset. Bij deze soort VR headset maakt men gebruik van een smartphone die in een hoofddeksel wordt gestoken met speciale lenzen, de VR headset. Op de smartphone worden er dan 2 beelden geprojecteerd. De lenzen zorgen er dan voor dat de omgeving ruimer lijkt dan het werkelijk is. In combinatie met een gyroscoop kan men dan gaan rondkijken en deze wereld terwijl de smartphone al het rekenwerk doet. Hiermee kan er dan op een goedkope manier virtuele realiteit getoond worden. Dit is helaas meestal ten koste van de kwaliteit doordat de resolutie op smartphones meestal te laag is voor de virtuele wereld scherp te kunnen weergeven. Er zijn ook meer geavanceerde VR headsets. Hierbij is er per oog een scherm aanwezig met een hoge resolutie. Deze tonen dan elk hun beeld en simuleren de virtuele omgeving. Deze headsets worden het meest gebruikt bij VR videospelletjes. Deze zijn automatisch ook een pak duurder en vereisen een krachtige computer aangezien deze ermee worden verbonden.
 
 \subsection{De virtuele ervaring}
 \label{subsec:vr-ervaring}
-In hoofdstuk \ref{subsec:3d-4d} hebben we al vermeld dat het niet enkel door de extra dimensie is dat iets al virtual reality is. Er zijn nog meerdere aspecten waarmee men rekening moet houden bij een virtuele headset.
+In hoofdstuk \ref{subsec:3d-4d} hebben we al vermeld dat het niet enkel door de extra dimensie is dat iets virtual reality is. Er zijn nog meerdere aspecten waarmee men rekening moet houden om ervoor de zorgen dat de gebruiker een positieve virtuele ervaring beleeft \autocite{Mullis2016}.
 
 \subsubsection{Frames per second}
 \label{ssubsec:fps}
-De beelden per seconde, ofwel frames per second (FPS), van de beeldschermen in VR headsets zijn zeer belangrijk. De 2 bekendste virtuele headsets momenteel op de markt, die dan vooral naar gaming gericht zijn, zijn de HTC vive en de Oculus Rift. Beide headsets maken gebruik van een 90Hz scherm. Dat wil zeggen dat er maximaal 90 beelden per seconde kunnen worden weergegeven. Hoe sneller, hoe realistischer. Een andere bekende headset, de Playstation VR, draait maar op 60Hz, 60 beelden per seconde dus. Bij smartphones kan dit nog lager liggen, tot 30Hz zelfs. Het is dus duidelijk dat de HTC vive en Oculus Rift een realistischere ervaring zullen geven dan de Playstation VR of de smartphone.
+De beelden per seconde, ofwel frames per second (FPS), van de beeldschermen in VR headsets zijn zeer belangrijk. De 2 duurste virtuele headsets die momenteel op de markt zijn en dan vooral naar gaming gericht zijn, zijn de HTC vive en de Oculus Rift. Beide headsets maken gebruik van een 90Hz scherm. Dat wil zeggen dat er maximaal 90 beelden per seconde kunnen worden weergegeven. Hoe sneller, hoe realistischer. Een andere bekende headset, de Playstation VR, draait maar op 60Hz, 60 beelden per seconde dus. Bij smartphones is dit meestal ook 60Hz maar soms kan dit nog lager liggen, tot 30Hz zelfs. Het is dus duidelijk dat de HTC vive en Oculus Rift een meer realistische ervaring zullen geven dan de Playstation VR of de smartphone.
 
 \subsubsection{Latency}
 \label{ssubsec:latency}
-Latency heeft ook een zeer grote impact op de ervaring. Latency is de hoeveelheid tijd er tussen zit als je een bepaalde input geeft en die dan wordt weergegeven in de virtuele wereld. Een goed voorbeeld hiervan is het moment dat je een stap vooruit zet, zal er een bepaalde hoeveelheid tijd zijn tot je vooruit beweegt in de virtuele wereld. Bij een te hoge latency zal de virtuele ervaring als heel slecht ervaren worden en zelfs vanaf er al een latency is van 20ms zal het menselijk brein duidelijk onderscheidt kunnen maken tussen iets dat echt is en iets dat vals is. Dit zal niet alleen leiden tot een mindere ervaring voor de gebruiker maar kan ook tot fysieke pijn leiden zoals motion sickness, iets dat ook voorkomt bij onze moderne manieren van transport bij bijvoorbeeld autorijden (wagenziekte). Het is dus zeer belangrijk dat deze latency zo laag mogelijk is, niet alleen voor de ervaring maar ook om ongemakkelijkheid bij de gebruiker te vermijden.
+Latency heeft ook een zeer grote impact op de ervaring. Latency is de hoeveelheid tijd er tussen zit als de gebruiker een bepaalde input geeft en deze dan wordt weergegeven in de virtuele wereld. Een goed voorbeeld hiervan is het moment dat je een stap vooruit zet. Er zal dan een bepaalde hoeveelheid tijd zijn tot je vooruit beweegt in de virtuele wereld. Bij een te hoge latency zal de virtuele ervaring als heel slecht worden ervaren en zelfs vanaf er al een latency is van 20ms zal het menselijk brein duidelijk onderscheidt kunnen maken tussen iets dat echt is en iets dat vals is. Dit zal niet alleen leiden tot een mindere ervaring voor de gebruiker maar kan ook tot fysieke pijn leiden zoals motion sickness \autocite{Pappas2016}, iets dat ook voorkomt bij onze moderne manieren van transport bij bijvoorbeeld autorijden (wagenziekte). Het is dus zeer belangrijk dat deze latency zo laag mogelijk is voor een positieve ervaring en om ongemakkelijkheid bij de gebruiker te vermijden.
 
 \subsubsection{Field of view}
 \label{ssubsec:fov}
-Field of view (FOV) ofwel het gezichtsveld is in de virtuele wereld ook zeer belangrijk. Een mens ziet ongeveer 180° rond zich, maar dit kan oplopen tot 270° als er met de ogen bewogen wordt. De meeste headsets hebben maar een gezichtsveld tussen de 90° en 110°, wat dus eigenlijk niet genoeg is. Dit heeft dan ook een impact op de virtuele ervaring en kan ook hier opnieuw leiden tot motion sickness.
+Field of view (FOV), ofwel het gezichtsveld, is in de virtuele wereld ook zeer belangrijk. Een mens ziet ongeveer 180° rond zich, maar dit kan oplopen tot 270° als er met de ogen bewogen wordt. De meeste headsets hebben maar een gezichtsveld tussen de 90° en 110°, wat dus eigenlijk niet genoeg is. Dit heeft dan ook een impact op de virtuele ervaring en kan ook hier opnieuw leiden tot motion sickness.
 
-Als er dus niet wordt voldaan aan een hoge FPS, voldoende FOV en een lage latency zal dit  een impact hebben op de virtuele ervaring. Hierdoor ontstaan dan fysieke ongemakken omdat het menselijk brein weet dat er iets niet klopt. Het is dus zeer belangrijk aan ontwikkelaars van virtuele applicaties om hiermee rekening te houden. Als een applicatie je ziek maakt, dan ga je dat automatisch ook minder of zelfs niet meer gebruiken.
+Als er dus niet wordt voldaan aan een hoge FPS, voldoende FOV en een lage latency zal dit  een impact hebben op de virtuele ervaring. Hierdoor ontstaan dan fysieke ongemakken omdat het menselijk brein weet dat er iets niet klopt. Het is dus zeer belangrijk voor ontwikkelaars van virtuele applicaties om hiermee rekening te houden. Als een applicatie je ziek maakt, dan ga je het automatisch ook minder of zelfs niet meer gebruiken.
 
 \subsection{Interactie met de virtuele wereld}
 \label{subsec:interactie-vr}
 We  zijn al in staat om een virtuele wereld zeer realistisch weer te geven, maar interactie is momenteel nog een moeilijk aspect van virtual reality. Wat men al sowieso goed doet, is rond je kunnen kijken in de virtuele wereld aan de hand van een gyroscoop. Maar wat dan met rondlopen in die virtuele wereld?
 
-Men kan hiervoor simpele gamecontrollers met een joystick gaan gebruiken waarbij men dus gewoon in de virtuele wereld gaat bewegen als hoe men dit zou doen in een videospel. Dit is natuurlijk niet de perfecte ervaring aangezien er weinig rekening wordt gehouden met hoe de handen of voeten bewegen. Om dit dan te gaan oplossen wordt er gebruik gemaakt van motion controllers, bewegingsbesturing. Met deze controllers kan men zeer accuraat de bewegingen van de handen gaan volgen waarbij men ook gebruik maakt van een gyroscoop. Voor de voeten bestaan er ook al oplossingen, maar deze zijn natuurlijk minder praktisch. Er zijn al zogenaamde loopbanden die ervoor zorgen dat men kan stappen in de virtuele wereld zonder dat men in een bepaalde richting stapt in de echte wereld. Dit zijn natuurlijk vrij lompe werktuigen en zijn daarnaast niet goedkoop. Daarom wordt er voor verplaatsing nog steeds vooral gekozen voor een simpele joystick, meestal in combinatie met een motion controller.
+Men kan hiervoor simpele gamecontrollers met een joystick gaan gebruiken waarbij men dus gewoon in de virtuele wereld gaat bewegen als hoe men dit zou doen in een videospel. Dit is natuurlijk niet de perfecte ervaring aangezien er weinig rekening wordt gehouden met hoe de handen of voeten bewegen. Om dit dan te gaan oplossen wordt er gebruik gemaakt van motion controllers, bewegingsbesturing. Met deze controllers kan men zeer accuraat de bewegingen van de handen gaan volgen waarbij men ook gebruik maakt van een gyroscoop. Voor de voeten bestaan er ook al oplossingen, maar deze zijn natuurlijk minder praktisch. Er zijn al zogenaamde loopbanden die ervoor zorgen dat men kan stappen in de virtuele wereld zonder dat men in een bepaalde richting stapt in de echte wereld. Dit zijn natuurlijk vrij onhandige werktuigen en zijn daarnaast niet goedkoop. Daarom wordt er voor verplaatsing nog steeds vooral gekozen voor een simpele joystick, meestal in combinatie met een motion controller.
 
-Voor mobile is het natuurlijk wat moeilijker om een gamecontroller te gebruiken, niet iedereen beschikt hierover. Daarom wordt er bij mobile VR de zogenaamde 'gaze' techniek gebruikt. Dit komt ook zeker terug in hoofdstuk \ref{ch:react-360} over react 360. Gaze is zoals de vertaling zegt, staren. In plaats van dat je dus op een knop gaat drukken is het de bedoeling dat je bepaalde knoppen in de virtuele wereld gaat aanstaren voor een korte tijd. Dit is een zeer handige oplossing die gemakkelijk kan toegepast worden om het doelpubliek voor een VR applicatie groter te maken. Maar helaas zorgt deze gaze er wel voor dat de gebruiker minder snel kan reageren op bepaalde acties die in de virtuele wereld gebeuren.
+Voor mobile is het natuurlijk wat moeilijker om een gamecontroller te gebruiken, niet iedereen beschikt hierover. Daarom wordt er bij mobile VR de zogenaamde 'gaze' techniek gebruikt. Gaze is zoals de vertaling zegt, staren. In plaats van dat je dus op een knop gaat drukken is het de bedoeling dat je bepaalde knoppen in de virtuele wereld gaat aanstaren voor een korte tijd. Dit is een zeer handige oplossing die gemakkelijk kan toegepast worden om het doelpubliek voor een VR applicatie groter te maken. Maar helaas zorgt deze gaze er wel voor dat de gebruiker minder snel kan reageren op bepaalde acties die in de virtuele wereld gebeuren.
 
 \section{De gevolgen voor de gebruiker}
 \label{sec:gevolgen-vr}
-Een virtual reality app is erg verschillend van een gewone webapplicatie. Hierbij is het doel om de gebruiker zich in de wereld te laten voelen. Zoals we al in hoofdstuk \ref{sec:vr-ervaring} hebben aangehaald kan een slechte opbouw van een virtuele applicatie lijden tot 'fysieke pijn' bij de gebruiker. Hier hebben we het dan eerder over onschuldige kwaaltjes zoals hoofdpijn, desoriëntatie, misselijkheid, ... Daarom is het belangrijk voor de ontwikkelaar dat hij/zij hiermee rekening houdt bij het ontwikkelen van een VR applicatie. Het is immers niet de bedoeling dat een gebruiker de applicatie niet kan gebruiken omwille van deze fysieke gevolgen.
+Een virtual reality app is erg verschillend van een gewone webapplicatie. Hierbij is het doel om de gebruiker zich in de wereld te laten voelen. Zoals we al in hoofdstuk \ref{sec:vr-ervaring} hebben aangehaald kan een slechte opbouw van een virtuele applicatie lijden tot fysieke ongemakken bij de gebruiker. Hier hebben we het dan eerder over onschuldige kwaaltjes zoals hoofdpijn, desoriëntatie, misselijkheid, ... Daarom is het belangrijk voor de ontwikkelaar dat hij/zij hiermee rekening houdt bij het ontwikkelen van een VR applicatie. Het is immers niet de bedoeling dat een gebruiker de applicatie niet kan gebruiken omwille van deze fysieke gevolgen.
 
 \subsection{User Experience}
 \label{subsec:user-experience}
 Het is van belang dat de user experience bij een virtual reality applicatie optimaal is. Hiervoor heeft Beau Cronin \autocite{Cronin2015} inspiratie gehaald van de piramide van Maslow om zo op te lijsten wat de belangrijkste puntjes zijn voor een ontwikkelaar om ongemak te vermijden.
 
-Ten eerste is er \textbf{Comfort}. Deze zijn eigenlijk ook al zeer duidelijk aangehaald in hoofdstuk \ref{sec:ervaring-vr-app}. Met comfort heeft men het over de ervaring voor de gebruiker die bepaald wordt door onze zintuigen. Het belangrijkste is dus om de manier waarop onze zintuigen inwerken op de virtuele technologie. De hardware is hiervoor dus het meeste verantwoordelijk.
+Ten eerste is er het \textbf{Comfort}. Deze is eigenlijk al zeer duidelijk aangehaald in hoofdstuk \ref{sec:ervaring-vr-app}. Met comfort heeft men het over de ervaring voor de gebruiker die bepaald wordt door onze zintuigen. De manier waarop onze zintuigen gaan reageren op de virtuele prikkels is zeer belangrijk voor een positieve ervaring bij deze soort applicaties. De hardware is hiervoor het meeste verantwoordelijk.
 
-Dan komt \textbf{Interpreteerbaarheid}. Hoe realistisch is de virtuele wereld nog? Men bedoelt hier eerder het verschil tussen wat nog non-fictie is en wat fictie is. Een ervaring waarbij je door het heelal wordt gezogen op een ultieme snelheid met beelden die je nog nooit eerder gezien hebt zal dus voor de gebruiker zeer overweldigend zijn. Men kan wel enkele regels van de fysica gaan aanpassen, maar het blijft belangrijk dat deze ervaringen uitbreidingen vormen op het echte leven. Er moet natuurlijk ook nog iets 'virtueel' aan zijn, anders zou een virtuele applicatie ontwikkelen weinig nut hebben.
+Dan komt de \textbf{Interpreteerbaarheid}. Hoe realistisch is de virtuele wereld nog? Hier wordt eerder het verschil tussen wat nog non-fictie is en wat fictie is bedoeld. Een ervaring waarbij de gebruiker door het heelal wordt gezogen op een enorme snelheid met beelden die hij/zij nog nooit eerder gezien heeft zal dus zeer overweldigend zijn. De ontwikkelaar kan wel enkele regels van de fysica gaan aanpassen, maar het blijft belangrijk dat deze ervaringen uitbreidingen vormen op het echte leven. Een VR applicatie moet natuurlijk nog steeds iets onbestaand, virtueel bezitten. Anders zou een virtuele applicatie ontwikkelen weinig nut hebben.
 
-Vervolgens heb je \textbf{Bruikbaarheid}. Dit hangt af van applicatie tot applicatie, maar hier gaat het dus over hoe nuttig iets was, wat was de waarde achter de VR ervaring. Enkele voorbeelden hiervan zijn: Was het verhaal achter de film realistisch? Was de virtuele wandeling door het huis een aanzet tot denken om het huis te kopen? Het gaat hier dus vooral over de design van de applicatie.
+Vervolgens heb je de \textbf{Bruikbaarheid}. Dit hangt af van applicatie tot applicatie, maar hier gaat het dus over hoe nuttig iets was, de waarde achter de VR ervaring. Enkele voorbeelden hiervan zijn: Was het verhaal achter de film realistisch? Was de virtuele wandeling door het huis een aanzet tot denken om het huis te kopen? Het gaat hier dus vooral over de design van de applicatie.
 
-Ten slotte heb je nog \textbf{Genot}. Dit is dan eigenlijk een uitbreiding op de bruikbaarheid. Hier heeft het men dus over het feit of je meer wilt van je virtuele ervaring. Denk hier maar aan de wandeling door het virtuele huis, heeft dat ook werkelijk je aangezet om het huis te kopen? Hier is de aandacht voor detail zeer belangrijk.
+Ten slotte heb je nog het \textbf{Genot}. Dit is dan eigenlijk een uitbreiding op de bruikbaarheid. Hier heeft het men dus over het feit of je meer wilt van je virtuele ervaring. Hier is de aandacht voor detail zeer belangrijk.
 
-Het is duidelijk dat de 2 belangrijkste componenten van een goede user experience bij een VR applicatie het comfort en de interpreteerbaarheid zijn aangezien deze vooral de nadruk leggen op de aanwezigheid in de virtuele wereld, de onderdompeling. Bij bruikbaarheid en genot ligt de nadruk meer op de details van de applicatie, het design.
+Het is duidelijk dat de 2 belangrijkste componenten van een goede user experience bij een VR applicatie het comfort en de interpreteerbaarheid zijn aangezien deze vooral de nadruk leggen op de aanwezigheid in de virtuele wereld, de onderdompeling. Bij bruikbaarheid en genot ligt de nadruk meer op het design en de details van de applicatie.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{MaslowCroninPiramide.png}
 	\caption{De hiërarchie van de benodigdheden in virtual reality.}
@@ -147,10 +142,10 @@ Het is duidelijk dat de 2 belangrijkste componenten van een goede user experienc
 
 \section{JavaScript, HTML en CSS}
 \label{sec:frameworks}
-Javascript is de taal waarop het framework React JS gebaseerd is. De taal is een objectgeoriënteerde taal maar kan ook zeker gebruikt worden als een functionele programmeertaal. Samen met HTML, CSS en Javascript vormt het de basis van een groot aantal websites op het huidige wereldwijde web. Bij HTML gaat het over de inhoud van de pagina ,bij CSS over hoe het eruitziet en javascript zorgt dan voor de interactiviteit met de webpagina. Denk maar aan de animatie bij een uitschuifbaar menu of tekst die verandert als je op een knop klikt.
+Javascript is de taal waarop het framework React JS gebaseerd is. De taal is een objectgeoriënteerde taal maar kan ook zeker gebruikt worden als een functionele programmeertaal. Samen met HTML, CSS en Javascript vormt het de basis van een groot aantal websites op het huidige wereldwijde web. Bij HTML gaat het over de inhoud van de pagina, bij CSS over hoe het eruitziet en javascript zorgt dan voor de interactiviteit met de webpagina. Denk maar aan de animatie bij een uitschuifbaar menu of tekst die verandert als je op een knop klikt.
 
 \subsection{HTML}
-HTML staat voor \textbf{HyperText Markup Language} en is een opmaaktaal voor documenten die werd uitgebracht in 1993. De taal HTML bestaat uit verschillende HTML elementen. Met behulp van deze elementen, ook wel tags genoemd, kan men structuur gaan creëren in stukken tekst. Een tag ziet er als volgt uit: \lstinline[basicstyle=\ttfamily\color{red}]|<img />|. Met dit element wil men een afbeelding aanhalen in het document. Daarnaast hebben deze elementen attributen. Deze attributen kunnen dan een bepaalde waarde hebben die het HTML element zal beinvloeden. Bij deze \lstinline[basicstyle=\ttfamily\color{red}]|<img />| tag kunnen we een attribuut \lstinline[basicstyle=\ttfamily\color{red}]|src| toevoegen. Dit attribuut verwijst dan naar een source, een bron. Deze bron is dan de locatie van een afbeelding. Door het element en de attribuut weet HTML precies wat hij moet weergeven. Een html element zal altijd als volgt opgebouwd zijn: 
+HTML staat voor \textbf{HyperText Markup Language} en is een opmaaktaal voor documenten die werd uitgebracht in 1993. De taal HTML bestaat uit verschillende HTML elementen. Met behulp van deze elementen, ook wel tags genoemd, kan men structuur gaan creëren in stukken tekst. Een tag ziet er als volgt uit: \lstinline[basicstyle=\ttfamily\color{red}]|<img />|. Met dit element wil men een afbeelding aanhalen in het document. Daarnaast hebben deze elementen attributen. Deze attributen kunnen dan een bepaalde waarde hebben die het HTML element zal beinvloeden. Bij deze \lstinline[basicstyle=\ttfamily\color{red}]|<img />| tag kunnen we een attribuut \lstinline[basicstyle=\ttfamily\color{red}]|src| toevoegen. Dit attribuut verwijst dan naar een source, een bron. Deze bron is dan de locatie van een afbeelding. Door het element en het attribuut weet HTML precies wat hij moet weergeven. Een html element zal altijd als volgt opgebouwd zijn: 
 
 \begin{lstlisting}[frame=single, caption=HTML Element voorbeeld]
 <tag attribute1="value1" attribute2="value2">content
@@ -197,11 +192,11 @@ In het vorige voorbeeld hebben we ervoor gezorgd dat alle \lstinline[basicstyle=
 
 \subsection{Javascript}
 \label{subsec:Web VR}
-Javascript is de meest geavanceerde van de 3 en ook het belangrijkste voor deze bachelorproef. Met javascript kan je dus je pagina interactief gaan maken en is daarom ook een volwaardige programmeertaal. Javascript heeft zoals elke programmeertaal bepaalde aspecten waar het zich onderscheidt van de andere talen. Javascript is vooral populair om het feit dat het door zeer veel browsers ondersteund wordt. Daarnaast is javascript ook een zeer flexibele taal. Daar waar een andere taal al snel een error voor zou aanrekenen, gaat javascript dit net niet doen. We bekijken even de belangrijkste onderdelen die javascript te bieden heeft.
+Javascript is de meest geavanceerde van de 3 en ook het belangrijkste voor deze bachelorproef. Met javascript kan je dus een pagina gemaakt met HTML interactief gaan maken en is daarom ook een volwaardige programmeertaal. Javascript heeft zoals elke programmeertaal bepaalde aspecten waar het zich onderscheidt van de andere talen. Javascript is vooral populair om het feit dat het door zeer veel browsers ondersteund wordt. Daarnaast is javascript ook een zeer flexibele taal. Daar waar een andere taal al snel een error voor zou aanrekenen, gaat javascript dit net niet doen. We bekijken even de belangrijkste onderdelen die javascript te bieden heeft.
 
 \subsubsection{Objecten}
 \label{sssec:objecten}
-Zoals eerder al vermeld is javascript een object georiënteerde taal. Dit wil zeggen dat de taal met zogenaamde objecten werkt. Deze objecten kan je vergelijkingen met objecten in het echte leve en zijn verzamelingen van bepaalde eigenschappen die dan op zich een eigen naam/key (sleutel) en value (waarde) hebben. De waarde van een eigenschap kan onder andere een getal zijn, maar ook een functie of een ander object kan perfect de waarde van een eigenschap zijn. Javascript heeft al enkele vooraf gedefinieerde objecten, maar je kan natuurlijk ook je eigen objecten gaan maken.
+Zoals eerder al vermeld is javascript een object georiënteerde taal. Dit wil zeggen dat de taal met zogenaamde objecten werkt. Deze objecten kan je vergelijkingen met objecten in het echte leve en zijn verzamelingen van bepaalde eigenschappen die dan op zich een eigen name/key (sleutel) en value (waarde) hebben. De waarde van een eigenschap kan onder andere een getal zijn, maar ook een functie of een ander object kan perfect de waarde van een eigenschap zijn. Javascript heeft al enkele vooraf gedefinieerde objecten, maar je kan natuurlijk ook je eigen objecten gaan maken.
 
 Laten we dit beter tonen a.d.h.v. een voorbeeldje. We gaan een hond object gaan definiëren in javascript. In code ziet dat er als volgt uit:
 
@@ -214,7 +209,7 @@ var hond = {
 }
 \end{lstlisting}
 
-In dit stukje code hebben we dus een hond object aangemaakt met de eigenschappen: naam, leeftijd, ras en kleur. Hier bewijzen we de flexibiliteit van javascript. Bij andere object georiënteerde talen zou het moeilijker zijn om nu een extra eigenschap aan het hond object toe te voegen, we zouden al snel moeten gebruik maken van andere programmeer technieken zoals overerving. In javascript kunnen we bijvoorbeeld de eigenschap oogkleur zeer gemakkelijk toevoegen als volgt:
+In dit stukje code hebben we dus een hond object aangemaakt met de eigenschappen: naam, leeftijd, ras en kleur. Hier kan de flexibiliteit van javascript bewezen worden. Bij andere object georiënteerde talen zou het moeilijker zijn om nu een extra eigenschap aan het hond object toe te voegen, er zouden al snel andere programmeer technieken moeten gebruikt worden zoals overerving. In javascript kunnen we bijvoorbeeld de eigenschap oogkleur zeer gemakkelijk toevoegen als volgt:
 
 \begin{lstlisting}[frame=single, caption=Eigenschap toevoegen aan en object]
 hond.oogkleur = "Blauw"
@@ -234,15 +229,15 @@ Het eerder aangemaakte hond object zal er dan zo uitzien:
 
 \subsubsection{Variabelen}
 \label{sssec:variabelen}
-Bij het hoofdstuk \ref{sssec:objecten} werd het hond object aangemaakt door \lstinline[basicstyle=\ttfamily\color{red}]|var hond| te gebruiken. Dit is een goed voorbeeld van een variabele. Variabelen zijn vergelijkbaar met de X en de Y die we uit de wiskunde kennen, ze houden een bepaalde waarde bij. Een variabele kan je maken door eerst aan te geven welke soort variabele je wilt maken. In vele andere talen moet je voor een nummer iets anders gebruiken dan als je een stukje tekst in een variabele wilt stoppen. Maar ook hier zien we opnieuw de flexibiliteit die javascript te bieden heeft. Javascript heeft 3 verschillende soorten declaraties voor een variabele:
+Bij hoofdstuk \ref{sssec:objecten} werd het hond object aangemaakt door het stukje code \lstinline[basicstyle=\ttfamily\color{red}]|var hond| te gebruiken. Dit is een goed voorbeeld van een variabele. Variabelen zijn vergelijkbaar met de X en de Y die we uit de wiskunde kennen, ze houden een bepaalde waarde bij. Een variabele kan je maken door eerst aan te geven welke soort variabele je wilt maken. In vele andere talen moet je voor een nummer een andere soort gebruiken dan als je een stukje tekst in een variabele wilt stoppen. Ook hier zien we opnieuw de flexibiliteit die javascript te bieden heeft. Javascript heeft 3 verschillende soorten declaraties voor een variabele:
 
 \begin{itemize}
 	\item \textbf{var}: Declareert een variabele, maar een waarde is optioneel.
-	\item \textbf{let}: Declareert een lokale,'block-scoped' variabele, maar een waarde is optioneel.
-	\item \textbf{const}: Declareert een lokale,'block-scoped' variabele, maar een waarde is verplicht en read-only.
+	\item \textbf{let}: Declareert een lokale, 'block-scoped' variabele, maar een waarde is optioneel.
+	\item \textbf{const}: Declareert een lokale, 'block-scoped' variabele, maar een waarde is verplicht en read-only.
 \end{itemize}
 
-Var is dus de meest flexibele declaratie. Bij een var zal de scope, hoe ver de variabele zich uitstrekt, binnen de gehele functie zijn. Bij een let daarintegen, zal dit enkel binnen het blok zichtbaar zijn. Met die volgend voorbeeld is dit goed aantoonbaar:
+Var is dus de meest flexibele declaratie. Bij een var zal de 'scope' binnen de gehele functie zijn. Bij een let daarentegen, zal dit enkel binnen het blok zichtbaar zijn. Met dit volgend voorbeeld is het goed aantoonbaar wat men precies bedoelt met de scope:
 
 \begin{lstlisting}[frame=single, caption=Een functie met var]
 function eenFunctieMetVar() {
@@ -264,13 +259,13 @@ function eenFunctieMetLet() {
 }
 \end{lstlisting}
 
-Zoals je kan zien, is een let een lokale declaratie of ook wel block-scoped, binnen de accolades, genoemd. Een const is hetzelfde als een let, maar daarbij is het verplicht om een waarde te geven. Dit is omdat een const read-only is, het kan enkel gelezen worden en dus achteraf niet meer worden gewijzigd.
+Zoals je kan zien, is een let een lokale declaratie of ook wel block-scoped, binnen de accolades, genoemd. Een const is hetzelfde als een let, maar daarbij is het verplicht om een waarde te geven als het gedeclareerd wordt. Dit is omdat een const read-only is. Het kan enkel gelezen worden en dus achteraf niet meer worden gewijzigd.
 
 Indien een variabele geen waarde krijgt, zoals dus mogelijk is bij een var, dan zal dit de waarde \lstinline[basicstyle=\ttfamily\color{red}]|undefined| krijgen.
 
 \subsubsection{Functies}
 \label{sssec:functies}
-De echte core functionaliteit van javascript zijn de functies. Een functie is een verzameling van verschillende declaraties, statements die bepaalde taken uitvoeren. Functies zorgen voor een duidelijke in een javacsript bestand en vermijden duplicate code. Javascript zelf heeft al een aantal standaard gedefinieerde functies maar zoals bij objecten kan je deze functies ook zelf gaan schrijven. Dit is een voorbeeld van een simpele functie dus 2 nummers optelt:
+De echte core functionaliteit van javascript zijn functies. Een functie is een verzameling van verschillende declaraties, statements die bepaalde taken uitvoeren. Functies zorgen voor een duidelijke structuur in een javacsript bestand en vermijden duplicate code. Javascript zelf heeft al een aantal standaard gedefinieerde functies maar zoals bij objecten kan je deze functies ook zelf gaan schrijven. Dit is een voorbeeld van een simpele functie die 2 nummers optelt:
 
 \begin{lstlisting}[frame=single, caption=Een functie die 2 getallen optelt]
 function som(nummer1, nummer2) {
@@ -279,7 +274,7 @@ function som(nummer1, nummer2) {
 }
 \end{lstlisting}
 
-Zoals je dus kan zien is een functie zeer simpel opgebouwd. We beginnen altijd met eerst te zeggen dat het een functie is door \lstinline[basicstyle=\ttfamily\color{red}]|function| te gebruiken. Daarna geven we een naam voor de functie, in dit geval is dat 'som'. Dan gaan we aan deze functie 2 parameters meegeven, nummer1 en nummer2. Uiteindelijk kunnen we de functie gaan uitvoeren en het resultaat van de optelling teruggeven. Om gebruik te maken van een functie kunnen we deze functie gaan oproepen in andere functies door ( en ) te gebruiken met de nodige parameters.
+Het voorbeeld toont duidelijk aan dat een functie zeer eenvoudig opgebouwd is. Men kan aanhalen dat iets een functie is door  \lstinline[basicstyle=\ttfamily\color{red}]|function| te gebruiken. Daarna geeft men een naam voor de functie, in dit geval is dat 'som'. Dan gaat men aan deze functie 2 parameters meegeven, nummer1 en nummer2. Uiteindelijk kan men de functie gaan uitvoeren en het resultaat van de optelling teruggeven. Om dan gebruik te gaan maken van deze functie, kan men de functie gaan oproepen in andere functies door '(' en ')' te gebruiken met de nodige parameters.
 
 \begin{lstlisting}[frame=single, caption=Een functie de som functie oproept]
 function eenAndereFunctie() {
@@ -288,35 +283,35 @@ function eenAndereFunctie() {
 }
 \end{lstlisting}
 
-Deze functie zou dan de optelling gaan maken van 5 + 10 en vervolgens dit gaan weergeven in de console. Doormiddel van de \lstinline[basicstyle=\ttfamily\color{red}]|console.log(..)| functie kunnen we een bepaalde waarde gaan weergeven in de console. Dit is zeer handig om fouten te gaan opsporen binnenin je code. De console kan je zien als de uitlaat van javascript. Als de code zou crashen, kan javascript a.d.h.v. de console weergeven wat de error precies was.
+Deze functie zou dan de optelling gaan maken van 5 + 10 en vervolgens dit gaan weergeven in de console. Doormiddel van de \lstinline[basicstyle=\ttfamily\color{red}]|console.log(..)| functie kunnen we een bepaalde waarde gaan weergeven in de console. Dit is zeer handig om fouten te gaan opsporen binnenin je code. De console kan je zien als de uitlaat van javascript. Als de code zou crashen, kan javascript a.d.h.v. de console weergeven wat de fout precies was.
 
 \subsubsection{Asynchroon programmeren}
 \label{sssec:asynchroon-programmeren}
-Een iets geavanceerder aspect van javascript, maar wel een zeer groot pluspunt van de taal is dat er zeer gemakkelijk asynchroon kan geprogrammeerd worden. Asynchroon programmeren wil zeggen dat men meerdere taken tegelijkertijd kan uitvoeren. Dit gebeurt dan doormiddel van een 'Promise'. Dit is een object dat aangeeft dat het een waarde gaat ontvangen, ofwel niet gaat ontvangen. We gaan hier niet verder op in.
+Een iets geavanceerder aspect van javascript, maar wel een zeer groot pluspunt van de taal, is dat er zeer gemakkelijk asynchroon kan geprogrammeerd worden. Asynchroon programmeren wil zeggen dat men meerdere taken tegelijkertijd kan uitvoeren. Dit gebeurt dan doormiddel van een 'Promise'. Dit is een object dat aangeeft dat het een waarde gaat ontvangen, ofwel niet gaat ontvangen. We gaan hier in deze bachelorproef niet verder op in.
 
 \subsubsection{Frameworks}
 \label{sssec:frameworks}
-Waarschijnlijk het allergrootste reden dat javascript zoveel gebruikt wordt is het grote aanbod aan frameworks. Een framework is eigenlijk een grote verzameling van software componenten die gebruikt kan worden bij het programmeren van applicaties. Een aantal voorbeelden van bekende javascript frameworks zijn: Angular, React, Vue, Ember en Meteor
+Waarschijnlijk de allergrootste reden dat javascript zoveel gebruikt wordt is het grote aanbod aan frameworks. Een framework is eigenlijk een grote verzameling van software componenten die gebruikt kan worden bij het programmeren van applicaties. Een aantal voorbeelden van bekende javascript frameworks zijn: Angular, React, Vue, Ember en Meteor
 
 Aan het gebruiken van frameworks zijn een groot aantal voordelen verbonden \autocite{Korotya2018}:
 
 \begin{itemize}
 	\item \textbf{Efficiëntie}: Met een javascript framework kan men veel sneller een goed werkende website gaan opbouwen met een zeer goede structuur.
-	\item \textbf{Veiligheid}: Actieve javascript frameworks worden goed onderhouden door de community en worden dus ook veel getest. Hierdoor scoort de veiligheid en robuustheid bij javascript frameworks zeer hoog.
+	\item \textbf{Veiligheid}: Actieve javascript frameworks worden goed onderhouden door de community en worden ook veel getest, daardoor scoort de veiligheid en robuustheid bij javascript frameworks zeer hoog.
 	\item \textbf{Kost}: De meeste javascript frameworks zijn open-source en gratis. Om deze reden en het feit dat het ontwikkelen zo snel gaat, kost het een pak minder voor bedrijven om een goede website te ontwikkelen.
 \end{itemize}
 
 \section{De mogelijke VR frameworks naast React 360}
 \label{sec:frameworks-alternatieven}
-Het ontwikkelen van virtual reality applicaties gaat natuurlijk niet zomaar en vereisen een goede technische kennis. Zeker het feit dat je in een wereld zit waar er volledig om zich kan worden gekeken en ook eventueel bewogen worden is natuurlijk een grote uitdaging. Om dit allemaal makkelijker te maken zijn er momenteel al een aantal frameworks beschikbaar zoals React 360. Naast dit framework bestaan er nog een aantal andere mogelijke frameworks \autocite{UIUXLab2017}. Wat opvalt is dat enkel A-Frame en React360 momenteel nog actieve projecten zijn. 
+Het ontwikkelen van virtual reality applicaties gaat natuurlijk niet zomaar en vereisen een goede technische kennis. Zeker het feit dat je in een wereld zit waar er volledig om zich kan worden gekeken en ook eventueel in bewogen kan worden is natuurlijk een grote uitdaging. Om dit allemaal makkelijker te maken zijn er momenteel al een aantal frameworks beschikbaar zoals React 360. Naast dit framework bestaan er nog een aantal andere mogelijke frameworks \autocite{UIUXLab2017}. Wat opvalt is dat enkel A-Frame en React360 momenteel nog actieve projecten zijn. 
 
 \subsection{A-Frame}
 \label{subsec:a-frame}
-Het mozilla team begon met virtual reality in de browser te tonen aan de buitenwereld door A-Frame. Met A-Frame kunnen ontwikkelaars 3D werelden gaan bouwen die bestemd zijn voor virtual reality. Doordat A-Frame beschikbaar is in de browser door simpelweg HTML elementen te gaan gebruiken is het ook voor meerdere toestellen beschikbaar zoals mobile en desktop. Net zoals React 360, maakt A-Frame gebruik van javascript en heeft een een goede performantie.
+Het mozilla team begon virtual reality in de browser te tonen aan de buitenwereld door A-Frame. Met A-Frame kunnen ontwikkelaars 3D werelden gaan bouwen die bestemd zijn voor virtual reality. Doordat A-Frame beschikbaar is in de browser door simpelweg HTML elementen te gaan gebruiken is het ook voor meerdere toestellen beschikbaar zoals mobile en desktop. Net zoals React 360, maakt A-Frame gebruik van javascript en heeft een een goede performantie.
  
 \subsection{Primrose}
 \label{subsec:primrose}
-Primrose is net zoals A-Frame en React360 een VR framework dat ook in de browser draait door behulp van javascript. Het doel bij primrose is om letterlijk omgeving te gaan maken. Dit ziet er in de code zo uit:
+Primrose is net zoals A-Frame en React360 een VR framework dat ook in de browser draait door behulp van javascript. Het doel bij primrose is om letterlijk een omgeving object te gaan maken. Dit ziet er in de code zo uit:
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van primrose omgeving]
 var env = new Primrose.BrowserEnvironment({
@@ -330,7 +325,7 @@ Aan deze omgeving kan men dan UI elementen toevoegen zodat men hiermee interacti
 
 \subsection{Agron.js}
 \label{subsec:agron.js}
-AgronJS is niet een VR framework maar wel een AR (Augmented Reality) framework. Met AgronJS is het mogelijk om AR applicaties in elke browser uit te voeren. Het werd ontwikkeld voor een onderzoeks- project. Daarom wordt het momenteel ook niet meer actief geüpdatet en werkt zoals alle andere opgenoemde frameworks hier, met javascript.
+AgronJS is niet een VR framework maar wel een AR (Augmented Reality) framework. Met AgronJS is het mogelijk om AR applicaties in elke browser uit te voeren. Het werd ontwikkeld voor een onderzoeks- project. Daarom wordt het momenteel ook niet meer actief geüpdatet. Het werkt zoals alle andere opgenoemde frameworks hier, met javascript.
 
 
 

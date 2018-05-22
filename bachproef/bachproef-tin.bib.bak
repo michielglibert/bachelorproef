@@ -179,6 +179,7 @@
 
 @Online{Bieronski2016,
   author = {Mike Bieronski},
+  title  = {How does React VR work?},
   year   = {2016},
   date   = {2016-12-22},
   url    = {https://medium.com/@mike.bieronski/how-does-react-vr-work-cf86cd5568a1},

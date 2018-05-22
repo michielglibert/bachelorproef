@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}HTML}{27}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}CSS}{28}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}CSS}{27}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.3}Javascript}{28}{subsection.2.4.3}
 \defcounter {refsection}{0}\relax 
@@ -78,15 +78,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Het framework, React 360, bestuderen}{33}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Performantie van React 360}{33}{section.3.2}
+\contentsline {section}{\numberline {3.2}Ervaring van virtual reality voor een gebruiker}{33}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Ervaring van virtual reality voor een gebruiker}{33}{section.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{App 1}{34}{section*.18}
+\contentsline {subsubsection}{App 1}{33}{section*.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{App 2}{34}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}De doeleinden en stand van zaken van React 360}{34}{section.3.4}
+\contentsline {subsubsection}{Prestaties}{34}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Conclusie: De doeleinden en stand van zaken van React 360}{34}{section.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}React 360}{35}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -114,27 +114,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}360\textdegree foto's en video's}{42}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Foto's}{42}{section*.20}
+\contentsline {subsubsection}{Foto's}{42}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Video's}{42}{section*.21}
+\contentsline {subsubsection}{Video's}{42}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Panorama foto's video's tonen}{43}{section*.22}
+\contentsline {subsubsection}{Panorama foto's video's tonen}{43}{section*.23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Het ruimtelijke systeem}{44}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Surfaces}{44}{section*.23}
+\contentsline {subsubsection}{Surfaces}{44}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3D-objecten}{45}{section*.24}
+\contentsline {subsubsection}{3D-objecten}{45}{section*.25}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Geluid}{46}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.4}Input}{47}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Button input}{47}{section*.25}
+\contentsline {subsubsection}{Button input}{47}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{VrButton}{48}{section*.26}
+\contentsline {subsubsection}{VrButton}{47}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cursors en raycasters}{48}{section*.27}
+\contentsline {subsubsection}{Cursors en raycasters}{47}{section*.28}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}React 360 applicaties testen}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -164,17 +164,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B.1}Grafieken React 360 onderzoek}{59}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Voelde u zich aanwezig op de plaats zelf?}{59}{section*.28}
+\contentsline {subsubsection}{Voelde u zich aanwezig op de plaats zelf?}{59}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vond u de applicatie aangenaam om te gebruiken?}{60}{section*.29}
+\contentsline {subsubsection}{Vond u de applicatie aangenaam om te gebruiken?}{60}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Heeft u al eerder gebruik gemaakt van virtual reality?}{60}{section*.30}
+\contentsline {subsubsection}{Heeft u al eerder gebruik gemaakt van virtual reality?}{60}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vond u het beeld goed van kwaliteit?}{61}{section*.31}
+\contentsline {subsubsection}{Vond u het beeld goed van kwaliteit?}{61}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Had u last van fysieke ongemakken? (hoofdpijn, duizeligheid, droge ogen, misselijkheid, ...)}{61}{section*.32}
+\contentsline {subsubsection}{Had u last van fysieke ongemakken? (hoofdpijn, duizeligheid, droge ogen, misselijkheid, ...)}{61}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Moest u zelf beschikken over zo een headset, zou u dan regelmatig deze soort applicaties gebruiken?}{62}{section*.33}
+\contentsline {subsubsection}{Moest u zelf beschikken over zo een headset, zou u dan regelmatig deze soort applicaties gebruiken?}{62}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{63}{appendix*.34}
+\contentsline {chapter}{Bibliografie}{63}{appendix*.35}
 \contentsfinish 

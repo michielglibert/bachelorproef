@@ -204,6 +204,33 @@
       \verb https://uiux.cc/blog/5-web-vr-frameworks-to-help-developers-build-interesting-design/
       \endverb
     \endentry
+    \entry{Lehr2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f27572eb22ba030fd3d9cab134fec473}{%
+           family={Lehr},
+           familyi={L\bibinitperiod},
+           given={Michaela},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f27572eb22ba030fd3d9cab134fec473}
+      \strng{fullhash}{f27572eb22ba030fd3d9cab134fec473}
+      \strng{authornamehash}{f27572eb22ba030fd3d9cab134fec473}
+      \strng{authorfullhash}{f27572eb22ba030fd3d9cab134fec473}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{3}
+      \field{title}{Goodbye Flatland! An Introduction to ReactVR}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.slideshare.net/geildanke/goodbye-flatland-an-introduction-to-react-vr-and-what-it-means-for-web-developers
+      \endverb
+    \endentry
     \entry{Mangialardi2017}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=2640fce7f42dca64e56c00ec1b77b1cb}{%
@@ -224,6 +251,87 @@
       \field{labeltitlesource}{title}
       \field{title}{Learn React VR}
       \field{year}{2017}
+    \endentry
+    \entry{Mullis2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7a23740d4c75f3bb02b8064a2906541a}{%
+           family={Mullis},
+           familyi={M\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a23740d4c75f3bb02b8064a2906541a}
+      \strng{fullhash}{7a23740d4c75f3bb02b8064a2906541a}
+      \strng{authornamehash}{7a23740d4c75f3bb02b8064a2906541a}
+      \strng{authorfullhash}{7a23740d4c75f3bb02b8064a2906541a}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{7}
+      \field{title}{How does virtual reality work?}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.androidauthority.com/virtual-reality-work-702049/
+      \endverb
+    \endentry
+    \entry{Pappas2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7e113f06b2dbfda01ac8b39dbd8ea2fa}{%
+           family={Pappas},
+           familyi={P\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{fullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{authornamehash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \strng{authorfullhash}{7e113f06b2dbfda01ac8b39dbd8ea2fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{20}
+      \field{month}{4}
+      \field{title}{Why Does Virtual Reality Make Some People Sick?}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.livescience.com/54478-why-vr-makes-you-sick.html
+      \endverb
+    \endentry
+    \entry{Peniche2016}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=29e4dcd7d3f5ff2b4a975fcc6d7ca9a7}{%
+           family={Peniche},
+           familyi={P\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{29e4dcd7d3f5ff2b4a975fcc6d7ca9a7}
+      \strng{fullhash}{29e4dcd7d3f5ff2b4a975fcc6d7ca9a7}
+      \strng{authornamehash}{29e4dcd7d3f5ff2b4a975fcc6d7ca9a7}
+      \strng{authorfullhash}{29e4dcd7d3f5ff2b4a975fcc6d7ca9a7}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{10}
+      \field{title}{Depth in VR: How Three Dimensions Make Virtual Reality Feel Real}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://www.loading-human.com/depth-vr-three-dimensions-make-virtual-reality-feel-real/
+      \endverb
     \endentry
     \entry{Rouse2011}{online}{}
       \name{author}{1}{}{%
