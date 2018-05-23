@@ -162,7 +162,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Bijlagen}{59}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Grafieken React 360 onderzoek}{59}{section.B.1}
+\contentsline {section}{\numberline {B.1}Resultaten React 360 onderzoek}{59}{section.B.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Voelde u zich aanwezig op de plaats zelf?}{59}{section*.29}
 \defcounter {refsection}{0}\relax 
