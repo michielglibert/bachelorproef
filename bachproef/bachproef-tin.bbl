@@ -231,27 +231,6 @@
       \verb https://www.slideshare.net/geildanke/goodbye-flatland-an-introduction-to-react-vr-and-what-it-means-for-web-developers
       \endverb
     \endentry
-    \entry{Mangialardi2017}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=2640fce7f42dca64e56c00ec1b77b1cb}{%
-           family={Mangialardi},
-           familyi={M\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2640fce7f42dca64e56c00ec1b77b1cb}
-      \strng{fullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
-      \strng{authornamehash}{2640fce7f42dca64e56c00ec1b77b1cb}
-      \strng{authorfullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
-      \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Learn React VR}
-      \field{year}{2017}
-    \endentry
     \entry{Mullis2016}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=7a23740d4c75f3bb02b8064a2906541a}{%
