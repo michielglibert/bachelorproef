@@ -6,27 +6,27 @@
 
 React 360 is een framework voor het ontwikkelen van VR en 360\textdegree\ applicaties in javascript dat ontwikkeld is door facebook. React 360 wordt gebruikt om gemakkelijk een complexe gebruikersomgeving te kunnen maken in een 360\textdegree\ omgeving. Het grote voordeel aan React 360 is dat het in de browser kan worden uitgevoerd. Dat wil zeggen dat gebruikers met een recente versie van hun browser, React 360 applicaties zonder problemen zouden kunnen uitvoeren. Daarnaast is React 360 op meerdere platformen beschikbaar en is er ook geen verplichting om een VR headset te gebruiken. Men kan React 360 gaan ervaren op zowel een vaste computer, smartphone als op andere VR apparaten \autocite{Lehr2017}.
 
-In React 360 wordt er een combinatie gemaakt van tweedimensionale (enkel breedte en hoogte) objecten met een 3D omgeving. Men gaat 2D interfaces in een 3D wereld gaan plaatsen, echter is er ook de mogelijkheid om 3D objecten hieraan toe te voegen. Enkele voorbeelden waar React 360 kan gebruikt voor worden is panoramische foto's en videos, 360\textdegree\ rondleidingen en zelfs eenvoudige games.
+In React 360 wordt er een combinatie gemaakt van tweedimensionale (enkel breedte en hoogte) elementen met een 3D omgeving. Men gaat 2D interfaces in een 3D wereld gaan plaatsen, echter is er ook de mogelijkheid om 3D objecten hieraan toe te voegen. Enkele voorbeelden waar React 360 kan worden voor gebruikt is panoramische foto's en videos, 360\textdegree\ rondleidingen en zelfs eenvoudige games.
 
 Het grootste voordeel aan React 360 is dat het al gebruik maakt van het bestaande React JS. Voor ontwikkelaars die dit framework al kennen, dat trouwens ook ontwikkeld is door facebook, is de overstap naar het ontwikkelen van VR applicaties een pak eenvoudiger. Bepaalde concepten van React Native komen ook terug in React 360. React Native, ook door facebook ontwikkeld, is een framework dat eveneens gebaseerd is op React JS. Met React Native kunnen mobiele applicaties worden ontwikkeld voor zowel iOS als voor Android toestellen.
 
 \section{React.js}
 \label{sec:reactjs}
-React JS is een framework dat gemaakt is om user interfaces (gebruikersomgevingen) te gaan ontwikkelen. Hiermee kan er zeer gemakkelijk een complexe user interface worden gebouwd waarbij alle data op de juiste manier wordt aangepast door het framework. Het is belangrijk dat we bekijken wat de belangrijkste onderdelen zijn van het React JS framework voor we verder kunnen gaan op React 360. React 360 is immers gebouwd op React JS.
+React JS is een framework dat gemaakt is om user interfaces (gebruikersomgevingen) te gaan ontwikkelen. Hiermee kan er vrij eenvoudig een complexe user interface worden gebouwd waarbij alle data op de juiste manier wordt aangepast door het framework. Het is belangrijk dat we bekijken wat de belangrijkste onderdelen zijn van het React JS framework voor we verder kunnen gaan op React 360. React 360 is immers gebouwd op React JS.
 
 \subsection{JSX}
 \label{subsec:jsx}
-JSX is een uitbreiding op javascript. JSX is iets dat hetzelfde doet als wat een HTML tag doet. Het is een soort van samenvoeging van HTML en javascript. Dit is hoe een JSX tag er uit ziet in javascript code: 
+JSX is een uitbreiding op javascript en is iets dat ongeveer hetzelfde doet als wat een HTML tag doet. Het is een soort van samenvoeging van HTML en javascript. Dit is hoe een JSX tag er uit ziet in javascript code: 
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van een JSX tag]
 const element = <h1>Hello, world!</h1>;
 \end{lstlisting}
 
-Men kan bijgevolg HTML gaan gebruiken in javascript code. Dit maakt het een pak gemakkelijker om interfaces te gaan bouwen. In het voorbeeld hebben we de html tag \lstinline[basicstyle=\ttfamily\color{red}]|<h1>| met bijhorende tekst in een variabele gestopt, wat natuurlijk niet mogelijk is in een gewoon HTML of javascript bestand zonder JSX. Daarnaast verhoogt JSX de leesbaarheid van de code en is het niet moeilijk om aan te leren als men al HTML en javascript kent.
+Men kan aan de hand van JSX, HTML gaan gebruiken in javascript code. Dit maakt het een heel wat eenvoudiger om interfaces te gaan bouwen. In het voorbeeld hebben we de HTML tag \lstinline[basicstyle=\ttfamily\color{red}]|<h1>| met bijhorende tekst in een variabele gestopt, wat natuurlijk niet mogelijk is in een gewoon HTML of javascript bestand zonder JSX. Daarnaast verhoogt JSX de leesbaarheid van de code en is het niet moeilijk om aan te leren als men al HTML en javascript kent.
 
 \subsection{Components en props}
 \label{subsec:components-en-props}
-React is opgebouwd uit components die onafhankelijk en herbruikbaar zijn. Met deze components kan een user interface worden opgebouwd. Deze components bestaan op zichzelf uit een verzameling van JSX tags. Een user interface is meestal een soort van boom die opgebouwd is uit andere kleine onderdelen. Hier schijnt React in uit. Men kan aan deze componenten, sub-componenten toevoegen en zo een duidelijke opbouw en structuur hebben.
+React is opgebouwd uit components die onafhankelijk en herbruikbaar zijn. Met deze components kan een user interface worden opgebouwd. Deze componenten bestaan op zichzelf uit een verzameling van JSX tags. Een user interface is meestal een soort van boom die opgebouwd is uit andere kleinere onderdelen. Aan deze componenten kunnen kleinere sub-componenten worden toegevoegd en zo is er een duidelijke opbouw en structuur aanwezig.
 
 \begin{figure}
 	\centering
@@ -35,7 +35,7 @@ React is opgebouwd uit components die onafhankelijk en herbruikbaar zijn. Met de
 	\label{fig:ar-vs-vr}
 \end{figure}
 
-In het voorbeeld zien we hoe een component kan opgebouwd zijn uit meerdere herbruikbare sub-componenten. Dit zorgt voor minder duplicate en meer consistente code. Een component gaan definiëren in React is zeer eenvoudig en gaat als volgt:
+In het voorbeeld zien we hoe een component kan opgebouwd zijn uit meerdere herbruikbare sub-componenten. Dit zorgt voor minder duplicate en meer consistente code. Een component gaan definiëren in React gaat als volgt:
 
 \begin{lstlisting}[frame=single, caption=Het component HelloWorld wordt gedefinieerd]
 class HelloWorld extends React.Component {
@@ -47,9 +47,9 @@ class HelloWorld extends React.Component {
 
 Een component moet altijd iets kunnen tonen. Het is verplicht om de \lstinline[basicstyle=\ttfamily\color{red}]|render()| functie te initialiseren. Deze render functie zal dan JSX teruggeven.
 
-Het is ook mogelijk om net zoals bij een gewoon HTML element, attributen mee te geven aan een component. In React noemt men dit properties of kort, props. Met deze props is het mogelijk om ervoor te zorgen dat componenten dynamisch zijn en niet enkel hetzelfde moeten teruggeven. De props van een component kan men aanspreken door \lstinline[basicstyle=\ttfamily\color{red}]|this.props| te gaan gebruiken. In dit voorbeeld maken we een component die gebruik maakt van de property \lstinline[basicstyle=\ttfamily\color{red}]|name|:
+Het is ook mogelijk om net zoals bij een gewoon HTML element, attributen mee te geven aan een component. In React noemt men dit properties of kort, props. Met deze props is het mogelijk om ervoor te zorgen dat componenten dynamisch zijn en niet enkel vaste data teruggeven. De props van een component kan men aanspreken door \lstinline[basicstyle=\ttfamily\color{red}]|this.props| te gaan gebruiken. In dit voorbeeld maken we een component die gebruik maakt van de property \lstinline[basicstyle=\ttfamily\color{red}]|name|:
 
-\begin{lstlisting}[frame=single, caption=Het component Hello wordt gedefinieerd die de property 'name' gebruikt]
+\begin{lstlisting}[frame=single, caption=Het component Hello wordt gedefinieerd waarbij de property 'name' wordt gebruikt]
 class Hello extends React.Component {
 	render() {
 		return <h1>Hello {this.props.name}!</h1>
@@ -59,11 +59,11 @@ class Hello extends React.Component {
 
 Om dan de property te kunnen gebruiken, kan men dit net zoals bij een gewone HTML tag in het element van het component gaan zetten:
 
-\begin{lstlisting}[frame=single, caption=Het component Hello met de property name]
+\begin{lstlisting}[frame=single, caption=Het component Hello met de property name die een waarde toegewezen krijgt]
 <Hello name='Arne'/>
 \end{lstlisting}
 
-Op de webpagina zouden we dan het resultaat \lstinline[basicstyle=\ttfamily\color{red}]|Hello Arne!| terugkrijgen. Hier tonen we de herbruikbaarheid aan van de React componenten. Als we dit meerdere malen met andere namen zouden willen doen, kunnen we de property \lstinline[basicstyle=\ttfamily\color{red}]|name| aanpassen zonder dat we een volledig nieuw component moeten definiëren:
+Op de webpagina zouden we dan het resultaat '\lstinline[basicstyle=\ttfamily\color{red}]|Hello Arne!|' terugkrijgen. Hier tonen we de herbruikbaarheid aan van de React componenten. Als we dit meerdere malen met andere namen zouden willen doen, kunnen we de property \lstinline[basicstyle=\ttfamily\color{red}]|name| aanpassen zonder dat we een volledig nieuw component hoeven te definiëren:
 
 \begin{lstlisting}[frame=single, caption=Het component Hello die meerdere malen met andere props wordt gebruikt.]
 <Hello name='Arne'/>
@@ -74,21 +74,21 @@ Op de webpagina zouden we dan het resultaat \lstinline[basicstyle=\ttfamily\colo
 
 \subsection{State en levenscyclus}
 \label{subsec:state-en-levenscyclus}
-Men kan bijgevolg componenten dynamisch opbouwen met verschillende data. Wat als we nu een component \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| zouden hebben die het aantal graden teruggeeft en regelmatig verandert. Props zijn niet meer aan te passen nadat het component weergegeven is op de webpagina. Men zou dan steeds een nieuw component moeten gaan aanmaken wat natuurlijk niet handig is. Hiervoor biedt het state object van een component de oplossing. Een state van een component is eigenlijk een object (data) van het component en waarvan de eigenschappen naargelang de levenscyclus van het component kunnen veranderen. Zo is het mogelijk om het aantal graden (\lstinline[basicstyle=\ttfamily\color{red}]|degree|) van het \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| component te gaan aanpassen elke keer dat deze wijzigt. Zo zou het temperatuur component met een state er dan uitzien:
+Men kan door middel van props componenten dynamisch opbouwen met verschillende data. Wat als we nu een component \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| zouden hebben die het aantal graden teruggeeft en regelmatig verandert. Props zijn niet meer aan te passen nadat het component weergegeven is op de webpagina. Men zou dan steeds een nieuw component moeten gaan aanmaken wat natuurlijk niet handig is. Hiervoor biedt het state object van een component de oplossing. Een state van een component is eigenlijk een object (data) van het component waarvan de eigenschappen naargelang de levenscyclus van het component kunnen veranderen. Zo is het mogelijk om het aantal graden (\lstinline[basicstyle=\ttfamily\color{red}]|degree|) van het \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| component te gaan aanpassen elke keer dat deze wijzigt. Zo zou het temperatuur component met een state er dan uitzien:
 
 \begin{lstlisting}[frame=single, caption=Het temperature component met de bijhorende state.]
 class Temperature extends React.Component {
 	constructor() {
 		super()
 		this.state = {
-			degree: 0;
-		}
+			degree: 0
+		};
 	}
 	
 	setTemperature(amountCelsius) {
 		this.setState({
-			degree: amountCelsius;
-		})
+			degree: amountCelsius
+		});
 	}
 
 	render() {
@@ -97,7 +97,7 @@ class Temperature extends React.Component {
 }
 \end{lstlisting}
 
-We zien dat het \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| component een \lstinline[basicstyle=\ttfamily\color{red}]|constructor()| functie bevat. Dit is een speciale methode die gebruikt wordt om objecten te gaan maken voor de componenten \autocite{Chima2017}. In dit geval gaan we het state object gaan aanmaken met de eigenschap \lstinline[basicstyle=\ttfamily\color{red}]|degree| dat de initiële waarde 0 bevat. We zien ook de functie \lstinline[basicstyle=\ttfamily\color{red}]|setTemperature(amountCelsius)|. Deze functie heeft een parameter en bevat een oproep naar de functie \lstinline[basicstyle=\ttfamily\color{red}]|setState()| waarmee de waarde van de state eigenschappen kan worden aangepast. Stel dat deze functie wordt opgeroepen elke keer dat de temperatuur zou wijzigen zal hij deze kunnen doorgeven door middel van de parameter \lstinline[basicstyle=\ttfamily\color{red}]|amountCelsius|. Ten slotte wordt de \lstinline[basicstyle=\ttfamily\color{red}]|render()| functie gebruikt om de eigenschap \lstinline[basicstyle=\ttfamily\color{red}]|degree|
+We zien dat het \lstinline[basicstyle=\ttfamily\color{red}]|Temperature| component een \lstinline[basicstyle=\ttfamily\color{red}]|constructor()| functie bevat. Dit is een speciale methode die gebruikt wordt om objecten te gaan maken voor de componenten \autocite{Chima2017}. In dit geval gaan we het state object gaan aanmaken met de eigenschap \lstinline[basicstyle=\ttfamily\color{red}]|degree| dat de initiële waarde 0 bevat. We zien ook de functie \lstinline[basicstyle=\ttfamily\color{red}]|setTemperature(amountCelsius)|. Deze functie heeft een parameter en bevat een oproep naar de functie \lstinline[basicstyle=\ttfamily\color{red}]|setState()| waarmee de waarde van de state eigenschappen kan aangepast worden. Stel dat deze functie wordt opgeroepen elke keer dat de temperatuur zou wijzigen, dan kunnen de gewijzigde waarden worden doorgegeven door middel van de parameter \lstinline[basicstyle=\ttfamily\color{red}]|amountCelsius|. Ten slotte wordt de \lstinline[basicstyle=\ttfamily\color{red}]|render()| functie gebruikt om de eigenschap \lstinline[basicstyle=\ttfamily\color{red}]|degree|
 van het state object te kunnen tonen.
 
 Elk component heeft een zogenaamde levenscyclus. Deze cyclus start vanaf dat het component bestaat tot dat het verdwijnt. Tijdens de levenscyclus worden er automatisch een aantal methodes opgeroepen, de zogenaamde lifecycle hooks. Enkele voorbeelden van deze hooks zijn de \lstinline[basicstyle=\ttfamily\color{red}]|componentDidMount| en \lstinline[basicstyle=\ttfamily\color{red}]|componentWillUnmount|. De \lstinline[basicstyle=\ttfamily\color{red}]|componentDidMount| wordt opgeroepen als de \lstinline[basicstyle=\ttfamily\color{red}]|render()| methode is uitgevoerd. De \lstinline[basicstyle=\ttfamily\color{red}]|componentWillUnmount| wordt uitgevoerd als het component gaat verdwijnen van de pagina.
@@ -124,7 +124,12 @@ class Leeftijd extends React.Component {
 	}
 
 	render() {
-		return <button onClick={this.handleClick}>Verhoog leeftijd</button>
+		return (
+			<button onClick={this.handleClick}>
+				Verhoog leeftijd
+			</button>
+		)
+
 	}
 }
 \end{lstlisting}
@@ -143,11 +148,11 @@ React 360 is een framework waarmee men op een eenvoudige manier VR applicaties k
 	\label{fig:react360-stack}
 \end{figure}
 
-Een React 360 applicatie bestaat uit 2 delen, waaronder de applicatie zelf (de geschreven code) en de 1ste laag onder React 360 op de afbeelding,  namelijk de React Runtime. Dit zorgt ervoor dat onze React code geconverteerd wordt naar code die de andere lagen begrijpen, echter kan men ook niet-react code in deze runtime gaan schrijven. Daarnaast zorgt het ervoor dat de browser niet vastloopt omdat de code apart wordt uitgevoerd en dan pas aan de 3D omgeving wordt toegevoegd waardoor de beelden per seconde consistent blijven en zo het gevoel van onderdompeling in de virtuele wereld niet verdwijnt. Ten slotte bevat deze runtime nog zogenaamde 'executors'. Deze executors zorgen ervoor dat er nog code in de achtergrond kan worden uitgevoerd, dus niet noodzakelijk enkel in de browser.
+Een React 360 applicatie bestaat uit 2 delen, waaronder de applicatie zelf (de geschreven code) en de 1ste laag onder React 360 op de afbeelding,  namelijk de React Runtime. Dit zorgt ervoor dat de React code geconverteerd wordt naar code die de andere lagen begrijpen, echter kan men ook niet-react code in deze runtime schrijven. Daarnaast zorgt het ervoor dat de browser niet vastloopt omdat de react code apart wordt uitgevoerd en dan pas aan de runtime wordt toegevoegd waardoor de beelden per seconde consistent blijven en zo het gevoel van onderdompeling in de virtuele wereld niet verdwijnt. Ten slotte bevat deze runtime nog zogenaamde 'executors'. Deze executors zorgen ervoor dat er nog code in de achtergrond kan worden uitgevoerd, dus niet noodzakelijk enkel in de browser.
 
-Op de 2de laag is OVRUI (Oculus VR User Interface) en Three.js aanwezig. De OVRUI is een library die ervoor zorgt dat bepaalde elementen gemakkelijk kunnen weergegeven worden via Three.js. Dit zijn onder andere text, knoppen, ... Three.js is dan weer een library die het mogelijk maakt om 3D objecten op een meer eenvoudige manier te kunnen weergeven in de browser.
+Op de 2de laag is OVRUI (Oculus VR User Interface) en Three.js aanwezig. De OVRUI is een library die ervoor zorgt dat bepaalde elementen gemakkelijk kunnen weergegeven worden via Three.js. Dit zijn onder andere text, knoppen... Three.js is dan weer een library die het mogelijk maakt om 3D objecten op een meer eenvoudige manier te kunnen weergeven in de browser.
 
-De laatste laag bestaat uit WebVR en de browser. WebVR is hetgeen wat ervoor zorgt dat een virtual reality experience mogelijk is in de browser en hangt nauw samen met WebGL (waar Three.js ook gebruik van maakt). Dat is een standaard voor 3D objecten in de browser te verkrijgen. Zo kan het herkennen welk type toestel de gebruiker gebruikt, zorgt het voor de communicatie met VR toestellen en toont het de 'VR Frame', het stuk op de webpagina dat in VR moet worden weergegeven. 
+De laatste laag bestaat uit WebVR en de browser. WebVR is hetgeen wat ervoor zorgt dat een virtual reality experience mogelijk is in de browser en hangt nauw samen met WebGL (waar Three.js ook gebruik van maakt). Dat is een standaard voor 3D objecten in de browser te verkrijgen. Zo kan het herkennen welk type toestel de gebruiker bezit, zorgt het voor de communicatie met VR toestellen en toont het de 'VR Frame', het stuk op de webpagina dat in VR moet worden weergegeven. 
 
 React 360 is een verzameling van meerdere technologieën waar men a.d.h.v. React JS gemakkelijk mee kan communiceren. Dit toont duidelijk aan dat React 360 het voor een ontwikkelaar veel eenvoudiger maakt om virtual reality applicaties te gaan maken.
 
@@ -178,19 +183,19 @@ class BasicView extends React.Component {
 }
 \end{lstlisting}
 
-Hier maken we een simpel component aan die een view retourneert waarbij de achtergrond blauw is, de hoogte 150 pixels, de breedte 100 pixels en een padding van 10 pixels. De padding is de afstand in pixels tussen de rand van het object en de rand van de kinderen. Dit is mogelijk door het style attribuut toe te voegen aan het view component. Dit is gewoon CSS, maar dan met CamelCasing. In deze view zit nog een andere view met een rode achtergrond.
+Hier maken we een simpel component aan die een view retourneert waarbij de achtergrond blauw is, de hoogte 150 pixels, de breedte 100 pixels en bevat een padding van 10 pixels. De padding is de afstand in pixels tussen de rand aan de binnenkant van het object en de rand van de kinderen van dat object. Dit is mogelijk door een style attribuut toe te voegen aan het view component. Dit is gewoon CSS, maar dan met CamelCasing. In deze view zit nog een andere view met een rode achtergrond met een hoogte van 100 pixels. De breedte hoeft hier niet worden aangegeven omwille van de flexbox (zie hoofdstuk \ref{subsec:ruimtelijk-systeem}).
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{reactvrpreview.png}
-	\caption{De code van \ref{react360voorbeeld} uitgevoerd in de browser.}
+	\caption{Code fragment \ref{react360voorbeeld} uitgevoerd in de browser.}
 	\label{fig:react360preview}
 \end{figure}
 
 
 \subsection{Text}
 \label{subsec:text}
-Het Text component is zoals de naam zegt om text te gaan teruggeven in React 360. Dit is vergelijkbaar met het \lstinline[basicstyle=\ttfamily\color{red}]|<p>| element van html. Net zoals bij een View kan men hier ook stijl op toepassen, maar dan voor de tekst.
+Het Text component is zoals de naam aanhaalt om tekst te gaan weergeven in een React 360 omgeving. Dit is vergelijkbaar met het \lstinline[basicstyle=\ttfamily\color{red}]|<p>| element van HTML. Net zoals bij een View kan men hier ook stijl op toepassen.
 
 \begin{lstlisting}[frame=single, caption=Het Text component met kinderen.]
 <Text>
@@ -201,7 +206,7 @@ Het Text component is zoals de naam zegt om text te gaan teruggeven in React 360
 
 \subsection{Image}
 \label{subsec:image}
-Het Image geeft een afbeelding terug en is vergelijkbaar met het \lstinline[basicstyle=\ttfamily\color{red}]|<img>| element van HTML. Het is gebruikelijk om deze images op te slaan in de 'static\_assets' folder die wordt gegenereerd bij het aanmaken van een React 360 project. In volgend voorbeeld gaan we een Image gaan definiëren die zich in de static\_assets folder bevindt met de naam een-afbeelding.jpg:
+Het Image component geeft een afbeelding terug en is vergelijkbaar met het \lstinline[basicstyle=\ttfamily\color{red}]|<img>| element van HTML. Het is gebruikelijk om deze images op te slaan in de 'static\_assets' folder die wordt gegenereerd bij het aanmaken van een React 360 project. In volgend voorbeeld gaan we een Image gaan definiëren die zich in de static\_assets folder bevindt met de naam een-afbeelding.jpg:
 
 \begin{lstlisting}[frame=single, caption=Het Image component met als bron een-afbeelding.jpg.]
 <View>
@@ -213,7 +218,7 @@ Het Image geeft een afbeelding terug en is vergelijkbaar met het \lstinline[basi
 
 \subsection{360\textdegree\ foto's en video's}
 \label{subsec:360-photo-video}
-Waar React 360 zeer goed in is, is het tonen van 360\textdegree\ foto's en videos. Deze zijn natuurlijk essentieel voor een realistische omgeving te kunnen creëren. Met deze foto's en video's kan men de gebruikers naar andere bestaande plaatsen in de wereld gaan 'transporteren' en dit in combinatie met een interactieve ervaring. Bijvoorbeeld een tour in een museum waarbij de gebruiker naar de verschillende ruimtes kan teleporteren.
+Waar React 360 zeer goed in is, is het tonen van 360\textdegree\ foto's en videos. Deze zijn natuurlijk essentieel voor een realistische omgeving te kunnen creëren. Met deze foto's en video's kan men de gebruikers naar andere omgevingen in de virtuele wereld gaan 'transporteren' en eventueel in combinatie met een interactieve ervaring. Bijvoorbeeld een tour in een museum waarbij de gebruiker naar de verschillende ruimtes kan teleporteren.
 
 React 360 biedt een aantal vormen van formaten aan voor zowel foto's en videos te tonen in 180\textdegree\ of 360\textdegree\:
 
@@ -234,7 +239,7 @@ React 360 biedt een aantal vormen van formaten aan voor zowel foto's en videos t
 	\item 180\textdegree\ stereo equirectangular (links/rechts)
 \end{itemize}
 
-Een equirectangular of in het nederlands equidistante cilinderprojectie is een projectie van een gebogen oppervlak op een vlak oppervlak. Deze techniek wordt vooral gebruikt bij de wereldkaart, maar bijgevolg ook in de wereld van VR. 
+Een equirectangular, of in het nederlands equidistante cilinderprojectie is een projectie van een gebogen oppervlak op een vlak oppervlak. Deze techniek wordt vooral gebruikt bij de wereldkaart.
 
 \begin{figure}
 	\centering
@@ -263,15 +268,15 @@ De code is zeer vanzelfsprekend, echter is er wel een extra argument nodig, name
 	\item \textbf{3DLR} voor stereo afbeeldingen/video's waarbij de afbeelding voor het \textit{linkse} oog links staat en de afbeelding voor het \textit{rechtse} oog rechts.
 \end{itemize}
 
-Om video's af te spelen volgen men een gelijkaardig proces. Hier heeft men ook de keuze om de code in de runtime of in React te schrijven. Het grote verschil bij een afbeelding is dat men hier in 2 delen zal gaan werken. Aanvankelijk maakt men de videospeler aan die een unieke naam moet krijgen en vervolgens gaat men deze videospeler instellen als achtergrond op dezelfde manier als bij een afbeelding.
+Om video's af te spelen is er een gelijkaardig proces. Hier heeft men ook de keuze om de code in de runtime of in React te schrijven. Het grote verschil bij een afbeelding is dat men bij een video in twee delen zal gaan werken. Aanvankelijk maakt men de videospeler aan die dan een unieke naam moet krijgen en vervolgens gaat men deze videospeler instellen als achtergrond op dezelfde manier als bij een afbeelding.
 
 \subsection{Het ruimtelijke systeem}
 \label{subsec:ruimtelijk-systeem}
-Het grootste verschil met een gewone webapplicatie en een VR applicatie is dat deze VR applicaties zich in een 3D ruimte bevinden. Er moet niet enkel worden rekening gehouden met hoogte en breedte, maar ook met diepte. Dit kan al vrij snel ingewikkeld worden. React 360 heeft ervoor gezorgd dat dit een pak makkelijker gaat.
+Het grootste verschil met een gewone webapplicatie en een VR applicatie is dat deze VR applicaties zich in een 3D ruimte bevinden. Er moet niet enkel worden rekening gehouden met hoogte en breedte, maar ook met diepte. Dit kan al vrij snel ingewikkeld worden. React 360 heeft ervoor gezorgd dat dit een veel eenvoudiger gaat.
 
 \subsubsection{Surfaces}
 \label{ssubsec:surfaces}
-Surfaces (oppervlaktes) bieden de mogelijkheid om 2D user interfaces in een 3D wereld te gaan onderbrengen. Men kan het vergelijken met een stuk van een webpagina in een 3D wereld weer te geven. Dit zorgt ervoor dat het een pak makkelijk is voor de ontwikkelaar om een ingewikkelde interface in React 360 te kunnen maken. In de code ziet een surface er zo uit:
+Surfaces (oppervlaktes) bieden de mogelijkheid om 2D user interfaces in een 3D wereld te gaan onderbrengen. Men kan het vergelijken met een stuk van een webpagina in een 3D wereld weer te geven. Dit zorgt ervoor dat het een wat eenvoudiger is voor de ontwikkelaar om een ingewikkelde interface in React 360 te kunnen maken. In de code ziet een surface er zo uit:
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van een surface]
 import {Surface} from 'react-360-web';
@@ -283,11 +288,11 @@ const eenSurface = new Surface(
 	);
 \end{lstlisting}
 
-Er wordt een breedte (500) en een hoogte (400) voor de surface gedefinieerd. Daarnaast wordt er ook nog een vorm toegevoegd als argument. Er zijn 2 vormen van een surface, namelijk een 'Cylinder' of 'Flat' surface. Bij een cylinder surface gaat men de 2D inhoud gaan projecten in de vorm van een cylinder rondom de gebruiker. Het grote voordeel hieraan is, is dat de gebruiker vanaf elk perspectief recht op de 2D interface gaat kijken. Bij een flat of vlakke surface gaat men de 2D interface vlak gaan plaatsen. Het verschil hier is dat de inhoud niet altijd vanaf hetzelfde perspectief wordt bekeken door de gebruiker.
+Er wordt een breedte (500) en een hoogte (400) voor de surface gedefinieerd. Daarnaast wordt er ook nog een vorm toegevoegd als argument. Er zijn 2 vormen van een surface, namelijk een 'Cylinder' of 'Flat' surface. Bij een cylinder surface gaat men de 2D inhoud gaan projecten in de vorm van een cilinder rondom de gebruiker. Het grote voordeel hieraan is dat de gebruiker vanaf elk perspectief recht op de 2D interface gaat kijken. Bij een flat of vlakke surface gaat men de 2D interface vlak gaan plaatsen. Het verschil hier is dat de inhoud niet altijd vanaf hetzelfde perspectief wordt bekeken door de gebruiker.
 
-Surfaces zijn zeer flexibel. Men kan ze gemakkelijk gaan bewerken door functies zoals \lstinline[basicstyle=\ttfamily\color{red}]|setShape()| te gaan gebruiken waarbij men de surface van een cylinder naar een vlakke surface kan aanpassen of omgekeerd. Ook de hoogte en breedte van surfaces kan perfect in React worden aangepast. Het is perfect mogelijk om meerdere surfaces naast mekaar te gaan gebruiken of om eventueel ook meerdere componenten in 1 surface te gaan onderbrengen. 
+Surfaces zijn zeer flexibel. Men kan ze gemakkelijk gaan bewerken door functies zoals de functie \lstinline[basicstyle=\ttfamily\color{red}]|setShape()| te gebruiken. Deze functie zorgt ervoor dat men de surface kan aanpassen van een cilinder surface naar een vlakke surface of omgekeerd. Ook de hoogte en breedte van surfaces kan perfect in de code worden aangepast. Het is perfect mogelijk om meerdere surfaces naast mekaar te gaan gebruiken of om eventueel ook meerdere componenten in één surface onder te brengen. 
 
-Aangezien er meerdere componenten kunnen worden ondergebracht in 1 surface is er ook nood aan een duidelijke manier om deze componenten te ordenen. Dit is op dezelfde manier als bij React Native, namelijk door middel van een flexbox. Een flexbox wordt ook al veel gebruikt in gewone webpagina's en zorgt vooral voor een consistente layout op alle schermgroottes.
+Aangezien er meerdere componenten kunnen worden ondergebracht in één surface is er ook nood aan een duidelijke manier om deze componenten te ordenen. Dit is op dezelfde manier als bij React Native, namelijk door middel van een flexbox. Een flexbox wordt ook al veel gebruikt in gewone webpagina's en zorgt vooral voor een consistente layout op alle schermgroottes. De belangrijkste eigenschap van een flexbox is de richting van de items die ofwel in een rij of een in kolom geordend zijn. Op het web is dit standaard een rij, terwijl dit bij React Native en React 360 standaard een kolom is.
 
 \begin{figure}[h]
 	\centering
@@ -298,7 +303,7 @@ Aangezien er meerdere componenten kunnen worden ondergebracht in 1 surface is er
 
 \subsubsection{3D-objecten}
 \label{ssubsec:3d-objecten}
-Het is ook mogelijk om 3D objecten te gaan gebruiken in React 360. Dit zijn objecten die op voorhand al gemaakt zijn in een ander programma van het formaat .obj, .mtl of .gltf2.
+Het is ook mogelijk om 3D objecten te gaan gebruiken in React 360. Dit zijn objecten die op voorhand al gemaakt zijn in een ander extern programma van het formaat .obj, .mtl of .gltf2.
 
 Het verschil met 3D objecten en 2D user interfaces, is dat deze niet aan een surface moeten worden toegevoegd, maar aan een 'Location'. Deze locations zijn  punten in de omgeving waar men de 3D objecten kan gaan plaatsen. Deze gaan declareren in de code lijkt ook veel op het declareren van een surface, enkel hier is er ook nood aan de X, Y en Z coördinaten. Waarbij X+ hetgeen rechts van de gebruiker voorstelt, Y+ de hoogte en Z+ hetgeen achter de gebruiker. De eenheid die hier gebruikt wordt is meter.
 
@@ -311,11 +316,11 @@ const location = new Location([0, -1, -2]);
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{3daxis.png}
-	\caption{De X, Y en Z assen.}
+	\caption{De X, Y en Z-assen.}
 	\label{fig:xyz-axis}
 \end{figure}
 
-Om 3D objecten van de opgenoemde formaten in een React 360 applicatie te krijgen moet men gebruik maken van het \lstinline[basicstyle=\ttfamily\color{red}]|Entity| component. Met dit component kan men ook de grootte en richting van dit 3D object gaan aanpassen. Dit gebeurt door \lstinline[basicstyle=\ttfamily\color{red}]|translate| of \lstinline[basicstyle=\ttfamily\color{red}]|rotateX|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateY|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateZ| toe te voegen aan de style van het entity component. Bij \lstinline[basicstyle=\ttfamily\color{red}]|rotate| worden de graden opgegeven en bij \lstinline[basicstyle=\ttfamily\color{red}]|translate| de coordinaten ten opzichte van de gebruiker.
+Om 3D objecten van de opgenoemde formaten in een React 360 applicatie te krijgen moet men gebruik maken van het \lstinline[basicstyle=\ttfamily\color{red}]|Entity| component. Met dit component kan men ook de grootte en richting van dit 3D object aanpassen. Dit gebeurt door \lstinline[basicstyle=\ttfamily\color{red}]|translate| of \lstinline[basicstyle=\ttfamily\color{red}]|rotateX|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateY|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateZ| toe te voegen aan de style van het entity component. Bij \lstinline[basicstyle=\ttfamily\color{red}]|rotate| worden de graden opgegeven en bij \lstinline[basicstyle=\ttfamily\color{red}]|translate| de coordinaten ten opzichte van de gebruiker.
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van een Entity component]
 <Entity 
@@ -331,9 +336,9 @@ Hierbij draaien we het 3D object met 90 graden volgens de Y-as en verplaatsen we
 
 \subsection{Geluid}
 \label{subsec:Geluid}
-Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien. Net zoals bij videos kan men functies gaan uitvoeren die het volume kunnen aanpassen, audio dempen, ... De implementatie hiervan is ook zeer gelijkaardig:
+Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien. Bij videos kan men eveneens functies gaan uitvoeren die het volume kunnen aanpassen, audio dempen... De implementatie hiervan is ook zeer gelijkaardig:
 
-\begin{lstlisting}[frame=single, caption=Voorbeeld van een Entity component]
+\begin{lstlisting}[frame=single, caption=Voorbeeld van geluid in React 360]
 import { asset, NativeModules } from 'react-360';
 const { AudioModule } = NativeModules;
 
@@ -347,9 +352,9 @@ Omdat een virtual reality wereld steeds moet communiceren in 2 richtingen is het
 Aangezien VR zich in een 3D omgeving bevindt. Is het ook mogelijk om aan een geluid component een parameter \lstinline[basicstyle=\ttfamily\color{red}]|is3d| toe te voegen met de bijhorende locatie (x,y,z) van het geluid. Hierdoor zal het geluid zich specifiek vanaf die coördinaten afspelen.
 
 
-\subsection{Input}
+\subsection{Interactie}
 \label{subsec:input-vr}
-De interactie met de virtuele wereld is natuurlijk zeer belangrijk. Er zijn vele mogelijkheden beschikbaar om input door te zenden naar de virtuele wereld waar we al over gesproken hebben in hoofdstuk \ref{subsec:interactie-vr}. Hiervoor biedt React 360 meerdere oplossingen aan zodat de ontwikkelaar zich vooral kan focussen op de logica van de applicatie en minder op welke manier de interacties verwerkt worden.
+De interactie met de virtuele wereld is natuurlijk zeer belangrijk. Er zijn vele mogelijkheden beschikbaar om input door te zenden naar de virtuele wereld. Hierover hebben we al uitgebreid gesproken in hoofdstuk \ref{subsec:interactie-vr}. Hiervoor biedt React 360 meerdere oplossingen aan zodat de ontwikkelaar zich vooral kan focussen op de logica van de applicatie en minder op welke manier de interacties verwerkt worden.
 
 \subsubsection{Button input}
 Met de titel wordt niet noodzakelijk een \lstinline[basicstyle=\ttfamily\color{red}]|<Button>| component als input bedoelt, maar eerder een fysieke knop als input. Een toetsenbord, muis, controller, ... hebben allemaal fysieke knoppen ter beschikking. Als deze knoppen worden ingedrukt verwacht de gebruiker een bepaalde feedback van de applicatie. Om dit gemakkelijk te kunnen afhandelen voor alle input mogelijkheden biedt React 360 een \lstinline[basicstyle=\ttfamily\color{red}]|onInput| property aan. Dit is zoals \lstinline[basicstyle=\ttfamily\color{red}]|onClick| een event handler, echter hierbij wordt de zogenaamde \lstinline[basicstyle=\ttfamily\color{red}]|inputEvent| meegestuurd. Dit is een eigenschap van het event dat werd verstuurd waarmee de verschillende acties kunnen worden geïdentificeerd. Zowel de knop (boven, onder, links, rechts, ok ...) en de actie (knop indrukken, knop terug omhoog) die wordt uitgevoerd, worden teruggeven. Het maakt niet uit welke manier van input de gebruiker gebruikt, als er een 'naar onder' knopactie wordt gedetecteerd zal React 360 de juiste knop en actie terugsturen waardoor het  mogelijk is voor de ontwikkelaar om de correcte code hiervoor te schrijven. Dit toont zeer duidelijk de cross-platform mogelijkheden aan van React 360 en spaart voor de ontwikkelaar een hoop tijd uit dan moest hij dit voor elk apparaat individueel moeten programmeren.
@@ -358,14 +363,14 @@ Met de titel wordt niet noodzakelijk een \lstinline[basicstyle=\ttfamily\color{r
 Het VrButton component is niet meer dan een button waarbij er wordt gereageerd op de 'confirm' actie. Deze actie komt regelmatig terug en is zoals de naam aanhaalt om iets te gaan bevestigen. Dit component is louter om het gemakkelijker voor de ontwikkelaar te maken. Het enigste verschil is dat hier een \lstinline[basicstyle=\ttfamily\color{red}]|onClick| event handler kan toegevoegd worden.
 
 \subsubsection{Cursors en raycasters}
-De gebruiker kan niet correct op de virtuele wereld interacties uit voeren, als de gebruiker niet weet waar hij/zij de interacties precies uitvoert. React 360 gebruikt hiervoor cursors, net zoals een gewone windows computer een cursor heeft. Sommige controllers worden standaard in React 360 ondersteund en tonen dan een soort van laserstraal in de wereld. De cursor wordt getoond op het element waar de laserstraal mee snijdt. Om hiervoor ook events op te kunnen uitvoeren, zijn de \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| en \lstinline[basicstyle=\ttfamily\color{red}]|onExit| event handlers aanwezig. De \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| wordt uitgevoerd vanaf dat de cursor het component binnentreedt. De \lstinline[basicstyle=\ttfamily\color{red}]|onExit| doet dan het omgekeerde en wordt opgeroepen als de cursor het component verlaat.
+De gebruiker kan niet correct op de virtuele wereld interacties uit voeren, als de gebruiker niet weet waar hij/zij de interacties precies uitvoert. React 360 gebruikt hiervoor cursors, net zoals een gewone windows computer een cursor heeft. Sommige controllers worden standaard in React 360 ondersteund en tonen dan een soort van laserstraal in de virtuele wereld. De cursor wordt getoond op het element waar de laserstraal mee snijdt. Om hiervoor ook events op te kunnen uitvoeren, zijn de \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| en \lstinline[basicstyle=\ttfamily\color{red}]|onExit| event handlers aanwezig. De \lstinline[basicstyle=\ttfamily\color{red}]|onEnter| wordt uitgevoerd vanaf dat de cursor het component binnentreedt. De \lstinline[basicstyle=\ttfamily\color{red}]|onExit| doet dan het omgekeerde en wordt opgeroepen als de cursor het component verlaat.
 
-Omdat React 360 niet alle controllers ondersteund, is het ook mogelijk voor een ontwikkelaar om zelfs deze te gaan definiëren. Men noemt dit ook wel een raycaster. Een raycaster moet een bepaalde interface gaan volgen om als raycaster te worden gezien:
+Omdat React 360 niet alle controllers ondersteund, is het ook mogelijk voor een ontwikkelaar om deze zelf te gaan definiëren. Men noemt dit ook wel een raycaster. Een raycaster moet een bepaalde interface gaan volgen om als raycaster gezien te worden:
 
 \begin{itemize}
 	\item De richting van de raycaster
 	\item Of de raycaster een cursor moet tonen op het snijpunt
-	\item Of de raycaster absoluut moet getoond worden tegenover de camera (positie van de persoon)
+	\item Of de raycaster absoluut moet getoond worden tegenover de camera (positie van de gebruiker)
 	\item De maximale lengte van de 'laserstraal' van de raycaster
 	\item Het punt waar de raycaster begint
 	\item Het type raycaster (touch, mouse, ..)
