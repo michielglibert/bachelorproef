@@ -44,6 +44,31 @@
       \verb https://thealeph.com/articles/2017/11/virtual-reality-vr-oculus-htc-why/
       \endverb
     \endentry
+    \entry{Augment2015}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cf3283a316b0c3c78a9d19bca700211c}{%
+           family={Augment},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf3283a316b0c3c78a9d19bca700211c}
+      \strng{fullhash}{cf3283a316b0c3c78a9d19bca700211c}
+      \strng{authornamehash}{cf3283a316b0c3c78a9d19bca700211c}
+      \strng{authorfullhash}{cf3283a316b0c3c78a9d19bca700211c}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{10}
+      \field{title}{Virtual Reality vs. Augmented Reality}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.augment.com/blog/virtual-reality-vs-augmented-reality/
+      \endverb
+    \endentry
     \entry{Azuma1997}{report}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=f3f4d8adc1d713781ecaefed324b7496}{%
@@ -150,6 +175,28 @@
       \verb https://medium.com/@beaucronin/the-hierarchy-of-needs-in-virtual-reality-development-4333a4833acc
       \endverb
     \endentry
+    \entry{Facebook2017}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d85544fce402c7a2a96a48078edaf203}{%
+           family={Facebook},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{fullhash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authornamehash}{d85544fce402c7a2a96a48078edaf203}
+      \strng{authorfullhash}{d85544fce402c7a2a96a48078edaf203}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{React VR: Getting started}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://facebook.github.io/react-vr/docs/getting-started.html#content
+      \endverb
+    \endentry
     \entry{Korotya2018}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=6288f786f3b06c5957a3a8a112eb84b8}{%
@@ -230,6 +277,27 @@
       \verb{url}
       \verb https://www.slideshare.net/geildanke/goodbye-flatland-an-introduction-to-react-vr-and-what-it-means-for-web-developers
       \endverb
+    \endentry
+    \entry{Mangialardi2017}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2640fce7f42dca64e56c00ec1b77b1cb}{%
+           family={Mangialardi},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{fullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{authornamehash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \strng{authorfullhash}{2640fce7f42dca64e56c00ec1b77b1cb}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learn React VR}
+      \field{year}{2017}
     \endentry
     \entry{Mullis2016}{online}{}
       \name{author}{1}{}{%

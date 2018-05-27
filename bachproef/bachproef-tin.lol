@@ -49,6 +49,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.13}Voorbeeld van een location}{48}{lstlisting.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {4.14}Voorbeeld van een Entity component}{48}{lstlisting.4.14}
+\contentsline {lstlisting}{\numberline {4.14}Voorbeeld van een Entity component}{49}{lstlisting.4.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {4.15}Voorbeeld van geluid in React 360}{49}{lstlisting.4.15}

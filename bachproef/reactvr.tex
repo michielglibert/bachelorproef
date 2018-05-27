@@ -6,7 +6,7 @@
 
 React 360 is een framework voor het ontwikkelen van VR en 360\textdegree\ applicaties in javascript dat ontwikkeld is door facebook. React 360 wordt gebruikt om gemakkelijk een complexe gebruikersomgeving te kunnen maken in een 360\textdegree\ omgeving. Het grote voordeel aan React 360 is dat het in de browser kan worden uitgevoerd. Dat wil zeggen dat gebruikers met een recente versie van hun browser, React 360 applicaties zonder problemen zouden kunnen uitvoeren. Daarnaast is React 360 op meerdere platformen beschikbaar en is er ook geen verplichting om een VR headset te gebruiken. Men kan React 360 gaan ervaren op zowel een vaste computer, smartphone als op andere VR apparaten \autocite{Lehr2017}.
 
-In React 360 wordt er een combinatie gemaakt van tweedimensionale (enkel breedte en hoogte) elementen met een 3D omgeving. Men gaat 2D interfaces in een 3D wereld gaan plaatsen, echter is er ook de mogelijkheid om 3D objecten hieraan toe te voegen. Enkele voorbeelden waar React 360 kan worden voor gebruikt is panoramische foto's en videos, 360\textdegree\ rondleidingen en zelfs eenvoudige games.
+In React 360 wordt er een combinatie gemaakt van tweedimensionale (enkel breedte en hoogte) elementen met een 3D omgeving. Men gaat 2D interfaces in een 3D wereld gaan plaatsen, echter is er ook de mogelijkheid om 3D objecten hieraan toe te voegen. Enkele voorbeelden waar React 360 kan worden voor gebruikt is panoramische foto's en video’s, 360\textdegree\ rondleidingen en zelfs eenvoudige games.
 
 Het grootste voordeel aan React 360 is dat het al gebruik maakt van het bestaande React JS. Voor ontwikkelaars die dit framework al kennen, dat trouwens ook ontwikkeld is door facebook, is de overstap naar het ontwikkelen van VR applicaties een pak eenvoudiger. Bepaalde concepten van React Native komen ook terug in React 360. React Native, ook door facebook ontwikkeld, is een framework dat eveneens gebaseerd is op React JS. Met React Native kunnen mobiele applicaties worden ontwikkeld voor zowel iOS als voor Android toestellen.
 
@@ -148,9 +148,9 @@ React 360 is een framework waarmee men op een eenvoudige manier VR applicaties k
 	\label{fig:react360-stack}
 \end{figure}
 
-Een React 360 applicatie bestaat uit 2 delen, waaronder de applicatie zelf (de geschreven code) en de 1ste laag onder React 360 op de afbeelding,  namelijk de React Runtime. Dit zorgt ervoor dat de React code geconverteerd wordt naar code die de andere lagen begrijpen, echter kan men ook niet-react code in deze runtime schrijven. Daarnaast zorgt het ervoor dat de browser niet vastloopt omdat de react code apart wordt uitgevoerd en dan pas aan de runtime wordt toegevoegd waardoor de beelden per seconde consistent blijven en zo het gevoel van onderdompeling in de virtuele wereld niet verdwijnt. Ten slotte bevat deze runtime nog zogenaamde 'executors'. Deze executors zorgen ervoor dat er nog code in de achtergrond kan worden uitgevoerd, dus niet noodzakelijk enkel in de browser.
+Een React 360 applicatie bestaat uit twee delen, waaronder de applicatie zelf (de geschreven code) en de 1ste laag onder React 360 op de afbeelding,  namelijk de React Runtime. Dit zorgt ervoor dat de React code geconverteerd wordt naar code die de andere lagen begrijpen, echter kan men ook niet-react code in deze runtime schrijven. Daarnaast zorgt het ervoor dat de browser niet vastloopt omdat de react code apart wordt uitgevoerd en dan pas aan de runtime wordt toegevoegd waardoor de beelden per seconde consistent blijven en zo het gevoel van onderdompeling in de virtuele wereld niet verdwijnt. Ten slotte bevat deze runtime nog zogenaamde 'executors'. Deze executors zorgen ervoor dat er nog code in de achtergrond kan worden uitgevoerd, dus niet noodzakelijk enkel in de browser.
 
-Op de 2de laag is OVRUI (Oculus VR User Interface) en Three.js aanwezig. De OVRUI is een library die ervoor zorgt dat bepaalde elementen gemakkelijk kunnen weergegeven worden via Three.js. Dit zijn onder andere text, knoppen... Three.js is dan weer een library die het mogelijk maakt om 3D objecten op een meer eenvoudige manier te kunnen weergeven in de browser.
+Op de 2de laag is OVRUI (Oculus VR User Interface) en Three.js aanwezig. De OVRUI is een library die ervoor zorgt dat bepaalde elementen gemakkelijk kunnen weergegeven worden via Three.js. Dit zijn onder andere tekst, knoppen... Three.js is dan weer een library die het mogelijk maakt om 3D objecten op een meer eenvoudige manier te kunnen weergeven in de browser.
 
 De laatste laag bestaat uit WebVR en de browser. WebVR is hetgeen wat ervoor zorgt dat een virtual reality experience mogelijk is in de browser en hangt nauw samen met WebGL (waar Three.js ook gebruik van maakt). Dat is een standaard voor 3D objecten in de browser te verkrijgen. Zo kan het herkennen welk type toestel de gebruiker bezit, zorgt het voor de communicatie met VR toestellen en toont het de 'VR Frame', het stuk op de webpagina dat in VR moet worden weergegeven. 
 
@@ -215,12 +215,13 @@ Het Image component geeft een afbeelding terug en is vergelijkbaar met het \lsti
 \end{lstlisting}
 
 \section{Concepten}
+In deze sectie worden de belangrijkste concepten van React 360 overlopen \autocite{Mangialardi2017} \autocite{Facebook2017}.
 
 \subsection{360\textdegree\ foto's en video's}
 \label{subsec:360-photo-video}
-Waar React 360 zeer goed in is, is het tonen van 360\textdegree\ foto's en videos. Deze zijn natuurlijk essentieel voor een realistische omgeving te kunnen creëren. Met deze foto's en video's kan men de gebruikers naar andere omgevingen in de virtuele wereld gaan 'transporteren' en eventueel in combinatie met een interactieve ervaring. Bijvoorbeeld een tour in een museum waarbij de gebruiker naar de verschillende ruimtes kan teleporteren.
+Waar React 360 zeer goed in is, is het tonen van 360\textdegree\ foto's en video’s. Deze zijn natuurlijk essentieel voor een realistische omgeving te kunnen creëren. Met deze foto's en video's kan men de gebruikers naar andere omgevingen in de virtuele wereld gaan 'transporteren' en eventueel in combinatie met een interactieve ervaring. Bijvoorbeeld een tour in een museum waarbij de gebruiker naar de verschillende ruimtes kan teleporteren.
 
-React 360 biedt een aantal vormen van formaten aan voor zowel foto's en videos te tonen in 180\textdegree\ of 360\textdegree\:
+React 360 biedt een aantal vormen van formaten aan voor zowel foto's en video’s te tonen in 180\textdegree\ of 360\textdegree\:
 
 \subsubsection{Foto's}
 \begin{itemize}
@@ -239,7 +240,7 @@ React 360 biedt een aantal vormen van formaten aan voor zowel foto's en videos t
 	\item 180\textdegree\ stereo equirectangular (links/rechts)
 \end{itemize}
 
-Een equirectangular, of in het nederlands equidistante cilinderprojectie is een projectie van een gebogen oppervlak op een vlak oppervlak. Deze techniek wordt vooral gebruikt bij de wereldkaart.
+Een equirectangular, of in het Nederlands equidistante cilinderprojectie is een projectie van een gebogen oppervlak op een vlak oppervlak. Deze techniek wordt vooral gebruikt bij de wereldkaart.
 
 \begin{figure}
 	\centering
@@ -259,7 +260,7 @@ r360.compositor.setBackground('./static_assets/image.jpg', {
 });
 \end{lstlisting}
 
-De code is zeer vanzelfsprekend, echter is er wel een extra argument nodig, namelijk het formaat. Er zijn 4 mogelijke formaten die men kan opgeven als argument in de code die overeenstemmen met de eerder genoemde formaten:
+De code is zeer vanzelfsprekend, echter is er wel een extra argument nodig, namelijk het formaat. Er zijn vier mogelijke formaten die men kan opgeven als argument in de code die overeenstemmen met de eerder genoemde formaten:
 
 \begin{itemize}
 	\item \textbf{2D} voor mono afbeeldingen/video's.
@@ -288,7 +289,7 @@ const eenSurface = new Surface(
 	);
 \end{lstlisting}
 
-Er wordt een breedte (500) en een hoogte (400) voor de surface gedefinieerd. Daarnaast wordt er ook nog een vorm toegevoegd als argument. Er zijn 2 vormen van een surface, namelijk een 'Cylinder' of 'Flat' surface. Bij een cylinder surface gaat men de 2D inhoud gaan projecten in de vorm van een cilinder rondom de gebruiker. Het grote voordeel hieraan is dat de gebruiker vanaf elk perspectief recht op de 2D interface gaat kijken. Bij een flat of vlakke surface gaat men de 2D interface vlak gaan plaatsen. Het verschil hier is dat de inhoud niet altijd vanaf hetzelfde perspectief wordt bekeken door de gebruiker.
+Er wordt een breedte (500) en een hoogte (400) voor de surface gedefinieerd. Daarnaast wordt er ook nog een vorm toegevoegd als argument. Er zijn twee vormen van een surface, namelijk een 'Cylinder' of 'Flat' surface. Bij een cylinder surface gaat men de 2D inhoud gaan projecten in de vorm van een cilinder rondom de gebruiker. Het grote voordeel hieraan is dat de gebruiker vanaf elk perspectief recht op de 2D interface gaat kijken. Bij een flat of vlakke surface gaat men de 2D interface vlak gaan plaatsen. Het verschil hier is dat de inhoud niet altijd vanaf hetzelfde perspectief wordt bekeken door de gebruiker.
 
 Surfaces zijn zeer flexibel. Men kan ze gemakkelijk gaan bewerken door functies zoals de functie \lstinline[basicstyle=\ttfamily\color{red}]|setShape()| te gebruiken. Deze functie zorgt ervoor dat men de surface kan aanpassen van een cilinder surface naar een vlakke surface of omgekeerd. Ook de hoogte en breedte van surfaces kan perfect in de code worden aangepast. Het is perfect mogelijk om meerdere surfaces naast mekaar te gaan gebruiken of om eventueel ook meerdere componenten in één surface onder te brengen. 
 
@@ -320,7 +321,7 @@ const location = new Location([0, -1, -2]);
 	\label{fig:xyz-axis}
 \end{figure}
 
-Om 3D objecten van de opgenoemde formaten in een React 360 applicatie te krijgen moet men gebruik maken van het \lstinline[basicstyle=\ttfamily\color{red}]|Entity| component. Met dit component kan men ook de grootte en richting van dit 3D object aanpassen. Dit gebeurt door \lstinline[basicstyle=\ttfamily\color{red}]|translate| of \lstinline[basicstyle=\ttfamily\color{red}]|rotateX|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateY|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateZ| toe te voegen aan de style van het entity component. Bij \lstinline[basicstyle=\ttfamily\color{red}]|rotate| worden de graden opgegeven en bij \lstinline[basicstyle=\ttfamily\color{red}]|translate| de coordinaten ten opzichte van de gebruiker.
+Om 3D objecten van de opgenoemde formaten in een React 360 applicatie te krijgen moet men gebruik maken van het \lstinline[basicstyle=\ttfamily\color{red}]|Entity| component. Met dit component kan men ook de grootte en richting van dit 3D object aanpassen. Dit gebeurt door \lstinline[basicstyle=\ttfamily\color{red}]|translate| of \lstinline[basicstyle=\ttfamily\color{red}]|rotateX|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateY|/\lstinline[basicstyle=\ttfamily\color{red}]|rotateZ| toe te voegen aan de style van het entity component. Bij \lstinline[basicstyle=\ttfamily\color{red}]|rotate| worden de graden opgegeven en bij \lstinline[basicstyle=\ttfamily\color{red}]|translate| de coördinaten ten opzichte van de gebruiker.
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van een Entity component]
 <Entity 
@@ -336,7 +337,7 @@ Hierbij draaien we het 3D object met 90 graden volgens de Y-as en verplaatsen we
 
 \subsection{Geluid}
 \label{subsec:Geluid}
-Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien. Bij videos kan men eveneens functies gaan uitvoeren die het volume kunnen aanpassen, audio dempen... De implementatie hiervan is ook zeer gelijkaardig:
+Net zoals het mogelijk is om afbeeldingen en video's op de achtergrond te gebruiken is het ook perfect mogelijk om de applicatie van achtergrond geluid te voorzien. Bij video’s kan men eveneens functies gaan uitvoeren die het volume kunnen aanpassen, audio dempen... De implementatie hiervan is ook zeer gelijkaardig:
 
 \begin{lstlisting}[frame=single, caption=Voorbeeld van geluid in React 360]
 import { asset, NativeModules } from 'react-360';
@@ -347,7 +348,7 @@ AudioModule.playEnvironmental({
 });
 \end{lstlisting}
 
-Omdat een virtual reality wereld steeds moet communiceren in 2 richtingen is het ook belangrijk dat bepaalde interacties met de wereld voldoende feedback teruggeven. Het is daarom in React 360 ook mogelijk om een 'One-shot audio' gebruiken. Dit kan men bereiken door \lstinline[basicstyle=\ttfamily\color{red}]|AudioModule.playOneShot| te gebruiken met de verwijzing naar de audio file als parameter. Het kan dan bijvoorbeeld gebruikt worden bij een functie die wordt opgeroepen door de \lstinline[basicstyle=\ttfamily\color{red}]|onClick| van een button (zie hoofdstuk \ref{subsec:input-vr}) waardoor er audio feedback mogelijk is.
+Omdat een virtual reality wereld steeds moet communiceren in twee richtingen is het ook belangrijk dat bepaalde interacties met de wereld voldoende feedback teruggeven. Het is daarom in React 360 ook mogelijk om een 'One-shot audio' gebruiken. Dit kan men bereiken door \lstinline[basicstyle=\ttfamily\color{red}]|AudioModule.playOneShot| te gebruiken met de verwijzing naar de audio file als parameter. Het kan dan bijvoorbeeld gebruikt worden bij een functie die wordt opgeroepen door de \lstinline[basicstyle=\ttfamily\color{red}]|onClick| van een button (zie hoofdstuk \ref{subsec:input-vr}) waardoor er audio feedback mogelijk is.
 
 Aangezien VR zich in een 3D omgeving bevindt. Is het ook mogelijk om aan een geluid component een parameter \lstinline[basicstyle=\ttfamily\color{red}]|is3d| toe te voegen met de bijhorende locatie (x,y,z) van het geluid. Hierdoor zal het geluid zich specifiek vanaf die coördinaten afspelen.
 
